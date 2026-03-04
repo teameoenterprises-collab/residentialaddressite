@@ -3,3 +3,9 @@
 .agent/
 .agents
 .agent
+
+# Gravity Claw (bot internals — never push)
+agents/gravity-claw/node_modules/
+agents/gravity-claw/.env
+agents/gravity-claw/gravity_claw.db
+agents/gravity-claw/transcript.txt
