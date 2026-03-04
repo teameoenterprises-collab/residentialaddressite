@@ -1,217 +1,399 @@
-<html class="dark"><head>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>
-    body {
-      min-height: max(884px, 100dvh);
-    }
-  </style>
-  </head><body class="bg-background-dark text-slate-100 font-display">view
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Residential Address Service | The Residential Address</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+  <meta name="description"
+    content="Premium US residential addresses for global founders. Pass banking KYC, receive mail digitally, and build your US presence with a real street address.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playball&display=swap"
+    rel="stylesheet">
+</head>
 
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            "primary": "#1754cf",
-            "background-light": "#f6f6f8",
-            "background-dark": "#000000",
-            "neutral-dark": "#111621",
-            "border-subtle": "rgba(255, 255, 255, 0.1)",
-          },
-          fontFamily: {
-            "display": ["Inter", "sans-serif"]
-          },
-          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-        },
-      },
-    }
-  </script>
-<style>
-    body { font-family: 'Inter', sans-serif; }
-    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
-  </style>
-<!-- Global Navigation -->
-<nav class="sticky top-0 z-50 flex items-center justify-between px-6 py-4 bg-background-dark/80 backdrop-blur-md border-b border-border-subtle">
-<div class="flex items-center gap-2">
-<span class="text-2xl font-bold italic tracking-tighter text-slate-100">Address.</span>
-</div>
-<div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
-<a class="hover:text-primary transition-colors" href="#">Features</a>
-<a class="hover:text-primary transition-colors" href="#">Pricing</a>
-<a class="hover:text-primary transition-colors" href="#">KYC</a>
-</div>
-<div class="flex items-center gap-4">
-<a class="hidden sm:block text-sm font-medium text-slate-400 hover:text-slate-100" href="#">Login</a>
-<button class="bg-primary text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-primary/90 transition-all">Get Started</button>
-</div>
-</nav>
-<!-- Hero Section -->
-<section class="relative px-6 pt-20 pb-16 overflow-hidden">
-<div class="absolute inset-0 bg-gradient-to-b from-primary/10 to-transparent pointer-events-none"></div>
-<div class="relative max-w-4xl mx-auto text-center">
-<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-6">
-<span class="material-symbols-outlined text-sm">verified</span>
-        TRUSTED BY 10,000+ GLOBAL FOUNDERS
+<body>
+
+  <!-- ═══════ Header / Navigation ═══════ -->
+  <header id="header">
+    <div class="container nav-content">
+      <a href="index.html" class="logo" style="text-decoration: none; display: flex; align-items: center;">
+        <img src="assets/logo.png" alt="The Residential Address"
+          style="height: 28px; width: auto; max-width: 100%; object-fit: contain;">
+      </a>
+      <nav class="nav-links">
+        <div class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Services ▾</a>
+          <div class="dropdown-content">
+            <a href="index.html">US Residential Address</a>
+            <a href="llc-formation.html">LLC Formation</a>
+            <a href="itin-application.html">ITIN Application</a>
+            <a href="bank-assistance.html">Bank Assistance</a>
+            <a href="us-phone.html">US Phone (eSIM)</a>
+          </div>
+        </div>
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="https://wa.me/16474367072" class="btn btn-whatsapp"
+          style="padding: 0.6rem 1.2rem; font-size: 0.9rem; margin-left: 1rem;">💬 Chat on WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ═══════ Hero ═══════ -->
+    <section class="hero" id="hero">
+      <div class="container hero-centered">
+        <h1>Premium <span class="highlight-gold">US Residential Address</span></h1>
+        <p class="hero-pricing-line">Real Street Address for KYC Banking Compliance — <strong>$29/month</strong>
+        </p>
+        <p class="hero-description">Not a PO Box. Not a virtual mailbox. A genuine residential address with a
+          unique lease agreement that passes strict banking verification from Mercury, Relay, and Stripe.</p>
+        <div class="hero-ctas">
+          <a href="https://wa.me/16474367072" class="btn btn-gold">📍 Get Your Address</a>
+        </div>
       </div>
-<h1 class="text-4xl md:text-6xl font-black leading-[1.1] tracking-tight text-slate-100 mb-6">
-        Secure a Premium US Business Address <span class="text-primary">in Minutes.</span>
-</h1>
-<p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-        Pass KYC banking compliance guaranteed. Real street addresses for global founders looking to scale in the US.
-      </p>
-<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-<button class="w-full sm:w-auto bg-primary text-white font-bold h-14 px-8 rounded-xl text-lg hover:scale-[1.02] transition-transform">
-          Get Your Address
-        </button>
-<button class="w-full sm:w-auto bg-slate-800/50 border border-border-subtle text-slate-100 font-bold h-14 px-8 rounded-xl text-lg hover:bg-slate-800 transition-colors">
-          Talk to Sales
-        </button>
-</div>
-</div>
-</section>
-<!-- Compliance Section -->
-<section class="py-12 border-y border-border-subtle bg-neutral-dark/30">
-<div class="px-6 max-w-screen-xl mx-auto">
-<p class="text-center text-xs font-bold text-slate-500 uppercase tracking-widest mb-8">Guaranteed acceptance by major US banks</p>
-<div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all">
-<div class="h-8 flex items-center text-xl font-bold text-slate-300">MERCURY</div>
-<div class="h-8 flex items-center text-xl font-bold text-slate-300">CHASE</div>
-<div class="h-8 flex items-center text-xl font-bold text-slate-300">BREX</div>
-<div class="h-8 flex items-center text-xl font-bold text-slate-300">STRIPE</div>
-</div>
-</div>
-</section>
-<!-- Features Grid -->
-<section class="py-24 px-6 max-w-screen-xl mx-auto">
-<div class="mb-16 text-center max-w-2xl mx-auto">
-<h2 class="text-3xl font-bold text-slate-100 mb-4">Everything you need for your US entity</h2>
-<p class="text-slate-400">Professional infrastructure designed for modern, borderless businesses.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<div class="p-8 rounded-2xl border border-border-subtle bg-neutral-dark/20 hover:border-primary/50 transition-colors group">
-<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined">location_on</span>
-</div>
-<h3 class="text-xl font-bold text-slate-100 mb-3">Real Street Address</h3>
-<p class="text-slate-400 leading-relaxed">Not a PO Box. Physical locations in tax-friendly states like Delaware and Wyoming that pass all banking verification checks.</p>
-</div>
-<div class="p-8 rounded-2xl border border-border-subtle bg-neutral-dark/20 hover:border-primary/50 transition-colors group">
-<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined">mail</span>
-</div>
-<h3 class="text-xl font-bold text-slate-100 mb-3">Digital Mailbox</h3>
-<p class="text-slate-400 leading-relaxed">Instant notifications when you receive mail. High-resolution scans delivered directly to your dashboard or email.</p>
-</div>
-<div class="p-8 rounded-2xl border border-border-subtle bg-neutral-dark/20 hover:border-primary/50 transition-colors group">
-<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined">public</span>
-</div>
-<h3 class="text-xl font-bold text-slate-100 mb-3">Global Forwarding</h3>
-<p class="text-slate-400 leading-relaxed">Receive physical packages and documents in the US and have them forwarded to 200+ countries at competitive rates.</p>
-</div>
-<div class="p-8 rounded-2xl border border-border-subtle bg-neutral-dark/20 hover:border-primary/50 transition-colors group">
-<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
-<span class="material-symbols-outlined">verified_user</span>
-</div>
-<h3 class="text-xl font-bold text-slate-100 mb-3">Bank Compliance</h3>
-<p class="text-slate-400 leading-relaxed">Our addresses are pre-vetted to comply with the US Patriot Act and KYC requirements for business banking.</p>
-</div>
-</div>
-</section>
-<!-- CTA Section -->
-<section class="py-24 px-6">
-<div class="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-primary/20 via-neutral-dark to-neutral-dark border border-primary/30 p-8 md:p-16 text-center relative overflow-hidden">
-<div class="absolute top-0 right-0 w-64 h-64 bg-primary/20 blur-[100px] -z-10"></div>
-<h2 class="text-3xl md:text-5xl font-bold text-slate-100 mb-6">Ready to go global?</h2>
-<p class="text-slate-400 text-lg mb-10 max-w-xl mx-auto">Join thousands of founders who use our addresses to build and scale their US presence securely.</p>
-<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-<div class="bg-background-dark/50 p-6 rounded-2xl border border-border-subtle w-full sm:w-64 text-left">
-<p class="text-slate-500 text-xs font-bold uppercase mb-2">Starting from</p>
-<p class="text-3xl font-black text-slate-100">$29<span class="text-lg font-medium text-slate-500">/mo</span></p>
-<button class="w-full mt-4 bg-primary py-3 rounded-lg font-bold hover:bg-primary/90 transition-all">Select Plan</button>
-</div>
-<div class="flex flex-col items-center gap-4">
-<p class="text-slate-500 text-sm">Need a custom solution?</p>
-<button class="flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full font-bold hover:scale-105 transition-transform">
-<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
-            Chat on WhatsApp
-          </button>
-</div>
-</div>
-</div>
-</section>
-<!-- Footer -->
-<footer class="bg-neutral-dark/50 border-t border-border-subtle pt-16 pb-8 px-6">
-<div class="max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
-<div class="col-span-2 md:col-span-1">
-<span class="text-2xl font-bold italic tracking-tighter text-slate-100 mb-6 block">Address.</span>
-<p class="text-slate-500 text-sm leading-relaxed mb-6">Premium business infrastructure for the next generation of global founders.</p>
-<div class="flex gap-4">
-<a class="text-slate-500 hover:text-slate-100" href="#"><span class="material-symbols-outlined">share</span></a>
-<a class="text-slate-500 hover:text-slate-100" href="#"><span class="material-symbols-outlined">public</span></a>
-<a class="text-slate-500 hover:text-slate-100" href="#"><span class="material-symbols-outlined">mail</span></a>
-</div>
-</div>
-<div>
-<h4 class="text-slate-100 font-bold mb-6">Product</h4>
-<ul class="space-y-4 text-sm text-slate-500">
-<li><a class="hover:text-primary transition-colors" href="#">Virtual Address</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Registered Agent</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Mail Scanning</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Check Deposit</a></li>
-</ul>
-</div>
-<div>
-<h4 class="text-slate-100 font-bold mb-6">Company</h4>
-<ul class="space-y-4 text-sm text-slate-500">
-<li><a class="hover:text-primary transition-colors" href="#">About</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Pricing</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Reviews</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
-</ul>
-</div>
-<div>
-<h4 class="text-slate-100 font-bold mb-6">Legal</h4>
-<ul class="space-y-4 text-sm text-slate-500">
-<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">Cookie Policy</a></li>
-<li><a class="hover:text-primary transition-colors" href="#">KYC Requirements</a></li>
-</ul>
-</div>
-</div>
-<div class="max-w-screen-xl mx-auto pt-8 border-t border-border-subtle flex flex-col md:flex-row justify-between items-center gap-4">
-<p class="text-slate-600 text-xs">© 2024 Address Inc. All rights reserved. US Registered Agent Service Provider.</p>
-<div class="flex gap-6">
-<span class="text-slate-600 text-xs">Delaware</span>
-<span class="text-slate-600 text-xs">Wyoming</span>
-<span class="text-slate-600 text-xs">Florida</span>
-</div>
-</div>
-</footer>
-<!-- Bottom Nav Bar (Mobile) -->
-<div class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-background-dark/95 backdrop-blur-md border-t border-border-subtle flex justify-around items-center px-4 py-3">
-<a class="flex flex-col items-center gap-1 text-primary" href="#">
-<span class="material-symbols-outlined">home</span>
-<span class="text-[10px] font-bold">Home</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
-<span class="material-symbols-outlined">layers</span>
-<span class="text-[10px] font-bold">Features</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
-<span class="material-symbols-outlined">payments</span>
-<span class="text-[10px] font-bold">Pricing</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
-<span class="material-symbols-outlined">account_circle</span>
-<span class="text-[10px] font-bold">Login</span>
-</a>
-</div>
-</body></html>
+    </section>
+
+    <!-- ═══════ Section 2: Why This Matters ═══════ -->
+    <section class="section section-alt" id="why">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gradient-text">Why Your Address Gets You Rejected</h2>
+          <p>US banks cross-reference every business address against federal databases. Standard virtual
+            mailboxes are flagged instantly.</p>
+        </div>
+
+        <div class="bento-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-top: 3rem;">
+          <div class="bento-card" style="border-top: 4px solid #ff4d4d;">
+            <div class="icon-wrap" style="color: var(--danger-red); background: rgba(255, 77, 77, 0.1);">
+              <svg class="lucide-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <h3>CMRA Flagged Addresses</h3>
+            <p>Standard virtual mailbox providers (EarthClassMail, iPostal1) are registered as CMRA
+              (Commercial Mail Receiving Agency) addresses. Mercury, Relay, and Stripe automatically
+              reject these during KYC verification. <br><br><strong>Our Fix:</strong> We provide
+              addresses that are NOT in the CMRA database.</p>
+          </div>
+          <div class="bento-card" style="border-top: 4px solid #ff4d4d;">
+            <div class="icon-wrap" style="color: var(--danger-red); background: rgba(255, 77, 77, 0.1);">
+              <svg class="lucide-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                <polyline points="9 22 9 12 15 12 15 22" />
+              </svg>
+            </div>
+            <h3>PO Boxes Don't Pass KYC</h3>
+            <p>Banks require a physical street address for business banking applications. PO Boxes and
+              "Suite" numbers at UPS stores are automatically flagged as non-residential.
+              <br><br><strong>Our Fix:</strong> Each client gets a unique residential unit address with
+              a proper lease agreement.
+            </p>
+          </div>
+          <div class="bento-card" style="border-top: 4px solid #ff4d4d;">
+            <div class="icon-wrap" style="color: var(--danger-red); background: rgba(255, 77, 77, 0.1);">
+              <svg class="lucide-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="15" x2="9" y1="9" y2="15" />
+                <line x1="9" x2="15" y1="9" y2="15" />
+              </svg>
+            </div>
+            <h3>Shared Addresses = Shut Down</h3>
+            <p>When hundreds of businesses register at the same address, the address gets blacklisted. Banks
+              use aggregator databases to detect this pattern.
+              <br><br><strong>Our Fix:</strong> Limited per-property occupancy ensures your address
+              stays clean and passes verification long-term.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Section 3: What You Get ═══════ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gradient-text">Everything Included</h2>
+          <p>Professional infrastructure designed for modern, borderless businesses.</p>
+        </div>
+
+        <div class="bento-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+          <div class="bento-card fade-up">
+            <div class="icon-wrap" style="color: var(--gold); background: var(--gold-dim);">
+              <svg class="lucide-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <h3>Real Street Address</h3>
+            <p>Physical residential locations in tax-friendly states like Wyoming and Delaware that pass
+              all banking verification checks. Not a PO Box.</p>
+          </div>
+          <div class="bento-card fade-up">
+            <div class="icon-wrap" style="color: #4da6ff; background: rgba(77, 166, 255, 0.1);">
+              <svg class="lucide-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <h3>Digital Mailbox</h3>
+            <p>Instant notifications when you receive mail. High-resolution scans delivered directly to
+              your email or WhatsApp. Same-day processing.</p>
+          </div>
+          <div class="bento-card fade-up">
+            <div class="icon-wrap" style="color: #00cc66; background: rgba(0, 204, 102, 0.1);">
+              <svg class="lucide-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" x2="22" y1="12" y2="12" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
+            </div>
+            <h3>Global Forwarding</h3>
+            <p>Receive physical packages and documents in the US and have them forwarded to 200+ countries
+              at competitive rates.</p>
+          </div>
+          <div class="bento-card fade-up">
+            <div class="icon-wrap" style="color: #ff3366; background: rgba(255, 51, 102, 0.1);">
+              <svg class="lucide-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3>Bank Compliance Ready</h3>
+            <p>Each address comes with a unique commercial lease agreement that satisfies US Patriot Act
+              and banking KYC requirements for business account applications.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Section 4: Timeline ═══════ -->
+    <section class="section section-alt" id="speed">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gradient-text">Get Started in 24 Hours</h2>
+          <p>Simple onboarding. Your address is ready before your next banking application.</p>
+        </div>
+
+        <div class="timeline" style="margin-top: 4rem;">
+          <div class="timeline-step fade-up">
+            <div class="timeline-dot">1</div>
+            <div class="timeline-content">
+              <h3><span style="color:var(--text-muted); font-size: 0.9rem; margin-right: 10px;">Instant</span>
+                Request Your Address</h3>
+              <p>Reach out via WhatsApp with your LLC name (or personal name). We assign you a unique
+                residential unit number within hours.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step fade-up">
+            <div class="timeline-dot">2</div>
+            <div class="timeline-content">
+              <h3><span style="color:var(--text-muted); font-size: 0.9rem; margin-right: 10px;">Same-Day</span>
+                Lease Agreement</h3>
+              <p>We generate your official residential lease agreement and utility verification letter —
+                the exact documents Mercury and Relay request during KYC review.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step fade-up">
+            <div class="timeline-dot">3</div>
+            <div class="timeline-content">
+              <h3><span style="color:var(--text-muted); font-size: 0.9rem; margin-right: 10px;">Active</span>
+                Mail Receiving Begins</h3>
+              <p>Your address is live. All incoming mail is scanned and forwarded to you digitally.
+                Physical forwarding available on request to 200+ countries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Section 5: Social Proof ═══════ -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gradient-text">Trusted by Global Founders</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="liquid-glass-card fade-up">
+            <p class="testimonial-quote">"After getting rejected twice by Mercury with a virtual mailbox,
+              I switched to The Residential Address. My application was approved in 48 hours with the
+              lease agreement they provided."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">R</div>
+              <div class="author-info">
+                <h4>Raj P.</h4>
+                <span>SaaS Founder, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="liquid-glass-card fade-up" style="transition-delay: 0.1s;">
+            <p class="testimonial-quote">"The digital mail scanning is incredibly fast. I get my IRS
+              notices and bank correspondence within hours of delivery. It's exactly what I needed to
+              run my US business from Dubai."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div class="author-info">
+                <h4>Sarah T.</h4>
+                <span>E-commerce, UAE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Section 6: FAQ ═══════ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="gradient-text">Address FAQ</h2>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item fade-up">
+            <div class="faq-question">
+              <h3>Is this a real physical address or a virtual one?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>It's a real, physical residential property in Wyoming. Unlike virtual mailbox services
+                that use CMRA-registered commercial addresses, our addresses are genuine residential
+                locations with individual unit designations. This is the critical difference that
+                allows you to pass strict banking KYC checks.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-up">
+            <div class="faq-question">
+              <h3>Can I use this address for my LLC registration?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes. You can use this address as your LLC's principal office address, mailing address,
+                and the address listed on banking applications. However, your Registered Agent address
+                must be a separate Wyoming-registered agent (which we also provide as part of our LLC
+                formation package).</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-up">
+            <div class="faq-question">
+              <h3>How does mail scanning work?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>When mail arrives at your address, we scan the envelope exterior and notify you via
+                email or WhatsApp. You can then request us to open and scan the contents in
+                high-resolution, shred it, or forward the physical item to any international
+                address. Most scans are delivered within 2-4 hours of receipt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Final CTA ═══════ -->
+    <section class="final-cta">
+      <div class="container">
+        <h2 class="gradient-text">Your US Address, Ready Today</h2>
+        <div class="cta-buttons">
+          <a href="https://wa.me/16474367072" class="btn btn-gold">📞 Start the Process on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════ Footer ═══════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"
+            style="text-decoration: none; display: flex; align-items: center; margin-bottom: 24px;">
+            <img src="assets/logo.png" alt="The Residential Address"
+              style="height: 28px; width: auto; max-width: 100%; object-fit: contain;">
+          </a>
+          <p>The US infrastructure layer for global founders. Banking, addresses, and LLCs made compliant.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="index.html">US Residential Address</a></li>
+            <li><a href="llc-formation.html">LLC Formation</a></li>
+            <li><a href="itin-application.html">ITIN Application</a></li>
+            <li><a href="bank-assistance.html">Bank Assistance</a></li>
+            <li><a href="us-phone.html">US Phone (eSIM)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Trust</h4>
+          <div class="footer-trust-badges">
+            <span>IRS Certified</span>
+            <span>100% Compliant</span>
+            <span>Money-Back Guarantee</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 The Residential Address (Everest Ventures Group LLC). All rights reserved. Registered in Wyoming, USA.
+        </p>
+        <div style="margin-top: 10px; font-size: 0.8em;">
+          <a href="privacy.html" style="color: var(--text-muted); text-decoration: none; margin-right: 15px;">Privacy
+            Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════ Scripts ═══════ -->
+  <script>
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    });
+
+    const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-up').forEach((el) => {
+      observer.observe(el);
+    });
+
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+
+</html>

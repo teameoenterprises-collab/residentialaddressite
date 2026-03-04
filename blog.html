@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | The Residential Address</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+    <meta name="description"
+        content="Insights, compliance updates, and strategies for global founders building US infrastructure.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playball&display=swap"
+        rel="stylesheet">
+    <style>
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .blog-card {
+            background: var(--surface);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--gold);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-meta {
+            font-size: 0.85rem;
+            color: var(--gold);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .blog-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--text-main);
+            line-height: 1.3;
+        }
+
+        .blog-card p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+
+        .read-more {
+            margin-top: 1.5rem;
+            color: var(--text-main);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .blog-card:hover .read-more {
+            color: var(--gold);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ═══════ Header / Navigation ═══════ -->
+    <header id="header">
+        <div class="container nav-content">
+            <a href="index.html" class="logo" style="text-decoration: none; display: flex; align-items: center;">
+                <img src="assets/logo.png" alt="The Residential Address"
+                    style="height: 28px; width: auto; max-width: 100%; object-fit: contain;">
+            </a>
+            <nav class="nav-links">
+                <!-- Dropdown for Services -->
+                <div class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Services ▾</a>
+                    <div class="dropdown-content">
+                        <a href="index.html">US Residential Address</a>
+                        <a href="llc-formation.html">LLC Formation</a>
+                        <a href="itin-application.html">ITIN Application</a>
+                        <a href="bank-assistance.html">Bank Assistance</a>
+                        <a href="us-phone.html">US Phone (eSIM)</a>
+                    </div>
+                </div>
+                <a href="about.html">About Us</a>
+                <a href="blog.html">Blog</a>
+                <a href="index.html#pricing">Pricing</a>
+                <a href="https://wa.me/16474367072" class="btn btn-whatsapp"
+                    style="padding: 0.6rem 1.2rem; font-size: 0.9rem; margin-left: 1rem;">💬 Chat on WhatsApp</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ═══════ Hero ═══════ -->
+        <section class="hero" id="hero">
+            <div class="container hero-centered">
+                <h1>Founder <span class="highlight-gold">Insights</span></h1>
+                <p class="hero-description">Navigating US banking compliance, tax regulations, and operational
+                    strategies for international entrepreneurs.</p>
+            </div>
+        </section>
+
+        <!-- ═══════ Blog Grid ═══════ -->
+        <section class="section section-alt" style="padding-top: 2rem;">
+            <div class="container">
+                <div class="blog-grid">
+
+                    <a href="blog-1.html" class="blog-card fade-up">
+                        <div class="blog-meta">
+                            <span>Banking Compliance</span>
+                            <span>Oct 12, 2026</span>
+                        </div>
+                        <h3>Why Virtual Mailboxes Cause Bank Rejections in 2026</h3>
+                        <p>The days of using cheap PO boxes to open Stripe or Mercury accounts are over. Learn how banks
+                            use the USPS CMRA database to flag and shut down foreign founder accounts.</p>
+                        <div class="read-more">Read Article →</div>
+                    </a>
+
+                    <a href="blog-2.html" class="blog-card fade-up">
+                        <div class="blog-meta">
+                            <span>Entity Formation</span>
+                            <span>Sep 28, 2026</span>
+                        </div>
+                        <h3>Wyoming vs. Delaware: Which State is Right for Your LLC?</h3>
+                        <p>If you're a non-US resident forming an LLC, standard advice points to Delaware. But for 90%
+                            of solo founders and e-commerce sellers, Wyoming is actually the superior choice.</p>
+                        <div class="read-more">Read Article →</div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ═══════ Footer ═══════ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo"
+                        style="text-decoration: none; display: flex; align-items: center; margin-bottom: 24px;">
+                        <img src="assets/logo.png" alt="The Residential Address"
+                            style="height: 28px; width: auto; max-width: 100%; object-fit: contain;">
+                    </a>
+                    <p>The US infrastructure layer for global founders. Banking, addresses, and LLCs made compliant.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html">US Residential Address</a></li>
+                        <li><a href="llc-formation.html">LLC Formation</a></li>
+                        <li><a href="itin-application.html">ITIN Application</a></li>
+                        <li><a href="bank-assistance.html">Bank Assistance</a></li>
+                        <li><a href="us-phone.html">US Phone (eSIM)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Trust</h4>
+                    <div class="footer-trust-badges">
+                        <span>IRS Certified</span>
+                        <span>100% Compliant</span>
+                        <span>Money-Back Guarantee</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 The Residential Address (Everest Ventures Group LLC). All rights reserved. Registered in
+                    Wyoming, USA.</p>
+                <div style="margin-top: 10px; font-size: 0.8em;">
+                    <a href="privacy.html"
+                        style="color: var(--text-muted); text-decoration: none; margin-right: 15px;">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══════ Scripts ═══════ -->
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) header.classList.add('scrolled');
+            else header.classList.remove('scrolled');
+        });
+
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-up').forEach((el) => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+
+</html>
