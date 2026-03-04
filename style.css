@@ -308,7 +308,7 @@ header.scrolled {
 
 .btn-whatsapp {
     background: #25d366;
-    color: white;
+    color: #ffffff !important;
     font-weight: 700;
 }
 
