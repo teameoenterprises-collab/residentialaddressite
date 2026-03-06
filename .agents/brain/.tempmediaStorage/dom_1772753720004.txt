@@ -1,0 +1,173 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	Grid view
+	Hide fields
+	Filter
+	Group
+	Sort
+	Color
+	Share and sync
+	Create new...
+	Grid view
+	Post Title DraftName
+	Is This Reality? Or Just a Very Large Sandbox?
+	2
+	Sandbox: The Ultimate Creative Outlet?
+	3
+	Is Sandbox the Next Big Thing in Social Media?
+	Notes
+	Assignee
+	Status
+	Attachments
+	Attachment Summary
+	Subreddit
+	Post Body Draft
+	Is Approved
+	Field 10
+	Personal experience with Sandbox
+	New
+	Required field(s) are empty or unavailable
+	r/sandbox
+	So, I've been spending a lot of time in these virtual environments lately, and I can't help but wonder... where do we draw the line? Is what we're building just a game, or is it something more? I'd love to hear your thoughts on the evolution of digital spaces. Let's discuss!
+	Discussion about creativity
+	New
+	Required field(s) are empty or unavailable
+	r/sandbox
+	Hey everyone! I've been thinking about how Sandbox allows for so much creativity. Whether it's building intricate structures or designing entirely new games, the possibilities seem endless. What's the most creative thing you've ever seen or done in a sandbox environment? Let's share some inspiration!
+	Discussion about the future of Sandbox
+	New
+	Required field(s) are empty or unavailable
+	r/sandbox
+	So, I've been thinking a lot about the future of Sandbox, and I can't help but wonder if it's more than just a game. Could it be the next big thing in social media? I'd love to hear your thoughts on how digital spaces are changing the way we interact. Let's discuss!
+	Add…
+	3 cells selected
+	T
+	The Residential Address - Outreach
+	Data
+	Automations
+	Interfaces
+	Forms
+	All changes saved
+	Trial: 14 days left
+	Launch
+	Share
+	Reddit CommentsReddit CommentsReddit CommentsReddit Leads
+	Reddit PostsTable 2Reddit Posts
+	Add or import
+	Tools
+	Field created
+	[1] (68,948)<div class='self-center action focus-visible' role='button'>undo />
+	[2] (312,84)<div aria-label='Next post' class='flex items-center focus-visible quiet pointer link-unquiet' role='button' />
+	[3] (650,84)<div aria-label='More options' class='flex-none flex items-center ml1 quiet link-unquiet pointer focus-visible hover-container' id='id_3eb7a2dab8e7f771f94e98c035541b9a' role='button' />
+		[4] (650,84)<div  />
+	[5] (662,84)<div aria-label='Copy post URL' class='flex-none flex items-center quiet link-unquiet pointer focus-visible ml1 hover-container' role='button' />
+		[6] (662,84)<div  />
+	[7] (674,84)<div aria-label='Hide comments and revision history' class='flex-none flex items-center quiet link-unquiet pointer focus-visible ml1 hover-container' role='button' />
+		[8] (674,84)<div  />
+	[9] (695,84)<div aria-label='Close dialog' class='flex-none flex items-center justify-center pointer quiet link-unquiet focus-visible ml2 hover-container' role='button' />
+		[10] (695,84)<div  />
+	[11] (443,140)<div class='flex' role='presentation' />
+		[12] (443,140)<div  />
+			[13] (328,141)<div  />
+			[14] (355,141)<div >Post Title DraftName />
+			[15] (383,142)<div  />
+				[16] (383,140)<div aria-label='Open Post Title DraftName column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_b39b35a2ce19d0e647a128da41d4d47a' role='button' />
+	[17] (443,166)<textarea aria-label='Text field' class='block width-full line-height-4 overflow-hidden break-word pre-wrap text-color-default placeholder-solid-quieter stroked-blue-inset-outset-focus shadow-elevation-low-hover-not-focused heading-size-large py-half px1 rounded-big' placeholder='Start typing…' />
+	[18] (354,229)<div class='flex' role='presentation' />
+		[19] (354,229)<div  />
+			[20] (328,229)<div  />
+			[21] (338,229)<div >Notes />
+			[22] (349,231)<div  />
+				[23] (349,229)<div aria-label='Open Notes column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_5e4d06b9fa1c793851a8f9b5127f95d0' role='button' />
+	[24] (476,245)<div aria-label='Notes' class='contentEditableTextbox light-scrollbar ignore-baymax-defaults pb3' role='textbox'>Personal experience with Sandbox />
+	[25] (354,302)<div class='flex' role='presentation' />
+		[26] (354,302)<div  />
+			[27] (328,302)<div  />
+			[28] (342,302)<div >Assignee />
+			[29] (357,303)<div  />
+				[30] (357,301)<div aria-label='Open Assignee column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_a37f921089c3722794e3839c386169b2' role='button' />
+	[31] (476,303)<div class='width-full flex items-center hover-container focus-container line-height-1 text-color-quieter cursor-pointer colors-background-raised-control stroked-blue-inset-outset-focus stroked-blue-inset-outset-aria-expanded rounded-big px1 css-1jhs511 shadow-elevation-low shadow-elevation-low-hover-not-focused text-color-quieter text-color-quiet-hover pointer' role='button' />
+		[32] (557,303)<div  />
+	[33] (354,344)<div class='flex' role='presentation' />
+		[34] (354,344)<div  />
+			[35] (328,344)<div  />
+			[36] (339,344)<div >Status />
+			[37] (351,345)<div  />
+				[38] (351,343)<div aria-label='Open Status column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_382fb0b02de4f785df1794263cd2a9f5' role='button' />
+	[39] (476,345)<div class='width-full flex items-center hover-container focus-container line-height-1 text-color-default cursor-pointer colors-background-raised-control stroked-blue-inset-outset-focus stroked-blue-inset-outset-aria-expanded rounded-big px1 css-1jhs511 shadow-elevation-low shadow-elevation-low-hover-not-focused text-color-quieter text-color-quiet-hover pointer' role='button' />
+		[40] (472,345)<div  />
+			[41] (401,345)<span  />
+				[42] (401,345)<span  />
+					[43] (401,345)<div  />
+						[44] (401,345)<div >New />
+		[45] (557,345)<div  />
+	[46] (354,386)<div class='flex' role='presentation' />
+		[47] (354,386)<div  />
+			[48] (328,386)<div  />
+			[49] (346,386)<div >Attachments />
+			[50] (365,388)<div  />
+				[51] (365,386)<div aria-label='Open Attachments column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_4e948266414169c5199e504d8701c2c6' role='button' />
+	[52] (476,404)<div class='pointer flex items-center justify-center focus-visible-stroked-inset-blue-focus rounded-big focus-visible' role='button' />
+		[53] (476,404)<div  />
+			[54] (481,404)<div  />
+				[55] (472,404)<span >Drop files here or />
+				[56] (501,404)<span >browse />
+	[57] (354,463)<div class='flex' role='presentation' />
+		[58] (354,463)<div  />
+			[59] (328,456)<div  />
+			[60] (350,463)<div >Attachment Summary />
+			[61] (373,457)<div aria-label='label description' class='ml-half flex-none flex-inline items-center text-color-quieter relative pointer focus-visible' role='button' />
+			[62] (379,457)<div  />
+				[63] (379,455)<div aria-label='Open Attachment Summary column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_9173437d88f385f1970def9c4affe779' role='button' />
+	[64] (476,478)<div aria-label='Async text cell content area' class='flex-auto line-height-4 py1 px1 overflow-auto focus-visible' role='button' />
+		[65] (476,478)<div aria-label='Attachment Summary' class='contentEditableTextbox light-scrollbar ignore-baymax-defaults pb-half showPlaceholder' role='textbox' />
+	Edited by you
+	[66] (354,566)<div class='flex' role='presentation' />
+		[67] (354,566)<div  />
+			[68] (328,567)<div  />
+			[69] (343,567)<div >Subreddit />
+			[70] (358,568)<div  />
+				[71] (358,566)<div aria-label='Open Subreddit column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_fb24ace45a9260986438e03a0a8db5f5' role='button' />
+	[72] (476,568)<textarea aria-label='Text field' class='block width-full line-height-4 overflow-hidden break-word pre-wrap text-color-default placeholder-solid-quieter text-size-default colors-background-raised-control stroked-blue-inset-outset-focus rounded-big px1 css-1jhs511 shadow-elevation-low shadow-elevation-low-hover-not-focused' />
+	[73] (354,609)<div class='flex' role='presentation' />
+		[74] (354,609)<div  />
+			[75] (328,609)<div  />
+			[76] (349,609)<div >Post Body Draft />
+			[77] (372,610)<div  />
+				[78] (372,608)<div aria-label='Open Post Body Draft column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_97e671795649deb969c5015d2aa6fa1d' role='button' />
+	[79] (476,632)<textarea aria-label='Text field' class='block width-full line-height-4 overflow-hidden break-word pre-wrap text-color-default placeholder-solid-quieter text-size-default colors-background-raised-control stroked-blue-inset-outset-focus rounded-big px1 css-1jhs511 shadow-elevation-low shadow-elevation-low-hover-not-focused' />
+	[80] (354,695)<div class='flex' role='presentation' />
+		[81] (354,695)<div  />
+			[82] (328,695)<div  />
+			[83] (345,695)<div >Is Approved />
+			[84] (363,696)<div  />
+				[85] (363,694)<div aria-label='Open Is Approved column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_629da366d4ae22826ba686b927bac487' role='button' />
+	[86] (394,696)<div aria-label='Is Approved, checked' class='baymax rounded no-user-select colors-background-raised-control pointer colors-background-raised-control stroked-blue-inset-outset-focus shadow-elevation-low shadow-elevation-low-hover-not-focused focus-visible' role='checkbox' />
+		[87] (394,696)<div  />
+			[88] (394,696)<div  />
+	[89] (354,737)<div class='flex' role='presentation' />
+		[90] (354,737)<div  />
+			[91] (328,737)<div  />
+			[92] (340,737)<div >Field 10 />
+			[93] (353,738)<div  />
+				[94] (353,737)<div aria-label='Open Field 10 column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_747d8db2ab283d635a3849c3a9e6636d' role='button' />
+	[95] (476,738)<textarea aria-label='Text field' class='block width-full line-height-4 overflow-hidden break-word pre-wrap text-color-default placeholder-solid-quieter text-size-default colors-background-raised-control stroked-blue-inset-outset-focus rounded-big px1 css-1jhs511 shadow-elevation-low shadow-elevation-low-hover-not-focused' />
+	[96] (357,776)<div class='flex-inline focus-visible rounded hide-print items-center link pointer text-color-quiet' role='button' />
+		[97] (361,776)<span >Add new field to this table />
+	[98] (618,122)<div aria-label='Open activity feed menu' class='flex items-center focus-visible cursor-pointer colors-background-selected-hover rounded px1 py-half mln1' id='id_0f2f08cb766c5b1d6f28144df4050b6e' role='button' />
+		[99] (614,122)<span >All comments />
+	[100] (688,122)<button aria-label='Record comment notifications watching toggle' class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default background-transparent colors-background-selected-hover px1 button-size-small flex-inline mr-half' id='id_8d2cebafff12516c7c4d91adb971c1fc' />
+	Start a conversation
+	Ask questions, keep track of status updates, and collaborate with your team — directly in Airtable.
+	[101] (649,589)<div class='flex items-center pointer focus-visible rounded-big colors-background-subtle px1 center' role='button' />
+		[102] (649,589)<span >Invite collaborators />
+	T
+	[103] (656,965)<div aria-label='Comment' class='contentEditableTextbox light-scrollbar ignore-baymax-defaults hideBorder rounded-big hideBorderWithFocus showPlaceholder' placeholder='Leave a comment' role='textbox' />
+	[104] (695,968)<div >@ />
+Empty cell
+You can also insert a new post anywhere by pressing Shift-Enter
+
+</current_dom>

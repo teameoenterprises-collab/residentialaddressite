@@ -1,0 +1,184 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (31,84)<div aria-label='Close sidebar' class='mr-half flex items-center justify-center focus-visible cursor-pointer css-hoen6i' role='button' />
+[1] (61,84)<div class='flex items-center pointer colors-background-selected-hover rounded focus-visible px1' id='id_fb17a90b902b2f99fcca68d2f0bf218f' role='button' />
+	[2] (61,84)<div  />
+		[3] (45,84)<span  />
+		[4] (61,84)<span >Grid view />
+		[5] (78,84)<div  />
+[6] (784,84)<div aria-label='Hide fields' class='focus-visible mr1' role='button' />
+	[7] (784,84)<div  />
+		[8] (787,84)<div >Hide fields />
+[9] (818,84)<div aria-label='Filter rows' class='collapsed focus-visible' id='id_f18aadbc90bddee411160f6ecad8c7ca' role='button' />
+	[10] (818,84)<div  />
+		[11] (821,84)<div  />
+			[12] (821,84)<span >Filter />
+[13] (847,84)<div aria-label='Group rows' class='collapsed focus-visible mr1' role='button' />
+	[14] (847,84)<div  />
+		[15] (850,84)<div >Group />
+[16] (875,84)<div aria-label='Sort rows' class='focus-visible collapsed mr1' role='button' />
+	[17] (875,84)<div  />
+		[18] (879,84)<div >Sort />
+[19] (902,84)<div aria-label='Row colors' class='collapsed focus-visible mr1' id='viwjB2EGlR8CIr7YW-colorConfigButton' role='button' />
+	[20] (902,84)<div  />
+		[21] (906,84)<div >Color />
+[22] (924,84)<div aria-label='Row height' class='focus-visible mr1' role='button' />
+	[23] (924,84)<div  />
+[24] (957,84)<div aria-label='Share and sync' class='focus-visible' id='id_5e7a4a3deee7c7e2bf078fdd304ef2b4' role='button' />
+	[25] (957,84)<div  />
+		[26] (960,84)<div >Share and sync />
+[27] (992,84)<div aria-label='toggle view search input' class='flex items-center justify-center focus-visible cursor-pointer css-c45rhi' role='button' />
+[28] (73,122)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default background-transparent colors-background-selected-hover px1-and-half button-size-default flex width-full pl1-and-half' id='id_e07354a908c615fe7e5733419a0e3d96'>Create new... />
+	Create new...
+[29] (73,149)<input aria-label='Find a view' class='ignore-baymax-defaults width-full stroked-blue-inset-outset-focus css-7qul8y' placeholder='Find a view' />
+[30] (115,149)<div aria-label='View list options' class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' id='id_5b00ffbb0d87ba3cecf834171341e1cf' role='button' />
+[31] (73,180)<li class='rounded pointer flex relative justify-center flex-column pt1 pb1 px1-and-half css-0' id='id_95337319b67529705b2537cf90d74a0b-viwjB2EGlR8CIr7YW' role='option' />
+	[32] (73,180)<div  />
+		[33] (73,180)<div  />
+			[34] (31,180)<span  />
+			[35] (48,180)<span >Grid view />
+[36] (125,551)<div class='absolute top-0 right-0 bottom-0 colors-background-primary-control-hover cursor-col-resize background-transparent focus-visible' role='separator' />
+[37] (563,551)<div  />
+	[38] (191,115)<span  />
+		Reddit Post Link
+	[39] (174,211)<div  />
+		[40] (136,211)<div  />
+	1
+	[41] (150,138)<div  />
+		[42] (149,138)<a aria-label='Expand' class='expandRowCell flex' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s/viwjB2EGlR8CIr7YW/recIms4CLODIf35hB?blocks=hide' />
+			[43] (149,138)<i  />
+	https://www.reddit.com/r/stripe/comments/example1
+	2
+	[44] (150,163)<div  />
+		[45] (149,162)<a aria-label='Expand' class='expandRowCell flex' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s/viwjB2EGlR8CIr7YW/recAlQFDLIeUtxBti?blocks=hide' />
+			[46] (149,162)<i  />
+	https://www.reddit.com/r/digitalnomad/comments/example2
+	3
+	[47] (150,187)<div  />
+		[48] (149,186)<a aria-label='Expand' class='expandRowCell flex' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s/viwjB2EGlR8CIr7YW/recTVF10pYIgTUQ6d?blocks=hide' />
+			[49] (149,186)<i  />
+	https://www.reddit.com/r/startup/comments/example3
+	[50] (946,115)<div aria-label='add a field' class='gridHeaderRowAddFieldButton cell ghost' role='button' title='Add field' />
+	[51] (314,115)<span  />
+		Lead Content
+	[52] (438,115)<span  />
+		Status
+	[53] (505,115)<span  />
+		Subreddit
+	[54] (633,115)<span  />
+		Outreach Draft
+	[55] (762,115)<span  />
+		Is Approved
+	[56] (829,115)<span  />
+		Assigned Agent
+	[57] (896,115)<span  />
+		Posted Date
+	[58] (576,211)<div  />
+	Founder from Yemen facing account locks due to registration issues.
+	New
+	r/stripe
+	Hey, we've seen many founders from Yemen and similar regions face Stripe registration hurdles. We provide a real US residential address footprint (leases and utility bills) to help establish a legitimate presence for your business. DM me if you'd like to chat about how we set this up.
+	[59] (761,138)<div  />
+		[60] (761,138)<div aria-label='Is Approved, not checked' class='flex baymax justify-center flex-auto' role='checkbox' />
+			[61] (761,138)<div  />
+	MarkBTM
+	3/1/2026
+	Struggling with proof of address; virtual addresses being rejected.
+	New
+	r/digitalnomad
+	Virtual addresses are frequently flagged and rejected by financial institutions now. For true digital nomad proof of address, we provide real residential leases and utility bills in the US. This ensures your KYC checks pass consistently. Happy to help if you're stuck!
+	[62] (761,163)<div  />
+		[63] (761,163)<div aria-label='Is Approved, not checked' class='flex baymax justify-center flex-auto' role='checkbox' />
+			[64] (761,162)<div  />
+	MarkBTM
+	3/1/2026
+	UK startup needing a US base for Stripe Atlas but lacking a US address.
+	New
+	r/startup
+	Expanding a UK startup to the US via Stripe Atlas is great, but the address requirement can be tricky. We provide real US residential addresses with proper documentation to satisfy physical presence requirements. DM if you need help navigating this!
+	[65] (761,187)<div  />
+		[66] (761,187)<div aria-label='Is Approved, not checked' class='flex baymax justify-center flex-auto' role='checkbox' />
+			[67] (761,186)<div  />
+	MarkBTM
+	3/1/2026
+	[68] (137,965)<div aria-label='Add lead' class='focus-visible' role='button' />
+		[69] (137,965)<div  />
+			[70] (137,965)<span  />
+	[71] (162,965)<div aria-label='Add more' class='focus-visible' role='button' />
+		[72] (162,965)<div  />
+			[73] (164,965)<span >Add… />
+	3 leads
+	[74] (190,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+		[75] (189,983)<div  />
+			[76] (210,983)<p  />
+	[77] (314,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+		[78] (313,983)<div  />
+			[79] (391,983)<p  />
+	[80] (438,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+		[81] (437,983)<div  />
+	[82] (633,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+		[83] (632,983)<div  />
+			[84] (714,983)<p  />
+	[85] (761,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+		[86] (761,983)<div  />
+			[87] (781,983)<p  />
+	[88] (828,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+		[89] (828,983)<div  />
+			[90] (848,983)<p  />
+	[91] (895,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+		[92] (895,983)<div  />
+			[93] (916,983)<p  />
+[94] (10,500)<aside  />
+	[95] (10,21)<a aria-label='Back to home' class='flex flex-none relative pointer circle focus-visible-white colors-border-emphasis' href='/' id='appTopBarHomeButton' />
+		[96] (10,21)<div  />
+			[97] (10,21)<div  />
+	[98] (10,53)<div aria-label='Open Omni' class='flex items-center justify-center pointer circle focus-visible-white cursor-pointer text-orange-dusty focus-visible' role='button' />
+		[99] (10,53)<div  />
+			[100] (10,53)<div  />
+	[101] (10,917)<div aria-label='Help menu' class='focus-visible-current-color pointer flex items-center focus-visible-opaque justify-center flex-reverse circle colors-background-raised-control-hover-hover top-bar-text-dark-hover focus-visible' role='button' />
+	[102] (10,947)<div aria-label='No unseen notifications' class='relative flex items-center focus-visible-current-color pointer pill focus-visible' id='id_3b7dd7be8d1fca6e167a48e2da5e2602' role='button' />
+		[103] (10,947)<div  />
+			[104] (10,947)<div  />
+				[105] (15,939)<div  />
+				[106] (10,948)<div  />
+	[107] (10,977)<div aria-label='Account' class='flex-none flex items-center ml1 focus-visible-current-color pointer circle shadow-elevation-low shadow-elevation-low-hover focus-visible' id='id_3bfb270cf6966bdcf838117cf09acfa0' role='button' />
+		[108] (10,977)<div  />
+			[109] (10,977)<div  />
+				[110] (10,977)<div  />
+					[111] (10,977)<div aria-label='T' class='userIcon circle dark-mode-darken-app-color cyan border border-white' role='img' />
+						[112] (10,977)<div >T />
+[113] (510,22)<div  />
+	[114] (96,21)<div aria-label='Open base settings menu' class='flex items-center huge pointer line-height-3 focus-visible-current-color rounded css-w1u7fo focus-visible' role='button' />
+		[115] (93,21)<div >The Residential Address - Outreach />
+	[116] (468,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh' />
+		[117] (468,21)<p >Data />
+	[118] (494,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/automations' />
+		[119] (494,21)<p >Automations />
+	[120] (526,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/interfaces?origin=topnav' />
+		[121] (526,21)<p >Interfaces />
+	[122] (551,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/forms?origin=topnav' />
+		[123] (551,21)<p >Forms />
+	[124] (861,21)<div aria-label='Base history' class='pointer flex justify-center items-center circle focus-visible-current-color colors-background-raised-control-hover-hover top-bar-text-light top-bar-text-light-hover focus-visible' id='id_033d6fbc4bd6c840ac3216a62176469e' role='button' />
+	[125] (896,21)<div class='flex items-baseline justify-center pointer px1-and-half pill focus-visible mx1 nowrap darken1 colors-foreground-default css-1amw26v' id='id_475525b9898044bf4fa22320d2ccd8a4' role='button'>Trial: 14 days left />
+	[126] (940,21)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default colors-background-raised-control shadow-elevation-low shadow-elevation-low-hover px1 button-size-small flex-inline focus-visible-current-color'>Launch />
+		Launch
+	[127] (964,21)<div class='flex items-center justify-center focus-visible cursor-pointer shadow-elevation-low shadow-elevation-low-hover css-leewk5' role='button' title='Copy link' />
+	[128] (983,21)<div class='erahsButton flex items-center pointer line-height-4 text-size-default font-weight-strong shadow-elevation-low shadow-elevation-low-hover rounded-big orange-dusty focus-visible-current-color focus-visible' id='top-bar-primary-cta-erahs-button' role='button' />
+		[129] (983,21)<span >Share />
+[130] (510,55)<div  />
+	[131] (44,55)<div  />
+		[132] (44,55)<div  />
+			[133] (44,55)<a class='height-full flex flex-auto items-center max-width-2 no-user-select focus-visible pl1-and-half' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s?blocks=hide' />
+				[134] (40,55)<span >Reddit Leads />
+			[135] (58,55)<div  />
+				[136] (60,55)<div aria-label='Reddit Leads table options' class='pointer flex-none focus-visible focus-visible-opaque ml1 flex items-center colors-foreground-subtle colors-foreground-default-parent-hover' role='button' />
+	[137] (75,55)<div aria-label='Search all tables' class='pointer flex flex-none justify-center items-center focus-visible-opaque focus-container px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' role='button' />
+	[138] (107,55)<div aria-label='Add or import table' class='pointer flex items-center flex-none focus-visible-opaque rounded px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' id='id_b00d54773e81e5406ee83bd535cc7c80' role='button' />
+		[139] (111,55)<p >Add or import />
+	[140] (984,55)<div  />
+		[141] (984,55)<div class='flex items-center pointer px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' role='button' />
+			[142] (981,55)<div >Tools />
+
+</current_dom>

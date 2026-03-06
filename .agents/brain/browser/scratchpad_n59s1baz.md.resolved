@@ -1,0 +1,14 @@
+# Airtable Setup Plan
+- [ ] Navigate to Airtable and check login status
+- [ ] Create base "The Residential Address - Outreach"
+- [ ] Rename first table to "Reddit Leads"
+- [ ] Create/Update fields in "Reddit Leads":
+    - [ ] Status (Single Select: New, Qualified, Approved, Posted, Rejected)
+    - [ ] Subreddit (Single Line Text)
+    - [ ] Reddit Post Link (URL)
+    - [ ] Lead Content (Long Text)
+    - [ ] Outreach Draft (Long Text)
+    - [ ] Is Approved (Checkbox)
+    - [ ] Assigned Agent (Single Line Text, default: MarkBTM)
+    - [ ] Posted Date (Date)
+- [ ] Extract Base ID and Table Name

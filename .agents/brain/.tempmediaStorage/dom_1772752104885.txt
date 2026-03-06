@@ -1,0 +1,154 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	[1] (31,84)<div aria-label='Close sidebar' class='mr-half flex items-center justify-center focus-visible cursor-pointer css-hoen6i' role='button' />
+	[2] (45,84)<span  />
+	Grid view
+	[3] (784,84)<div aria-label='Hide fields' class='focus-visible mr1' role='button' />
+		[4] (784,84)<div  />
+			[5] (787,84)<div >Hide fields />
+	[6] (818,84)<div aria-label='Filter rows' class='collapsed focus-visible' id='id_6b17bff3ae0dcb68aa1e1d73489fafaa' role='button' />
+		[7] (818,84)<div  />
+			[8] (821,84)<div  />
+				[9] (821,84)<span >Filter />
+	[10] (847,84)<div aria-label='Group rows' class='collapsed focus-visible mr1' role='button' />
+		[11] (847,84)<div  />
+			[12] (850,84)<div >Group />
+	[13] (875,84)<div aria-label='Sort rows' class='focus-visible collapsed mr1' role='button' />
+		[14] (875,84)<div  />
+			[15] (879,84)<div >Sort />
+	[16] (902,84)<div aria-label='Row colors' class='collapsed focus-visible mr1' id='viwAXExjMlEqWizhB-colorConfigButton' role='button' />
+		[17] (902,84)<div  />
+			[18] (906,84)<div >Color />
+	[19] (924,84)<div aria-label='Row height' class='focus-visible mr1' role='button' />
+		[20] (924,84)<div  />
+	[21] (957,84)<div aria-label='Share and sync' class='focus-visible' id='id_d2e5ca1f01b1931d39e1dc143476b05d' role='button' />
+		[22] (957,84)<div  />
+			[23] (960,84)<div >Share and sync />
+	[24] (992,84)<div aria-label='toggle view search input' class='flex items-center justify-center focus-visible cursor-pointer css-c45rhi' role='button' />
+	Create new...
+	[25] (31,180)<span  />
+	[26] (48,180)<span >Grid view />
+	[27] (125,551)<div class='absolute top-0 right-0 bottom-0 colors-background-primary-control-hover cursor-col-resize background-transparent focus-visible' role='separator' />
+	[28] (563,551)<div  />
+		[29] (191,115)<span  />
+			Name
+		1
+		2
+		3
+		[30] (576,115)<div aria-label='add a field' class='gridHeaderRowAddFieldButton cell ghost' role='button' title='Add field' />
+		[31] (258,115)<span  />
+			Notes
+		[32] (325,115)<span  />
+			Assignee
+		[33] (392,115)<span  />
+			Status
+		[34] (459,115)<span  />
+			Attachments
+		[35] (522,115)<span  />
+			Attachment Summary
+		[36] (547,116)<div  />
+		Required field(s) are empty or unavailable
+		Required field(s) are empty or unavailable
+		Required field(s) are empty or unavailable
+		[37] (137,965)<div aria-label='Add post' role='button' />
+			[38] (137,965)<div  />
+				[39] (137,965)<span  />
+		[40] (162,965)<div aria-label='Add more' class='focus-visible' role='button' />
+			[41] (162,965)<div  />
+				[42] (164,965)<span >Add… />
+		3 posts
+		[43] (190,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[44] (189,983)<div  />
+				[45] (210,983)<p  />
+		[46] (257,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[47] (257,983)<div  />
+				[48] (277,983)<p  />
+		[49] (324,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[50] (324,983)<div  />
+				[51] (344,983)<p  />
+		[52] (391,982)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[53] (391,983)<div  />
+				[54] (411,983)<p  />
+		[55] (546,983)<p  />
+	[56] (10,500)<aside  />
+		[57] (10,21)<a aria-label='Back to home' class='flex flex-none relative pointer circle focus-visible-white colors-border-emphasis' href='/' id='appTopBarHomeButton' />
+			[58] (10,21)<div  />
+				[59] (10,21)<div  />
+		[60] (10,53)<div aria-label='Open Omni' class='flex items-center justify-center pointer circle focus-visible-white cursor-pointer text-orange-dusty focus-visible' role='button' />
+			[61] (10,53)<div  />
+				[62] (10,53)<div  />
+		[63] (10,917)<div aria-label='Help menu' class='focus-visible-current-color pointer flex items-center focus-visible-opaque justify-center flex-reverse circle colors-background-raised-control-hover-hover top-bar-text-dark-hover focus-visible' role='button' />
+		[64] (10,947)<div aria-label='No unseen notifications' class='relative flex items-center focus-visible-current-color pointer pill focus-visible' id='id_3b7dd7be8d1fca6e167a48e2da5e2602' role='button' />
+			[65] (10,947)<div  />
+				[66] (10,947)<div  />
+					[67] (15,939)<div  />
+					[68] (10,948)<div  />
+		[69] (10,977)<div aria-label='Account' class='flex-none flex items-center ml1 focus-visible-current-color pointer circle shadow-elevation-low shadow-elevation-low-hover focus-visible' id='id_3bfb270cf6966bdcf838117cf09acfa0' role='button' />
+			[70] (10,977)<div  />
+				[71] (10,977)<div  />
+					[72] (10,977)<div  />
+						[73] (10,977)<div aria-label='T' class='userIcon circle dark-mode-darken-app-color cyan border border-white' role='img' />
+							[74] (10,977)<div >T />
+	[75] (510,22)<div  />
+		[76] (96,21)<div aria-label='Open base settings menu' class='flex items-center huge pointer line-height-3 focus-visible-current-color rounded css-w1u7fo focus-visible' role='button' />
+			[77] (93,21)<div >The Residential Address - Outreach />
+		[78] (468,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh' />
+			[79] (468,21)<p >Data />
+		[80] (494,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/automations' />
+			[81] (494,21)<p >Automations />
+		[82] (526,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/interfaces?origin=topnav' />
+			[83] (526,21)<p >Interfaces />
+		[84] (551,21)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/forms?origin=topnav' />
+			[85] (551,21)<p >Forms />
+		[86] (861,21)<div aria-label='Base history' class='pointer flex justify-center items-center circle focus-visible-current-color colors-background-raised-control-hover-hover top-bar-text-light top-bar-text-light-hover focus-visible' id='id_033d6fbc4bd6c840ac3216a62176469e' role='button' />
+		[87] (896,21)<div class='flex items-baseline justify-center pointer px1-and-half pill focus-visible mx1 nowrap darken1 colors-foreground-default css-1amw26v' id='id_475525b9898044bf4fa22320d2ccd8a4' role='button'>Trial: 14 days left />
+		[88] (940,21)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default colors-background-raised-control shadow-elevation-low shadow-elevation-low-hover px1 button-size-small flex-inline focus-visible-current-color'>Launch />
+			Launch
+		[89] (964,21)<div class='flex items-center justify-center focus-visible cursor-pointer shadow-elevation-low shadow-elevation-low-hover css-leewk5' role='button' title='Copy link' />
+		[90] (983,21)<div class='erahsButton flex items-center pointer line-height-4 text-size-default font-weight-strong shadow-elevation-low shadow-elevation-low-hover rounded-big orange-dusty focus-visible-current-color focus-visible' id='top-bar-primary-cta-erahs-button' role='button' />
+			[91] (983,21)<span >Share />
+	[92] (510,55)<div  />
+		[93] (40,55)<div  />
+			[94] (40,55)<div  />
+				[95] (40,55)<a class='height-full flex flex-auto items-center max-width-2 no-user-select focus-visible-current-color pl1-and-half' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s?blocks=hide' />
+					[96] (40,55)<span >Reddit Leads />
+		[97] (90,55)<div  />
+			[98] (90,55)<div  />
+				[99] (90,55)<a class='height-full flex flex-auto items-center max-width-2 no-user-select focus-visible pl1-and-half' href='/app4v0TIpyA6zMZCh/tblj7lxSQmsC5Szya?blocks=hide' />
+					[100] (87,55)<span >Table 2Reddit Posts />
+				[101] (112,55)<div  />
+					[102] (114,55)<div aria-label='Table 2Reddit Posts table options' class='pointer flex-none focus-visible focus-visible-opaque ml1 flex items-center colors-foreground-subtle colors-foreground-default-parent-hover' role='button' />
+		[103] (129,55)<div aria-label='Search all tables' class='pointer flex flex-none justify-center items-center focus-visible-opaque focus-container px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' role='button' />
+		[104] (161,55)<div aria-label='Add or import table' class='pointer flex items-center flex-none focus-visible-opaque rounded px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' id='id_b00d54773e81e5406ee83bd535cc7c80' role='button' />
+			[105] (165,55)<p >Add or import />
+		[106] (984,55)<div  />
+			[107] (984,55)<div class='flex items-center pointer px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' role='button' />
+				[108] (981,55)<div >Tools />
+	[109] (121,95)<div class='rounded py1 px1 text-size-default items-center pointer width-full flex' id='id_23b5bcbccb8f6b29902250bb247ed576' role='menuitem' />
+		[110] (121,95)<span >Import data />
+	[111] (121,134)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[112] (125,134)<span >Rename table />
+	[113] (121,159)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[114] (125,159)<span >Hide table />
+	[115] (121,185)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[116] (125,185)<span  />
+			[117] (125,185)<div >Manage fields />
+	[118] (121,211)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[119] (125,211)<span >Duplicate table />
+	[120] (121,249)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[121] (125,249)<span  />
+			[122] (125,249)<div >Configure date dependencies />
+	[123] (121,288)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[124] (125,288)<span >Edit table description />
+	[125] (121,313)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[126] (125,313)<span  />
+			[127] (125,313)<div >Edit table permissions />
+	[128] (121,352)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[129] (125,352)<span >Clear data />
+	[130] (121,377)<li class='rounded py1 px1 text-size-default items-center pointer width-full flex' role='menuitem' />
+		[131] (125,377)<span >Delete table />
+
+</current_dom>

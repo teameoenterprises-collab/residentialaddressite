@@ -1,0 +1,177 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	Grid view
+	Hide fields
+	Filter
+	Group
+	Sort
+	Color
+	Share and sync
+	Create new...
+	Grid view
+	Reddit Post Link
+	1
+	https://www.reddit.com/r/stripe/comments/example1
+	2
+	https://www.reddit.com/r/digitalnomad/comments/example2
+	3
+	https://www.reddit.com/r/startup/comments/example3
+	Lead Content
+	Status
+	Subreddit
+	Outreach Draft
+	Is Approved
+	Assigned Agent
+	Posted Date
+	Add…
+	3 leads
+	T
+	New chat
+	How can I help?
+	Tools
+	Recommended
+	Ask
+	Analyze
+	Build
+	Create an interface page for managing and updating Reddit Leads statuses
+	Create an automation to notify Assigned Agent when a lead is marked Approved
+	Create a field agent to generate outreach draft messages based on Lead Content and Subreddit
+	Explore field agents
+	Research, summarize, and analyze with AI
+	The Residential Address - Outreach
+	Data
+	Automations
+	Interfaces
+	Forms
+	All changes saved
+	Trial: 14 days left
+	Launch
+	Share
+	Reddit Leads
+	Add or import
+	Extensions
+	Extensions give your base superpowers.
+	Search
+	Chart
+	Map
+	Page designer
+	Dedupe
+	CSV import
+	Org chart
+	Send SMS
+	Pivot table
+	Batch update
+	Vision
+	Calendar import
+	Add an extension
+	[1] (217,124)<div aria-label='Previous lead' class='flex items-center focus-visible quiet pointer link-unquiet' role='button' />
+	[2] (718,124)<div aria-label='More options' class='flex-none flex items-center ml1 quiet link-unquiet pointer focus-visible hover-container' id='id_eb7dbe0f16eb80f37561680093f87188' role='button' />
+		[3] (718,124)<div  />
+	[4] (735,124)<div aria-label='Copy lead URL' class='flex-none flex items-center quiet link-unquiet pointer focus-visible ml1 hover-container' role='button' />
+		[5] (735,124)<div  />
+	[6] (752,124)<div aria-label='Hide comments and revision history' class='flex-none flex items-center quiet link-unquiet pointer focus-visible ml1 hover-container' role='button' />
+		[7] (752,124)<div  />
+	[8] (783,124)<div aria-label='Close dialog' class='flex-none flex items-center justify-center pointer quiet link-unquiet focus-visible ml2 hover-container' role='button' />
+		[9] (783,124)<div  />
+	[10] (418,207)<div class='flex' role='presentation' />
+		[11] (418,207)<div  />
+			[12] (251,208)<div  />
+			[13] (282,208)<div >Reddit Post Link />
+			[14] (315,209)<div  />
+				[15] (315,207)<div aria-label='Open Reddit Post Link column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_c56a773e1b3b78b79c36f60e5b86397c' role='button' />
+	[16] (390,244)<a class='text-blue underline focus-visible events no-user-select' href='https://www.reddit.com/r/startup/comments/example3'>https://www.reddit.com/r/startup/comments/example3 />
+	[17] (288,337)<div class='flex' role='presentation' />
+		[18] (288,337)<div  />
+			[19] (251,338)<div  />
+			[20] (278,338)<div >Lead Content />
+			[21] (306,339)<div  />
+				[22] (306,337)<div aria-label='Open Lead Content column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_35f76e252173807298a12f81bde007a3' role='button' />
+	[23] (465,361)<div aria-label='Lead Content' class='contentEditableTextbox light-scrollbar ignore-baymax-defaults pb3' role='textbox'>UK startup needing a US base for Stripe Atlas but lacking a US address. />
+	[24] (288,444)<div class='flex' role='presentation' />
+		[25] (288,444)<div  />
+			[26] (251,444)<div  />
+			[27] (266,444)<div >Status />
+			[28] (283,446)<div  />
+				[29] (283,443)<div aria-label='Open Status column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_22c711968123d2819c32c2cdb68d0f60' role='button' />
+	[30] (288,506)<div class='flex' role='presentation' />
+		[31] (288,506)<div  />
+			[32] (251,507)<div  />
+			[33] (272,507)<div >Subreddit />
+			[34] (294,508)<div  />
+				[35] (294,506)<div aria-label='Open Subreddit column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_c382b6c761ca9096298d013187da7120' role='button' />
+	[36] (288,568)<div class='flex' role='presentation' />
+		[37] (288,568)<div  />
+			[38] (251,569)<div  />
+			[39] (280,569)<div >Outreach Draft />
+			[40] (311,571)<div  />
+				[41] (311,568)<div aria-label='Open Outreach Draft column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_748b98e09dc4a0c9af99b584aaf8b85c' role='button' />
+	[42] (288,675)<div class='flex' role='presentation' />
+		[43] (288,675)<div  />
+			[44] (251,676)<div  />
+			[45] (275,676)<div >Is Approved />
+			[46] (301,677)<div  />
+				[47] (301,674)<div aria-label='Open Is Approved column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_18f1440ce564eb84c06421ddc23e9d6b' role='button' />
+	[48] (288,737)<div class='flex' role='presentation' />
+		[49] (288,737)<div  />
+			[50] (251,738)<div  />
+			[51] (282,738)<div >Assigned Agent />
+			[52] (314,739)<div  />
+				[53] (314,737)<div aria-label='Open Assigned Agent column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_74f4b9e01c2670a56a2ae18951b475b6' role='button' />
+	[54] (288,799)<div class='flex' role='presentation' />
+		[55] (288,799)<div  />
+			[56] (251,800)<div  />
+			[57] (276,800)<div >Posted Date />
+			[58] (302,802)<div  />
+				[59] (302,799)<div aria-label='Open Posted Date column menu' class='pointer link-unquiet flex-inline items-center hide-print px-half quieter focus-visible' id='id_ae04a36c722bb7722b92d2fd6289b919' role='button' />
+	[60] (383,801)<input class='date background-transparent width-full truncate text-color-default line-height-4 placeholder-text-subtle text-size-default px0 py-half flex-auto' placeholder='mm/dd/yyyy' />
+	Date format: mm/dd/yyyy
+	[61] (293,856)<div class='flex-inline focus-visible rounded hide-print items-center link pointer text-color-quiet' role='button' />
+		[62] (298,856)<span >Add new field to this table />
+	[63] (672,180)<div aria-label='Open activity feed menu' class='flex items-center focus-visible cursor-pointer colors-background-selected-hover rounded px1 py-half mln1' id='id_4b03aaa7b332ae77ab3a035bd7ea78b1' role='button' />
+		[64] (665,180)<span >All comments />
+	[65] (773,180)<button aria-label='Record comment notifications watching toggle' class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default background-transparent colors-background-selected-hover px1 button-size-small flex-inline mr-half' id='id_a4382a2889765bfc57821693ae8b9eba' />
+	Start a conversation
+	Ask questions, keep track of status updates, and collaborate with your team — directly in Airtable.
+	[66] (717,631)<div class='flex items-center pointer focus-visible rounded-big colors-background-subtle px1 center' role='button' />
+		[67] (717,631)<span >Invite collaborators />
+	T
+	[68] (726,949)<div aria-label='Comment' class='contentEditableTextbox light-scrollbar ignore-baymax-defaults hideBorder rounded-big hideBorderWithFocus showPlaceholder' placeholder='Leave a comment' role='textbox' />
+	[69] (782,953)<div >@ />
+	[70] (465,621)<div  />
+		[71] (465,621)<div  />
+			[72] (465,499)<input aria-label='Find an option' class='css-1uw7fyx background-transparent p1 flex-auto' placeholder='Find an option' role='combobox' />
+			[73] (465,639)<div role='none' scrollable='true' />
+				[74] (461,538)<li class='width-full rounded p1 flex items-center overflow-hidden pointer' id='2c9907f5f2c04da815f53aba4cc5c154-0' role='option' />
+					[75] (352,538)<div  />
+				[76] (461,580)<li class='width-full rounded p1 flex items-center overflow-hidden pointer' id='2c9907f5f2c04da815f53aba4cc5c154-1' role='option' />
+					[77] (364,580)<span  />
+						[78] (364,580)<span  />
+							[79] (364,580)<div  />
+								[80] (364,580)<div >New />
+				[81] (461,622)<li class='width-full rounded p1 flex items-center overflow-hidden pointer' id='2c9907f5f2c04da815f53aba4cc5c154-2' role='option' />
+					[82] (371,622)<span  />
+						[83] (371,622)<span  />
+							[84] (371,622)<div  />
+								[85] (371,622)<div >Qualified />
+				[86] (461,664)<li class='width-full rounded p1 flex items-center overflow-hidden pointer' id='2c9907f5f2c04da815f53aba4cc5c154-3' role='option' />
+					[87] (372,664)<span  />
+						[88] (372,664)<span  />
+							[89] (372,664)<div  />
+								[90] (372,664)<div >Approved />
+				[91] (461,707)<li class='width-full rounded p1 flex items-center overflow-hidden pointer' id='2c9907f5f2c04da815f53aba4cc5c154-4' role='option' />
+					[92] (368,707)<span  />
+						[93] (368,707)<span  />
+							[94] (368,707)<div  />
+								[95] (368,707)<div >Posted />
+				[96] (461,749)<li class='width-full rounded p1 flex items-center overflow-hidden pointer' id='2c9907f5f2c04da815f53aba4cc5c154-5' role='option' />
+					[97] (371,749)<span  />
+						[98] (371,749)<span  />
+							[99] (371,749)<div  />
+								[100] (371,749)<div >Rejected />
+Add field
+You can also insert a new lead anywhere by pressing Shift-Enter
+
+</current_dom>
