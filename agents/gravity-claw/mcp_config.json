@@ -7,6 +7,42 @@
                 "@modelcontextprotocol/server-filesystem",
                 "/Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress"
             ]
+        },
+        "StitchMCP": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote",
+                "https://stitch.googleapis.com/mcp",
+                "--header",
+                "X-Goog-Api-Key: AQ.Ab8RN6KaYly9Z4hy-HVVXaGUyeK4e1fdlTSkFebwzWxUJPBYxA"
+            ]
+        },
+        "RubeMCP": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote",
+                "https://rube.app/mcp"
+            ]
+        },
+        "StitchMCP": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote",
+                "https://stitch.googleapis.com/mcp",
+                "--header",
+                "X-Goog-Api-Key: AQ.Ab8RN6KaYly9Z4hy-HVVXaGUyeK4e1fdlTSkFebwzWxUJPBYxA"
+            ]
+        },
+        "RubeMCP": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote",
+                "https://rube.app/mcp"
+            ]
         }
     }
 }

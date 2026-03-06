@@ -7,6 +7,7 @@ import {
     executeSearchMemory
 } from "../tools/memory.js";
 import { deployToolDefinition, executeDeploy } from "../tools/deploy.js";
+import { generateImageToolDefinition, executeGenerateImage } from "../tools/image.js";
 import { mcpManager } from "../tools/mcp.js";
 import { saveChatHistory, loadChatHistory } from "../memory/db.js";
 
@@ -19,7 +20,7 @@ const MAX_HISTORY_TURNS = 20; // Keep last 20 turns per chat to avoid token over
 
 // ─── Website File Map (baked into prompt to avoid wasteful directory scans) ──
 const WEBSITE_ROOT = "/Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress";
-const FILE_MAP = `
+export const FILE_MAP = `
 WEBSITE ROOT: ${WEBSITE_ROOT}
 KEY FILES (use these exact paths with filesystem__read_text_file and filesystem__edit_file):
 - ${WEBSITE_ROOT}/index.html              (Homepage / landing page)
@@ -35,81 +36,67 @@ KEY FILES (use these exact paths with filesystem__read_text_file and filesystem_
 // In-memory cache, loaded from SQLite on first access, saved after each message
 const chatHistoryCache = new Map<string, Content[]>();
 
-function getHistory(chatId: string): Content[] {
-    if (!chatHistoryCache.has(chatId)) {
+function getHistory(chatId: string, botName: string): Content[] {
+    const compositeKey = `${botName}_${chatId}`;
+    if (!chatHistoryCache.has(compositeKey)) {
         // Load from SQLite on first access (survives restarts!)
-        const persisted = loadChatHistory(chatId) as Content[];
-        chatHistoryCache.set(chatId, persisted);
+        const persisted = loadChatHistory(compositeKey) as Content[];
+        chatHistoryCache.set(compositeKey, persisted);
         if (persisted.length > 0) {
-            console.log(`[HISTORY] Restored ${persisted.length} entries for chat ${chatId} from SQLite.`);
+            console.log(`[HISTORY] Restored ${persisted.length} entries for ${botName} in chat ${chatId} from SQLite.`);
         }
     }
-    return chatHistoryCache.get(chatId)!;
+    return chatHistoryCache.get(compositeKey)!;
 }
 
-function saveAndTrimHistory(chatId: string) {
-    const history = getHistory(chatId);
+function saveAndTrimHistory(chatId: string, botName: string) {
+    const compositeKey = `${botName}_${chatId}`;
+    const history = getHistory(chatId, botName);
     const maxEntries = MAX_HISTORY_TURNS * 2;
     if (history.length > maxEntries) {
         const trimmed = history.slice(history.length - maxEntries);
-        chatHistoryCache.set(chatId, trimmed);
+        chatHistoryCache.set(compositeKey, trimmed);
     }
     // Persist to SQLite
-    saveChatHistory(chatId, chatHistoryCache.get(chatId)!);
+    saveChatHistory(compositeKey, chatHistoryCache.get(compositeKey)!);
+}
+
+export interface AgentContext {
+    name: string;
+    systemPrompt: string;
+    allowMcpFilesystem: boolean;
+}
+
+export const ALL_BOT_NAMES = ["Max", "Asan", "MarkBTM", "Vikas", "Ahmad"];
+
+export function injectMemoryToOtherBots(chatId: string, senderBotName: string, text: string) {
+    const messageToInject = `[${senderBotName}]: ${text}`;
+
+    for (const botName of ALL_BOT_NAMES) {
+        if (botName === senderBotName) continue;
+
+        // Retrieve the other bot's history (loads from SQLite if not in cache)
+        const otherHistory = getHistory(chatId, botName);
+
+        // Inject the message as if the user said it (so the bot reads it as context)
+        otherHistory.push({ role: "user", parts: [{ text: messageToInject }] });
+        // Add a blank model response to maintain the strict alternating user/model/user/model array structure required by Gemini
+        otherHistory.push({ role: "model", parts: [{ text: "(Acknowledged internally)" }] });
+
+        saveAndTrimHistory(chatId, botName);
+    }
 }
 
 // ─── Agent Loop ─────────────────────────────────────────────────────────────
-export async function processAgentMessage(userParts: any[], chatId: string, onProgress?: (msg: string) => Promise<void>): Promise<string> {
+export async function processAgentMessage(
+    userParts: any[],
+    chatId: string,
+    agentContext: AgentContext,
+    onProgress?: (msg: string) => Promise<void>,
+    onPhoto?: (path: string) => Promise<void>
+): Promise<string> {
 
-    // Multi-Agent Router
-    let SYSTEM_PROMPT = `You are a helpful and concise AI assistant.`;
-
-    if (chatId === process.env.HQ_GROUP_ID) {
-        SYSTEM_PROMPT = `
-You are Max, Chief of Staff for 'The Residential Address' businesses.
-You are professional, concise, and helpful. You manage your creator's business.
-
-IMPORTANT — BE EFFICIENT WITH TOOL CALLS:
-You already know the website structure. DO NOT waste tool calls listing directories or searching for files.
-Go directly to reading and editing the file you need.
-
-${FILE_MAP}
-
-LIVE SITE URL: https://www.theresidentialaddress.com
-When the user asks for a link, send them the live URL for the page you edited. Examples:
-- Homepage:       https://www.theresidentialaddress.com/
-- LLC Formation:  https://www.theresidentialaddress.com/llc-formation.html
-- Bank Assistance: https://www.theresidentialaddress.com/bank-assistance.html
-- ITIN:           https://www.theresidentialaddress.com/itin-application.html
-- US Phone:       https://www.theresidentialaddress.com/us-phone.html
-- US Address:     https://www.theresidentialaddress.com/us-address-service.html
-
-WORKFLOW for editing website content:
-1. Use filesystem__read_text_file with the exact path above to read the file.
-2. Use filesystem__edit_file to make targeted changes (provide old_text and new_text).
-3. Confirm what you changed, and send the live URL for the page.
-4. If the user wants it live immediately, use deploy_website to push changes.
-
-Other tools:
-- deploy_website: commits and pushes changes to make them live.
-- search_memory / remember_fact: for business facts and preferences.
-- get_current_time: for current time.
-`;
-    } else if (chatId === process.env.PERSONAL_GROUP_ID) {
-        SYSTEM_PROMPT = `
-You are a Personal Researcher and Assistant.
-You handle general questions, look up facts, and assist with personal tasks.
-If you need current time, use the get_current_time tool.
-`;
-    } else {
-        // Fallback for direct messages to the bot
-        SYSTEM_PROMPT = `
-You are Gravity Claw, a personal agent serving your creator.
-You are secure, concise, and helpful.
-If you need current time, use the get_current_time tool.
-You have access to the project filesystem via MCP tools (prefixed with 'filesystem__').
-`;
-    }
+    const SYSTEM_PROMPT = agentContext.systemPrompt;
 
     // --- Dynamically gather MCP tools ---
     const mcpToolMap = new Map<string, { serverName: string; originalName: string }>();
@@ -118,6 +105,11 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
     try {
         const mcpTools = await mcpManager.getAllTools();
         for (const tool of mcpTools) {
+            // If it's a filesystem tool, only add it if allowed
+            if (tool.serverName === 'filesystem' && !agentContext.allowMcpFilesystem) {
+                continue;
+            }
+
             mcpToolMap.set(tool.geminiTool.name, {
                 serverName: tool.serverName,
                 originalName: tool.originalName
@@ -125,13 +117,13 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
             mcpFunctionDeclarations.push(tool.geminiTool);
         }
         if (mcpFunctionDeclarations.length > 0) {
-            console.log(`[AGENT] Loaded ${mcpFunctionDeclarations.length} MCP tool(s): ${mcpFunctionDeclarations.map((t: any) => t.name).join(', ')}`);
+            console.log(`[${agentContext.name}] Loaded ${mcpFunctionDeclarations.length} MCP tool(s)`);
         }
     } catch (err) {
-        console.error("[AGENT] Failed to load MCP tools, continuing with native tools only.", err);
+        console.error(`[${agentContext.name}] Failed to load MCP tools.`, err);
     }
 
-    // Combine native + MCP tool declarations
+    // Combine native + conditionally loaded MCP tool declarations
     const allFunctionDeclarations = [
         getTimeToolDefinition,
         rememberFactToolDefinition,
@@ -140,8 +132,12 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
         ...mcpFunctionDeclarations
     ];
 
-    // Retrieve conversation history for this chat (loaded from SQLite if first access)
-    const history = getHistory(chatId);
+    if (agentContext.name === "Vikas") {
+        allFunctionDeclarations.push(generateImageToolDefinition as any);
+    }
+
+    // Retrieve conversation history for this specific bot in this chat
+    const history = getHistory(chatId, agentContext.name);
 
     // Create a chat session WITH history so Max remembers previous messages
     const chat = ai.chats.create({
@@ -157,6 +153,8 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
     });
 
     let iteration = 0;
+    let lastGeneratedImagePath: string | null = null;
+
     // Send the initial user message
     let response = await chat.sendMessage({ message: userParts });
 
@@ -165,7 +163,7 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
 
         // 1. Handle Tool Calls
         if (response.functionCalls && response.functionCalls.length > 0) {
-            console.log(`[AGENT] Iteration ${iteration}: Calling ${response.functionCalls.length} tool(s)...`);
+            console.log(`[${agentContext.name}] Iteration ${iteration}: Calling ${response.functionCalls.length} tool(s)...`);
 
             if (onProgress && response.functionCalls[0]?.name) {
                 const cName = response.functionCalls[0].name;
@@ -195,6 +193,18 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
                 } else if (call.name === "deploy_website") {
                     const args = call.args as unknown as { commit_message: string };
                     result = await executeDeploy(args);
+                } else if (call.name === "generate_image") {
+                    const args = call.args as unknown as { prompt: string };
+                    const res = await executeGenerateImage(args);
+                    if (typeof res === "object" && res.type === "image") {
+                        if (onPhoto) {
+                            await onPhoto(res.path).catch(console.error);
+                        }
+                        result = "Image successfully generated and sent to the chat.";
+                        lastGeneratedImagePath = res.path;
+                    } else {
+                        result = res; // string error
+                    }
                 }
                 // --- MCP Tools (Dynamic Routing) ---
                 else if (mcpToolMap.has(call.name!)) {
@@ -242,12 +252,39 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
                 // Save conversation turn to history + persist to SQLite
                 history.push({ role: "user", parts: userParts });
                 history.push({ role: "model", parts: [{ text: finalText }] });
-                saveAndTrimHistory(chatId);
+
+                if (lastGeneratedImagePath) {
+                    try {
+                        const fs = require('fs');
+                        const imgBuf = fs.readFileSync(lastGeneratedImagePath);
+                        history.push({
+                            role: "user",
+                            parts: [
+                                { text: "System Notification: Here is the image you just generated. Please review it carefully to ensure the spelling and design meet requirements." },
+                                {
+                                    inlineData: {
+                                        data: imgBuf.toString("base64"),
+                                        mimeType: "image/jpeg"
+                                    }
+                                }
+                            ]
+                        });
+                        history.push({ role: "model", parts: [{ text: "(Image received and stored in visual memory)" }] });
+                    } catch (e) {
+                        console.error("Failed to load generated image to memory:", e);
+                    }
+                    lastGeneratedImagePath = null;
+                }
+
+                saveAndTrimHistory(chatId, agentContext.name);
+
+                // --- HIVE MIND INJECTION ---
+                injectMemoryToOtherBots(chatId, agentContext.name, finalText);
 
                 return finalText;
             } else {
                 // Edge case: model returned neither tools nor text
-                console.warn(`[AGENT] Iteration ${iteration}: No text and no tool calls. Nudging model for a summary...`);
+                console.warn(`[${agentContext.name}] Iteration ${iteration}: No text and no tool calls. Nudging model for a summary...`);
                 response = await chat.sendMessage({
                     message: "Please provide a summary of what you just did, or if you encountered an issue, explain what happened."
                 });
@@ -258,7 +295,7 @@ You have access to the project filesystem via MCP tools (prefixed with 'filesyst
     // Save even if we hit max iterations
     history.push({ role: "user", parts: userParts });
     history.push({ role: "model", parts: [{ text: "I was working on your request but it required too many steps. Please try breaking it into smaller tasks." }] });
-    saveAndTrimHistory(chatId);
+    saveAndTrimHistory(chatId, agentContext.name);
 
     return "⚠️ I was working on your request but it required too many steps. Try breaking it into a smaller task (e.g., 'Read us-phone.html' first, then 'Update the hero section to say X').";
 }

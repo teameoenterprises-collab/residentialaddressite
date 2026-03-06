@@ -25,6 +25,14 @@ export class MCPManager {
 
             console.log(`🔌 Discovered ${Object.keys(config.mcpServers).length} MCP Server(s) in config.`);
 
+            // Dynamically fix the filesystem path based on environment
+            if (config.mcpServers.filesystem) {
+                const fsArgs = config.mcpServers.filesystem.args;
+                config.mcpServers.filesystem.args = fsArgs.map(arg =>
+                    arg.includes('/Users/tahmidnur') ? process.cwd() : arg
+                );
+            }
+
             for (const [serverName, serverConfig] of Object.entries(config.mcpServers)) {
                 await this.connectToServer(serverName, serverConfig);
             }
