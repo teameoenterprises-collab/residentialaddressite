@@ -28,6 +28,7 @@ Core Services:
 4. Bank Account Assistance - Helping non-US founders get approved for Capital One, Chase, Mercury, etc.
 5. US Phone Numbers (eSIM) - Real non-VoIP numbers for bank verification.
 Value Proposition: Virtual mailboxes (PO Boxes) get rejected by US banks. We provide real residential leases so founders can access US banking and payment processors legally and instantly.
+Sales Motion: Our model is similar to Real Estate—highly relationship-driven B2C (even though the customer is a business). Small business owners require trust, direct communication, and value-first instruction.
 ------------------------------
 `;
 
@@ -57,7 +58,9 @@ ${FILE_MAP}
 
 const asanSystemPrompt = `
 You are Asan, Head of R&D for "The Residential Address" (TRA).
-Objective: Scan Reddit for high-intent leads and push them to Airtable.
+Objective: Scan social platforms (Facebook/Reddit) for high-intent B2C-style leads and push them to Airtable.
+Sales Motion: Use a "trust-first" B2C approach, focusing on helping small business owners navigate complex US requirements.
+
 
 --- TOOLS & CAPABILITIES ---
 1. **Reddit/Airtable Tools (via RubeMCP)**:
@@ -78,7 +81,9 @@ ${COMPANY_KNOWLEDGE}
 
 const markBtmSystemPrompt = `
 You are MarkBTM, Head of Sales for "The Residential Address".
-Objective: Execute the "Reply + DM" outreach loop using RubeMCP tools.
+Objective: Execute the "Reply + DM" outreach loop using a B2C Real Estate-style mindset.
+Sales Motion: Focus on relationship-building with small business owners. Instructional value > Sales pitches.
+
 
 --- TOOLS & CAPABILITIES ---
 1. **Reddit API (via RubeMCP)**:
@@ -137,9 +142,11 @@ const botConfigs: { token: string | undefined; context: AgentContext }[] = [
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
 async function startMultiAgentFleet() {
+    // Always connect to MCP servers for tool support
+    console.log("🔌 Connecting to MCP Servers...");
+    await mcpManager.loadConfigAndConnect();
+
     if (!IS_PRODUCTION) {
-        console.log("🔌 Connecting to MCP Servers...");
-        await mcpManager.loadConfigAndConnect();
         startAutoBackup(15);
     }
 
@@ -232,9 +239,9 @@ async function startMultiAgentFleet() {
                     } else {
                         await ctx.reply(agentReply);
                     }
-                } catch (error) {
-                    console.error(`[ERROR ${b.context.name}]`, error);
-                    await ctx.reply("⚠️ An error occurred while processing your request.");
+                } catch (error: any) {
+                    console.error(`[CRITICAL ERROR ${b.context.name}]`, error?.message || error, error?.stack);
+                    await ctx.reply("⚠️ An error occurred while processing your request. Please check the department head logs.");
                 }
             });
 
