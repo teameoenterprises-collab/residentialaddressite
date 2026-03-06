@@ -1,0 +1,47 @@
+# Improving Service Pages Natively - Phase 2 (Deep Research & Expansion)
+
+## Goal Description
+The core infrastructure and global navigation are complete. Now, the goal is to massively elevate the detail, copy, and structural design of the secondary service pages (`llc-formation.html`, `bank-assistance.html`, `itin-application.html`, `us-phone.html`). They are currently functional but lack the depth and premium "wow" factor of the US Address page. We will use deep web research to pull the latest compliance rules, competitor weaknesses, and pricing models to craft highly authoritative copy.
+
+## Methodology for Deep Research
+1. **Web Search & Browsing**: We will use built-in search capabilities to analyze top competitors (e.g., doola, Firstbase, Stripe Atlas for LLCs; OpenPhone, Skype for VoIP issues).
+2. **Data Extraction**: Extract specific failure points (e.g., "Why Mercury rejects Twilio numbers", "Why standard CAA processes take 4 months vs our expedited method").
+3. **Copywriting**: Draft authoritative, fintech-grade copy based on real 2026 data.
+
+## Structural Overhaul Plan (Per Page)
+Instead of just a basic hero and 4 bento cards, we will introduce:
+1. **Competitor Comparison Matrix**: A native CSS table (using our dark/glassmorphic theme) comparing "The Residential Address" vs "Legacy Services" (e.g., us vs doola, real eSIM vs VoIP).
+2. **Step-by-Step Delivery Timeline**: Adapting the successful visual vertical/horizontal timeline from the US Address page to show the exact process for LLCs, ITINs, and Banking.
+3. **Granular Pricing Breakdown**: Specifics on what the one-time fee actually covers (state fees, registered agent, EIN filing).
+4. **Targeted Service-Specific FAQs**: Deep compliance FAQs that demonstrate extreme domain expertise.
+5. **Interactive UI Elements**: Implementing hover states, specific icons, and potentially expanding the use of the `assets/` directory if user provides imagery.
+
+## Order of Execution
+1. Deep Dive: `llc-formation.html`
+2. Deep Dive: `bank-assistance.html`
+3. Deep Dive: `itin-application.html`
+4. Deep Dive: `us-phone-html`
+
+## Verification Plan
+1. **Research Verification**: Ensure facts cited (like Wyoming franchise tax minimums or USPS CMRA rules) are accurate.
+2. **Visual Testing**: Open each deeply expanded page in the browser to ensure the native `style.css` scales perfectly to the new data-heavy components (like comparison tables).
+
+---
+
+# Phase 3: UI/UX Pro Max Integration
+Based on the `ui-ux-pro-max-skill` analysis for "Premium Fintech Services", our target aesthetic is **Liquid Glass (Storytelling + Feature-Rich)**.
+
+## Key Deficiencies Identified
+1. **Missing Sections**: Secondary pages lack Social Proof/Testimonials and detailed Contact/Booking sections recommended by the framework.
+2. **Anti-Patterns Present**: The current bento grids use Emojis (`✅`, `🛂`, etc.) instead of professional SVGs.
+3. **Effects**: We need to enhance the smooth transitions and introduce morphological blur effects.
+
+## Proposed Changes
+### 1. Global CSS (`style.css`)
+- Introduce "Liquid Glass" utility classes (`.liquid-glass-card`).
+- Add sophisticated hover states (150-300ms transitions) matching the Pro Max spec.
+
+### 2. Service Page Updates (`llc-formation`, `bank-assistance`, `itin-application`, `us-phone`)
+- **[MODIFY]** Replace all emoji icons in the `.bento-card` grid with premium inline Lucide SVGs.
+- **[NEW SECTION]** Add a "Social Proof / Testimonials" section featuring the Liquid Glass aesthetic before the FAQ or CTA on every service page.
+- **[MODIFY]** Upgrade the Final CTA section to act as a more pronounced "Booking / Contact" block.

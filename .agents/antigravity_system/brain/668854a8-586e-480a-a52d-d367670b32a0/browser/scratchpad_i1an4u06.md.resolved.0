@@ -1,0 +1,19 @@
+# Task: Airtable Organization for Reddit Outreach
+
+## Plan:
+- [ ] Navigate to Airtable Base (app4v0TIpyA6zMZCh)
+- [ ] Verify/Rename "Reddit Leads" to "Reddit Comments"
+- [ ] Switch to "Reddit Posts" table
+- [ ] Verify/Add fields in "Reddit Posts":
+    - [ ] Status (Single Select: New, Qualified, Approved, Posted, Rejected)
+    - [ ] Subreddit (Single Line Text)
+    - [ ] Post Title Draft (Single Line Text - Primary Field)
+    - [ ] Post Body Draft (Long Text)
+    - [ ] Is Approved (Checkbox)
+    - [ ] Reddit Live Link (URL)
+    - [ ] Assigned Agent (Single Line Text, default: MarkBTM)
+    - [ ] Posted Date (Date)
+- [ ] Take screenshots of:
+    - [ ] Table tabs
+    - [ ] Field headers for "Reddit Posts"
+- [ ] Identify and report Base ID and Table IDs.

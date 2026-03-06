@@ -1,0 +1,17 @@
+# Task: Build Multi-Agent Org Chart (Teameo Enterprises)
+
+- [x] Add all Department Head bot tokens to [.env](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/.env)
+- [x] Refactor [index.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/index.ts) to launch multiple Telegraf/grammy bot instances concurrently
+- [x] Develop routing logic (deciding which agent handles which message)
+- [x] Refactor [loop.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/agent/loop.ts) memory architecture (`botName_chatId`) to isolate agent contexts
+- [x] Build "Hive Mind" memory injection ([injectMemoryToOtherBots](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/agent/loop.ts#71-88)) to bypass Telegram bot blindness
+- [x] Implement Head of R&D (Asan) capabilities
+- [x] Implement Head of Sales (MarkBTM) capabilities
+- [x] Implement Head of Marketing (Vikas) capabilities
+- [x] Implement Head of Operations (Ahmad) capabilities
+
+
+
+
+
+

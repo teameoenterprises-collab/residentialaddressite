@@ -1,0 +1,61 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Grid view
+Hide fields
+Filter
+Group
+Sort
+Color
+Share and sync
+Create new...
+Grid view
+Reddit Post Link
+1
+https://www.reddit.com/r/stripe/comments/example1
+2
+https://www.reddit.com/r/digitalnomad/comments/example2
+3
+https://www.reddit.com/r/startup/comments/example3
+Lead Content
+Status
+Subreddit
+Outreach Draft
+Is Approved
+Assigned Agent
+Posted Date
+Founder from Yemen facing account locks due to registration issues.
+New
+r/stripe
+Hey, we've seen many founders from Yemen and similar regions face Stripe registration hurdles. We provide a real US residential address footprint (leases and utility bills) to help establish a legitimate presence for your business. DM me if you'd like to chat about how we set this up.
+MarkBTM
+3/1/2026
+Struggling with proof of address; virtual addresses being rejected.
+New
+r/digitalnomad
+Virtual addresses are frequently flagged and rejected by financial institutions now. For true digital nomad proof of address, we provide real residential leases and utility bills in the US. This ensures your KYC checks pass consistently. Happy to help if you're stuck!
+MarkBTM
+3/1/2026
+UK startup needing a US base for Stripe Atlas but lacking a US address.
+New
+r/startup
+Expanding a UK startup to the US via Stripe Atlas is great, but the address requirement can be tricky. We provide real US residential addresses with proper documentation to satisfy physical presence requirements. DM if you need help navigating this!
+MarkBTM
+3/1/2026
+Add…
+3 leads
+T
+The Residential Address - Outreach
+Data
+Automations
+Interfaces
+Forms
+Trial: 14 days left
+Launch
+Share
+Add or import
+Tools
+Reddit Leads
+
+</current_dom>

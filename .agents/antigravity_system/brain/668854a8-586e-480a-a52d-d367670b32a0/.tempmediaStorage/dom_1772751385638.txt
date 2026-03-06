@@ -1,0 +1,198 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	[1] (270,142)<div aria-label='Close sidebar' class='mr-half flex items-center justify-center focus-visible cursor-pointer css-hoen6i' role='button' />
+	[2] (314,142)<div class='flex items-center pointer colors-background-selected-hover rounded focus-visible px1' id='id_bdb66916c3a2d907bb4b43e9687a1f8b' role='button' />
+		[3] (314,142)<div  />
+			[4] (289,142)<span  />
+			[5] (314,142)<span >Grid view />
+			[6] (338,142)<div  />
+	[7] (435,142)<div aria-label='Hide fields' class='focus-visible mr1' role='button' />
+		[8] (435,142)<div  />
+			[9] (440,142)<div >Hide fields />
+	[10] (484,142)<div aria-label='Filter rows' class='collapsed focus-visible' id='id_847e173c41f89da3d8a34dcda0a8bd37' role='button' />
+		[11] (484,142)<div  />
+			[12] (490,142)<div  />
+				[13] (490,142)<span >Filter />
+	[14] (526,142)<div aria-label='Group rows' class='collapsed focus-visible mr1' role='button' />
+		[15] (526,142)<div  />
+			[16] (532,142)<div >Group />
+	[17] (567,142)<div aria-label='Sort rows' class='focus-visible collapsed mr1' role='button' />
+		[18] (567,142)<div  />
+			[19] (572,142)<div >Sort />
+	[20] (606,142)<div aria-label='Row colors' class='collapsed focus-visible mr1' id='viwjB2EGlR8CIr7YW-colorConfigButton' role='button' />
+		[21] (606,142)<div  />
+			[22] (612,142)<div >Color />
+	[23] (638,142)<div aria-label='Row height' class='focus-visible mr1' role='button' />
+		[24] (638,142)<div  />
+	[25] (686,142)<div aria-label='Share and sync' class='focus-visible' id='id_ac0527a4a2b97c5e8cd6647e72eef847' role='button' />
+		[26] (686,142)<div  />
+			[27] (691,142)<div >Share and sync />
+	[28] (737,142)<div aria-label='toggle view search input' class='flex items-center justify-center focus-visible cursor-pointer css-c45rhi' role='button' />
+	[29] (330,198)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default background-transparent colors-background-selected-hover px1-and-half button-size-default flex width-full pl1-and-half' id='id_37a6ec5dc04a24d618412a64ee9b6aef'>Create new... />
+		Create new...
+	[30] (330,238)<input aria-label='Find a view' class='ignore-baymax-defaults width-full stroked-blue-inset-outset-focus css-7qul8y' placeholder='Find a view' />
+	[31] (391,238)<div aria-label='View list options' class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' id='id_7dc1d82f6a7062329c8611b3b08ead7a' role='button' />
+	[32] (330,282)<li class='rounded pointer flex relative justify-center flex-column pt1 pb1 px1-and-half css-0' id='id_5b94c4ad5197bc896a5a3e54abe533f1-viwjB2EGlR8CIr7YW' role='option' />
+		[33] (330,282)<div  />
+			[34] (330,282)<div  />
+				[35] (270,282)<span  />
+				[36] (294,282)<span >Grid view />
+	[37] (405,576)<div class='absolute top-0 right-0 bottom-0 colors-background-primary-control-hover cursor-col-resize background-transparent focus-visible' role='separator' />
+	[38] (577,576)<div  />
+		[39] (501,186)<span  />
+			Reddit Post Link
+		1
+		2
+		3
+		[40] (691,187)<div aria-label='add a field' class='gridHeaderRowAddFieldButton cell ghost' role='button' />
+		Lead Content
+		Status
+		Subreddit
+		Outreach Draft
+		Is Approved
+		[41] (619,186)<span  />
+			Assigned Agent
+		[42] (423,930)<div aria-label='Add lead' class='focus-visible' role='button' />
+			[43] (423,930)<div  />
+				[44] (424,930)<span  />
+		[45] (459,930)<div aria-label='Add more' class='focus-visible' role='button' />
+			[46] (459,930)<div  />
+				[47] (462,930)<span >Add… />
+		3 leads
+		[48] (618,956)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[49] (617,957)<div  />
+				[50] (647,957)<p  />
+	[51] (15,500)<aside  />
+		[52] (15,31)<a aria-label='Back to home' class='flex flex-none relative pointer circle focus-visible-white colors-border-emphasis' href='/' id='appTopBarHomeButton' />
+			[53] (15,31)<div  />
+				[54] (15,31)<div  />
+		[55] (15,78)<div aria-label='Close Omni' class='flex items-center justify-center pointer circle focus-visible-white cursor-pointer text-orange-dusty css-1azag67 focus-visible' role='button' />
+			[56] (15,78)<div  />
+				[57] (15,78)<div  />
+		[58] (15,122)<div class='flex items-center justify-center circle pointer animate-ease-in-out colors-background-raised-control-hover-hover focus-visible' role='button' />
+		[59] (15,167)<div class='flex items-center justify-center circle pointer animate-ease-in-out colors-background-raised-control-hover-hover focus-visible' role='button' />
+		[60] (15,211)<div class='flex items-center justify-center circle pointer animate-ease-in-out colors-background-raised-control-hover-hover focus-visible' role='button' />
+		[61] (15,878)<div aria-label='Help menu' class='focus-visible-current-color pointer flex items-center focus-visible-opaque justify-center flex-reverse circle colors-background-raised-control-hover-hover top-bar-text-dark-hover focus-visible' role='button' />
+		[62] (15,922)<div aria-label='No unseen notifications' class='relative flex items-center focus-visible-current-color pointer pill focus-visible' id='id_cb94f56410746cdce9a883302f8c831c' role='button' />
+			[63] (15,922)<div  />
+				[64] (15,922)<div  />
+					[65] (21,910)<div  />
+					[66] (15,923)<div  />
+		[67] (15,967)<div aria-label='Account' class='flex-none flex items-center ml1 focus-visible-current-color pointer circle shadow-elevation-low shadow-elevation-low-hover focus-visible' id='id_a524fbd5c3df6006c65a24c19e9797e1' role='button' />
+			[68] (15,967)<div  />
+				[69] (15,967)<div  />
+					[70] (15,967)<div  />
+						[71] (15,967)<div aria-label='T' class='userIcon circle dark-mode-darken-app-color cyan border border-white' role='img' />
+							[72] (15,967)<div >T />
+	[73] (143,500)<div  />
+		[74] (56,33)<div class='flex-auto flex items-center px-three-quarters py-half rounded-big focus-visible' id='id_e7c3af7a4959a43d6ae2e1aa123ae158' role='button'>New chat />
+			New chat
+		[75] (221,33)<div class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' role='button' />
+		[76] (239,33)<div class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' role='button' />
+		How can I help?
+		[77] (143,442)<div class='relative flex flex-auto rounded-big overflow-hidden colors-background-raised-control flex-column justify-center z2 outline-offset-0 shadow-elevation-low shadow-elevation-low-hover focus-visible' id='aiAssistantInputTextArea' role='button' />
+			[78] (143,411)<textarea aria-label='Ask or build anything…' class='flex-auto rounded-big line-height-4 text-size-large' placeholder='Ask or build anything…' />
+			[79] (66,476)<div class='flex items-center justify-center pointer pill border focus-visible mr-half px1 colors-foreground-subtle colors-background-selected-hover colors-border-default' role='button' />
+				[80] (71,476)<p >Tools />
+			[81] (97,476)<div class='flex items-center justify-center circle focus-visible border colors-foreground-subtle colors-border-default cursor-pointer colors-background-selected-hover' role='button' />
+			[82] (230,476)<span aria-label='Submit' class='flex items-center justify-center focus-visible circle css-104xqr0' role='button' />
+		[83] (71,540)<div class='py1-and-half font-weight-strong cursor-pointer focus-visible colors-foreground-default' role='button'>Recommended />
+		[84] (111,540)<div class='py1-and-half font-weight-strong cursor-pointer focus-visible colors-foreground-subtle' role='button'>Ask />
+		[85] (140,540)<div class='py1-and-half font-weight-strong cursor-pointer focus-visible colors-foreground-subtle' role='button'>Analyze />
+		[86] (170,540)<div class='py1-and-half font-weight-strong cursor-pointer focus-visible colors-foreground-subtle' role='button'>Build />
+		[87] (143,673)<div  />
+			[88] (143,601)<div class='py1-and-half flex items-center focus-visible outline-inner border-bottom colors-border-default' role='button' />
+				[89] (143,600)<p >Create an interface page for managing and updating Reddit Leads statuses />
+			[90] (143,673)<div class='py1-and-half flex items-center focus-visible outline-inner border-bottom colors-border-default' role='button' />
+				[91] (143,673)<p >Create an automation to notify Assigned Agent when a lead is marked Approved />
+			[92] (143,745)<div class='py1-and-half flex items-center focus-visible outline-inner' role='button' />
+				[93] (143,745)<p >Create a field agent to generate outreach draft messages based on Lead Content and Subreddit />
+		[94] (143,947)<div class='flex items-center p1 rounded-big shadow-elevation-low cursor-pointer focus-visible' role='button' />
+			[95] (56,947)<div  />
+			[96] (147,947)<div  />
+				[97] (147,938)<p  />
+					[98] (147,938)<span >Explore field agents />
+				[99] (147,958)<p >Research, summarize, and analyze with AI />
+			[100] (233,947)<div  />
+	[101] (623,49)<div  />
+		[102] (364,49)<div aria-label='Open base settings menu' class='flex items-center huge pointer line-height-3 focus-visible-current-color rounded css-w1u7fo focus-visible' role='button' />
+			[103] (359,49)<div >The Residential Address - Outreach />
+		[104] (562,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh' />
+			[105] (562,49)<p >Data />
+		[106] (599,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/automations' />
+			[107] (599,49)<p >Automations />
+		[108] (646,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/interfaces?origin=topnav' />
+			[109] (646,49)<p >Interfaces />
+		[110] (682,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/forms?origin=topnav' />
+			[111] (682,49)<p >Forms />
+		[112] (790,49)<div aria-label='Base history' class='pointer flex justify-center items-center circle focus-visible-current-color colors-background-raised-control-hover-hover top-bar-text-light top-bar-text-light-hover focus-visible' id='id_15327fd35154a3489e7dc01139ed7541' role='button' />
+		[113] (841,49)<div class='flex items-baseline justify-center pointer px1-and-half pill focus-visible mx1 nowrap darken1 colors-foreground-default css-1amw26v' id='id_180501d6511ad53edc3cb7a52e62d001' role='button'>Trial: 14 days left />
+		[114] (905,49)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default colors-background-raised-control shadow-elevation-low shadow-elevation-low-hover px1 button-size-small flex-inline focus-visible-current-color'>Launch />
+			Launch
+		[115] (939,49)<div class='flex items-center justify-center focus-visible cursor-pointer shadow-elevation-low shadow-elevation-low-hover css-leewk5' role='button' title='Copy link' />
+		[116] (967,49)<div class='erahsButton flex items-center pointer line-height-4 text-size-default font-weight-strong shadow-elevation-low shadow-elevation-low-hover rounded-big orange-dusty focus-visible-current-color focus-visible' id='top-bar-primary-cta-erahs-button' role='button' />
+			[117] (967,49)<span >Share />
+	[118] (623,99)<div  />
+		[119] (288,99)<div  />
+			[120] (288,99)<div  />
+				[121] (288,99)<a class='height-full flex flex-auto items-center max-width-2 no-user-select focus-visible pl1-and-half' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s?blocks=show' />
+					[122] (283,99)<span >Reddit Leads />
+				[123] (309,99)<div  />
+					[124] (311,99)<div aria-label='Reddit Leads table options' class='pointer flex-none focus-visible focus-visible-opaque ml1 flex items-center colors-foreground-subtle colors-foreground-default-parent-hover' role='button' />
+		[125] (333,99)<div aria-label='Search all tables' class='pointer flex flex-none justify-center items-center focus-visible-opaque focus-container px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' role='button' />
+		[126] (380,99)<div aria-label='Add or import table' class='pointer flex items-center flex-none focus-visible-opaque rounded px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' id='id_e013d5334862fb4d7b028709ff1e5690' role='button' />
+			[127] (386,99)<p >Add or import />
+	[128] (778,99)<div  />
+		[129] (778,99)<div class='flex items-center pointer px1-and-half top-bar-text-dark top-bar-text-dark-hover strong top-bar-text-dark-hover-forced focus-visible' role='button' />
+			[130] (774,99)<div >Extensions />
+	[131] (962,99)<div aria-label='Enable full screen side panel' class='mr-half focus-visible-current-color flex items-center justify-center focus-visible cursor-pointer css-989kmd' role='button' />
+	[132] (979,99)<div aria-label='Close side panel' class='focus-visible-current-color flex items-center justify-center focus-visible cursor-pointer css-989kmd' role='button' />
+	Extensions give your base superpowers.
+	Search
+	Chart
+	Map
+	Page designer
+	Dedupe
+	CSV import
+	Org chart
+	[133] (870,733)<div class='mt2 link text-white blue inline-block pointer strong py1 px2 rounded focus-visible clickable-stroked1-inset text-white' role='button'>Add an extension />
+	[134] (253,500)<div aria-label='AI Assistant sidebar width' class='absolute top-0 bottom-0 cursor-col-resize hover-container z3 my-quarter focus-visible' role='separator' />
+		[135] (254,500)<div  />
+		[136] (255,500)<div  />
+	[137] (773,233)<input aria-label='Field name (optional)' class='css-bao0pl ignore-baymax-defaults width-full stroked-blue-inset-outset-focus' placeholder='Field name (optional)' />
+	[138] (773,278)<div class='flex-auto flex items-center flex items-center px1 pointer animate rounded-big overflow-hidden colors-background-raised-control border-none focus-visible-stroked-inset-blue-focus outline-offset-0 shadow-elevation-low shadow-elevation-low-hover' role='button' />
+		[139] (775,278)<div  />
+			[140] (699,278)<div >Date />
+	Enter a date (e.g. 11/12/2023) or choose one from a calendar.
+	[141] (773,377)<label class='block text-dark small mb1 quiet' id='date-format-select-label'>Date format />
+	[142] (773,413)<button class='mb2 ignore-baymax-defaults width-full flex items-center left-align px1 rounded-big colors-background-raised-control border-none focus-visible-stroked-inset-blue-focus outline-offset-0 shadow-elevation-low shadow-elevation-low-hover pointer' id='date-format-select' />
+		[143] (767,413)<div >Local (3/5/2026) />
+	[144] (773,459)<div class='focusable flex items-center pointer link-quiet mb1-and-half' role='button' />
+		[145] (679,459)<div  />
+			[146] (677,459)<div  />
+		[147] (709,459)<div >Include time />
+	[148] (773,492)<div class='focusable flex items-center pointer mb1-and-half link-quiet width-full' role='button' />
+		[149] (679,492)<div  />
+			[150] (677,492)<div  />
+		[151] (717,492)<div >Display time zone />
+	Default option
+	[152] (773,564)<div class='focusable flex items-center pointer mb1-and-half link-quiet width-full' role='button' />
+		[153] (679,564)<div  />
+			[154] (677,564)<div  />
+		[155] (705,564)<div >Default to />
+		[156] (755,564)<div  />
+			[157] (731,564)<div  />
+			[158] (758,564)<div >Current date />
+	[159] (713,629)<button aria-label='Add description' class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default background-transparent colors-background-selected-hover px1-and-half button-size-default flex-inline flex flex-none items-center'>Add description />
+		Add description
+	[160] (799,629)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default background-transparent colors-background-selected-hover px1-and-half button-size-default flex-inline' id='columnDialogCancelButton'>Cancel />
+		Cancel
+	[161] (847,629)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none text-white font-weight-strong colors-background-primary-control shadow-elevation-low shadow-elevation-low-hover px1-and-half button-size-default flex-inline ml1 flex flex-none items-center'>Create field />
+		Create field
+Add field
+You can also insert a new lead anywhere by pressing Shift-Enter
+
+</current_dom>

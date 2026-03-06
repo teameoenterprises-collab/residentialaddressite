@@ -1,0 +1,55 @@
+# Website Premium Design Upgrade
+
+Complete the rollout of the "Premium" design system (Option B) across all remaining service pages to ensure site-wide consistency and a high-end fintech aesthetic.
+
+## User Review Required
+
+> [!IMPORTANT]
+> This upgrade will introduce a WebGL shader background to all service pages. While optimized, this adds a small amount of JS execution on page load.
+
+## Proposed Changes
+
+### Service Pages
+
+I will apply the following design tokens and components to [bank-assistance.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/bank-assistance.html), [itin-application.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/itin-application.html), [us-phone.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-phone.html), and [us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html):
+
+- **Hero Section**: 
+    - Inject the `#shaderCanvas` element.
+    - Standardize headline usage of `.highlight-gold` and `.gradient-text`.
+- **Social Proof**: 
+    - Ensure a "Trusted by Global Founders" section exists with `.liquid-glass-card` elements.
+- **Icons**: 
+    - Replace all persistent emojis (e.g., 🏦, 📱, 📄) with Lucide SVG icons for a cleaner look.
+- **Scripts**: 
+    - Unified the `initShader()` and `IntersectionObserver` logic across all files to match [index.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/index.html).
+
+#### [MODIFY] [bank-assistance.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/bank-assistance.html)
+- Add WebGL Shader.
+- Add Social Proof section.
+- Replace 🏦 icon in CTA.
+- Align header/footer structure.
+
+#### [MODIFY] [itin-application.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/itin-application.html)
+- Add WebGL Shader.
+- Polish headlines with `gradient-text`.
+- Replace 📄 icon in CTA.
+
+#### [MODIFY] [us-phone.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-phone.html)
+- Add WebGL Shader.
+- Replace 📱 icon in CTA.
+
+#### [MODIFY] [us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html)
+- Add WebGL Shader.
+- Replace 📍 icon in CTA.
+
+---
+
+## Verification Plan
+
+### Automated Tests
+- I will use the browser tool to capture screenshots of each modified page and compare them against [llc-formation.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/llc-formation.html) to ensure visual consistency.
+
+### Manual Verification
+- Check that the WebGL shader wave effect is visible and does not lag on any page.
+- Verify that the mobile menu and FAQ toggles still function correctly after script unification.
+- Ensure all WhatsApp links are correct and functional.

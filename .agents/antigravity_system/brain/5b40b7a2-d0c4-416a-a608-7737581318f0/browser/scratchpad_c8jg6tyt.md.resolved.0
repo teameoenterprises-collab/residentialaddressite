@@ -1,0 +1,7 @@
+# Task: Verify Hero Section Changes
+
+- [x] Navigate to http://localhost:8099/index.html
+- [x] Resize to 1440px wide and 900px tall
+- [x] Wait 3 seconds
+- [ ] Take a screenshot of the full viewport
+- [ ] Return the screenshot path

@@ -1,0 +1,28 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Bring your Airtable data into ChatGPT.
+[0] (575,29)<a class='PromoCard-module_promoLink__3MoH1' href='https://www.airtable.com/integrations/chatgpt' />
+	[1] (567,29)<span >Try it now />
+[2] (975,29)<button aria-label='Close promo banner' class='PromoBanner_cross__ksuKf' />
+[3] (70,112)<a class='Brand-module_brandWrap__1dhJu' href='/' id='nav-brand'>Airtable home or view your bases />
+	Airtable home or view your bases
+	[4] (36,112)<div  />
+	[5] (83,112)<div  />
+[6] (167,112)<button class='Drawer-module_navDrawerToggle__3u0CY' id='8357f38b1224f8b1989731421f948ac3'>Platform />
+[7] (241,112)<button class='Drawer-module_navDrawerToggle__3u0CY' id='dfc2e03c4f231947c5f033488d6f1f35'>Solutions />
+[8] (321,112)<button class='Drawer-module_navDrawerToggle__3u0CY' id='d164920012780ecae19664adcb97d71b'>Resources />
+[9] (398,112)<a class='Link-module_navLink__17BFl ActionGroup-module_navLinkInsideActionGroup__1mhrX' href='/solutions/enterprise'>Enterprise />
+[10] (460,112)<a class='Link-module_navLink__17BFl ActionGroup-module_navLinkInsideActionGroup__1mhrX' href='https://airtable.com/pricing'>Pricing />
+[11] (756,112)<a class='ActionButton-module_actionButton__25MzN ActionButton-module_secondary__Ml-Vz ActionButton-module_tertiaryImportance__Zkd1f' href='/contact-sales' />
+	[12] (756,111)<span >Book Demo />
+[13] (875,112)<a class='ActionButton-module_actionButton__25MzN ActionButton-module_primary__3X5Ca ActionButton-module_primaryImportance__3FmFE' href='https://airtable.com/signup' />
+	[14] (875,111)<span >Sign up for free />
+[15] (961,112)<a class='Link-module_navLink__17BFl ActionGroup-module_navLinkInsideActionGroup__1mhrX Link-module_secondaryImportance__1gWua' href='https://airtable.com/login'>Log in />
+All your teams, all their workflows—connected in one workspace
+Build AI-powered workflows that unify data, maximize collaboration, and set your teams up for long-term success. No code required.
+[16] (446,529)<a class='BkButton_bkButton__Rzzae BkText_typeShortSm__Ltm8u BkButton_stylePropsSm__xFLQA BkButton_medium__heydM BkButton_expandOnSm__JJmQo BkButton_primaryTheme__QpkfL BkButton_blackBtnTheme__2Apux' href='https://airtable.com/signup'>Get started for free />
+[17] (575,529)<a class='BkButton_bkButton__Rzzae BkText_typeShortSm__Ltm8u BkButton_stylePropsSm__xFLQA BkButton_medium__heydM BkButton_expandOnSm__JJmQo BkButton_secondaryTheme__sAEOV BkButton_blackBtnTheme__2Apux' href='https://www.airtable.com/contact-sales'>Book demo />
+
+</current_dom>

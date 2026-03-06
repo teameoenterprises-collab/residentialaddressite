@@ -1,0 +1,48 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (202,39)<a class='logo' href='#'>The Residential Address />
+	[1] (132,39)<div >🏠 />
+[2] (592,39)<a href='#problem'>Why Us />
+[3] (647,39)<a href='#pricing'>Pricing />
+[4] (704,39)<a href='#compare'>Compare />
+[5] (756,39)<a href='#faq'>FAQ />
+[6] (833,39)<a class='btn btn-primary' href='#pricing'>Get Started />
+Do I need an ITIN to open a US bank account?
+Not always for business accounts — some banks (like Capital
+                                One) accept EIN-only applications for LLCs. However, having an ITIN significantly
+                                expands your options and is required for personal banking, credit building, and certain
+                                payment processors. We offer ITIN applications for $400.
+[7] (500,124)<div >Is your residential address compliant with US banking regulations? />
+Yes. Our addresses are real residential units with legally
+                                signed leases. They are not flagged in the USPS CMRA database, they pass Patriot Act
+                                verification, and they include utility bills in your LLC name. If any bank rejects your
+                                address, we replace it free or refund 100%.
+[8] (500,213)<div >Can I use this address for a Google Business Profile? />
+Yes! Unlike virtual mailbox services that restrict Google
+                                Business Profile usage, our residential addresses fully support GBP listing. You'll
+                                receive mail verification postcards at your address, which we forward to you.
+[9] (500,301)<div >What happens if my address is rejected by a bank? />
+If any US bank or payment processor rejects your residential
+                                address, we'll replace it with a new address free of charge, or refund 100% — no
+                                questions asked. We have a 100% success rate so far across 20+ founder applications.
+[10] (500,389)<div >Which is better for my LLC: Wyoming or Delaware? />
+For most international founders,
+Wyoming
+is
+                                better: $0 state income tax, $60/yr annual report, strong privacy laws, and no franchise
+                                tax. Delaware charges $300/yr in franchise tax and has more complex compliance. We
+                                recommend Wyoming unless you plan to seek US venture capital funding (in which case,
+                                Delaware is preferred).
+[11] (500,477)<div >How long does ITIN processing take? />
+Standard ITIN processing by the IRS takes 7-11 weeks. We
+                                prepare and submit your W-7 application with all supporting documentation. The $400 fee
+                                covers our preparation, review, and filing service.
+🛡️
+Address Approved or Your Money Back
+If any US bank or payment processor rejects your residential address, we'll replace it free
+                            of charge or refund 100%. No questions asked.
+[12] (960,944)<a aria-label='Chat on WhatsApp' class='whatsapp-float' href='https://wa.me/yournumber' />
+
+</current_dom>

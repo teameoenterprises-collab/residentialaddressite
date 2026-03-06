@@ -1,0 +1,67 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (66,18)<a href='/' />
+	[1] (58,18)<img  />
+[2] (154,18)<button class='flex items-center gap-1' />
+	[3] (145,18)<span >Products />
+	[4] (182,18)<img  />
+[5] (242,18)<button class='flex items-center gap-1' />
+	[6] (234,18)<span >Solutions />
+	[7] (272,18)<img  />
+[8] (327,18)<a class='font-medium' href='/addresses/'>Addresses />
+[9] (396,18)<a class='font-medium' href='/pricing/'>Pricing />
+[10] (474,18)<button class='flex items-center gap-1' />
+	[11] (465,18)<span >Resources />
+	[12] (507,18)<img  />
+[13] (785,18)<a href='/contact-us/'>Contact Us />
+[14] (852,18)<a href='https://my.virtualpostmail.com'>Login />
+[15] (936,18)<a class='link-0 button-contained' href='/pricing/' id='global-signup'>Get Started />
+TruResidence
+[16] (212,47)<a class='text-body-dark' href='/truresidence/'>Overview />
+[17] (304,47)<a class='text-body-dark' href='/truresidence/addresses/'>Addresses />
+[18] (390,47)<a class='text-body-dark' href='/truresidence/pricing/'>Pricing />
+FAQ
+[19] (34,76)<a href='#general'>General />
+[20] (86,97)<a href='#lease_agreement_&_utilities'>Lease Agreement & Utilities />
+[21] (35,117)<a href='#banking'>Banking />
+[22] (46,138)<a href='#cancellation'>Cancellation />
+Additionally, only the TruRes Essentials plan is available to citizens of the following countries:
+Myanmar
+Nigeria
+Pakistan
+Turkey
+United Kingdom
+We continually monitor global regulations and reserve the right to update this list as needed.
+Q: Will I get a unique suite number assigned to me?
+With TruResidence, you'll share the same home address with other customers. Each customer does not receive their own unique "mailbox number" because such designations do not exist for a home. Essentially, it operates like a household where family or roommates reside together and utilize the same address.
+Q: How soon will I be able to see my mail?
+Mail received at the home address is picked up on a weekly basis.  It is then delivered to the closest processing center to be scanned into your online mailbox.  Therefore, expect to see approximately a week delay before you see your mail.
+Q: Can I receive mail and packages at the TruResidence address?
+Yes, you can receive mail and packages at the residential address. Your mail will be picked up on a weekly basis and delivered to a VPM processing center to be scanned and stored so you can read your mail online.
+Packages may incur additional transportation fees. We recommend that you get a separate
+[23] (385,430)<a href='/virtual-mailbox/'>virtual mailbox />
+if you plan to receive packages on a frequent or consistent basis because you’ll end up paying more shipping fees – once to get the package to the processing center and again to have it shipped out to you.
+Q: What are the additional transportation fees incurred for receiving packages at the TruResidence address?
+The fees vary depending on the size of the package. Typically, any received mail or packages must be transported to our processing center, and the fee is determined by the cost of delivering such items. For small items such as credit cards that comes in a small box, there's usually no charge.
+That said, your TruResidence address is not optimized for package delivery. If you plan to receive packages on a regular basis, we recommend that you get a separate virtual mailbox for this purpose. This ensures quicker package retrieval (as home address mail is collected weekly) and saves on shipping costs.
+Q: Do I get a U.S. phone number?
+Unfortunately, TruResidence offers only the residential address and lease agreement add-on for now.  It does not include a U.S. phone number.  For phone numbers, we recommend that you get one from a VOIP service like
+[24] (716,714)<a href='https://get.openphone.com/scqd5hvb82dx'>OpenPhone />
+.  This way, you can make and receive phone call from anywhere in the world.
+Q: Do I get a utility bill with TruResidence?
+Yes, there are optional add-ons included with your TruResidence service address plan. You can add a lease agreement and a utility bill in your name (waitlist may apply).
+Q: Does TruResidence include registered agent service?
+Currently, registered agent service is only offered with our
+[25] (673,860)<a href='https://www.virtualpostmail.com/virtual-mailbox/'>virtual mailbox />
+and
+[26] (332,875)<a href='https://www.virtualpostmail.com/trulease/'>TruLease plans />
+. TruResidence is designed primarily for personal use and does not come with registered agent service included.
+Q: What is the difference between a virtual mailbox address and a TruResidence address?
+There are several major differences between a virtual mailbox address and a TruResidence address.
+First, a
+[27] (380,992)<a href='/addresses/mailbox/'>mailbox address />
+is a long-term business address associated with a commercial office building, whereas a TruResidence address is a residential address attached to a home and is not considered an office location or a CMRA/mailbox.
+
+</current_dom>

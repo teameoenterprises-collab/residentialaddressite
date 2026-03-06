@@ -1,0 +1,10 @@
+# Task: Verify Website Changes on localhost:8080
+
+## Plan
+1. Navigate to http://localhost:8080
+2. Take a screenshot of the Hero section (centered layout, etc.)
+3. Take a screenshot of the transition to the next section
+4. Verify:
+   - Announcement bar is gone.
+   - Nav bar text is visible (not gray).
+   - Hero section is centered with low-opacity background image.

@@ -1,0 +1,12 @@
+# Task: Navigate to localhost:8000 and capture layout
+
+## Progress
+- [x] Navigate to http://localhost:8000
+- [ ] Capture screenshots of the layout
+- [ ] Scroll through the page
+- [ ] Summarize findings
+
+## Findings
+- The site is "The Residential Address"
+- It offers a U.S. Residential Address with a real lease agreement for $79/month.
+- Key sections visible: Why Us, Pricing, Compare, FAQ, Get Started.

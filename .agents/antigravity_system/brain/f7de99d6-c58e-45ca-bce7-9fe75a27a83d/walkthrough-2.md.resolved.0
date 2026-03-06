@@ -1,0 +1,33 @@
+# Master Home Page Walkthrough
+
+We have successfully redesigned [index.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/index.html) to serve as the unified gateway for **The Residential Address**.
+
+## Why We Did This
+Previously, [index.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/index.html) functioned solely as the landing page for the **US Business Address** service. 
+(Don't worry—the original US Address content was fully preserved when we moved it to [us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html) earlier in the project!)
+
+The new Master Home Page now introduces the brand's overarching mission: **Borderless Infrastructure for Global Founders**, and acts as a hub to direct traffic to all five of our specialized micro-services.
+
+## Key Additions to [index.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/index.html)
+
+### 1. New Umbrella Hero Section
+- Highlights the core value proposition: 100% compliant physical and legal infrastructure.
+- Features prominent CTAs directing users to explore the services or consult with an expert via WhatsApp.
+- Uses trust pills (AML/KYC Verified, Bank Approval Guarantee).
+
+### 2. Services Hub (Bento Grid)
+We implemented a visually engaging, interactive bento grid that links directly to every service page:
+- **US Business Address** ([us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html))
+- **Bank Assistance** ([bank-assistance.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/bank-assistance.html))
+- **LLC Formation** ([llc-formation.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/llc-formation.html))
+- **ITIN Processing** ([itin-application.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/itin-application.html))
+- **US Phone (eSIM)** ([us-phone.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-phone.html))
+
+Each card features an animated hover state, relevant icons, and specific 'feature pills' (e.g., "Real Lease", "EIN Included").
+
+### 3. The "Full Stack" Value Proposition
+Added a new section visually explaining the synergy of using The Residential Address for *all* needs: the combination of a Real Address + Legal Entity + US Bank Account.
+
+### 4. Consolidated Social Proof & Personas
+- We brought the scrolling ticker of approved founders and the testimonials grid to the front page to immediately establish trust.
+- The "Built for Global Commerce" persona grid (Indian SaaS, UAE E-commerce, etc.) has been elevated to the index page to immediately resonate with our target demographics.

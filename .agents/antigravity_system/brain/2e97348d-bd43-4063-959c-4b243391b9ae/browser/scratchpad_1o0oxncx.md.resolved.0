@@ -1,0 +1,8 @@
+# Miro Flowchart Extraction Plan
+
+- [ ] Navigate to Miro URL: `https://miro.com/app/board/uXjVG2qMyGg=/?share_link_id=195020962362`
+- [ ] Wait for canvas to load and dismiss any popups
+- [ ] Adjust zoom and position to see the entire flowchart
+- [ ] Take a high-resolution screenshot
+- [ ] Extract and summarize agent names, tasks, and connections
+- [ ] Provide a detailed text summary of the architecture

@@ -1,0 +1,31 @@
+[0] (186,58)<a class='logo' href='#'>The Residential Address />
+	[1] (113,58)<div >🏠 />
+[2] (663,58)<a href='#problem'>Why Us />
+[3] (721,58)<a href='#pricing'>Pricing />
+[4] (769,58)<a href='#faq'>FAQ />
+[5] (851,58)<a class='btn btn-primary' href='#pricing'>Get Started />
+Why 73% of Non-US Founders
+Get Rejected by US Banks
+Banks scan the USPS database. If your address is flagged as a
+COMMERCIAL MAIL RECEIVING AGENCY
+, you are automatically out of all the personal
+                        banking options.
+Virtual Mailboxes
+Flagged as CMRA. Instant rejection from Stripe, Mercury, and Capital One. Avoid at all
+                            costs.
+STATUS: BANNED
+P.O. Boxes
+Banks require a "Physical Street Address." Generic P.O. boxes do not meet Patriot Act
+                            requirements.
+STATUS: REJECTED
+Real Residential Lease
+A legal, signed lease for a real residential unit in your
+                            personal
+                            name. Accompanied by a verifiable utility bill.
+Passes Residential Address Check
+Verifiable Lease Agreement
+Bank-Friendly Lease
+Renter Insurance Ready
+STATUS: 100% COMPLIANT
+Bank-Grade Security
+[6] (958,917)<a aria-label='Chat on WhatsApp' class='whatsapp-float' href='https://wa.me/yournumber' />

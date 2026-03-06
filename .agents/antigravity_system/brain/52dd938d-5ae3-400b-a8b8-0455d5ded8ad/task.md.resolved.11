@@ -1,0 +1,15 @@
+# AI Agent Enhancement: Skill-Based Evolution
+
+- [x] Baseline Stability (Gemini 503 Retries, Turn Limiter)
+- [/] Skill-Based Capability Expansion
+    - [ ] **Phase 1: Meta-Skill Integration** (Learn to create skills)
+    - [ ] **Phase 2: Sales Excellence (MarkBTM)**
+        - [ ] Integrate Reddit Automation Skill
+        - [ ] Define Reddit-specific outreach workflows
+    - [ ] **Phase 3: Web Mastery (Ahmad)**
+        - [ ] Develop expert web-editing/deployment skills
+        - [ ] Automate UI/UX Pro Max application across pages
+    - [ ] **Phase 4: R&D & Research (Asan)**
+        - [ ] Refine lead research and competitor analysis skills
+- [ ] Implement proactive task initiation based on user feedback
+- [ ] Finalize document generation (PDF option)

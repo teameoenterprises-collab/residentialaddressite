@@ -1,0 +1,21 @@
+# Task: Verify Fade-in Animations
+
+## Plan
+1. Open http://localhost:8000.
+2. Observe initial state (hero section).
+3. Scroll down slowly in increments to trigger and observe animations.
+4. Verify animations for:
+    - Headers
+    - Hero elements
+    - Cards
+    - FAQ items
+5. Reach the bottom of the page.
+6. Report findings.
+
+## Progress
+- [x] Open website
+- [x] Scroll and observe hero section
+- [x] Scroll and observe features/cards section
+- [/] Scroll and observe FAQ section (In progress)
+- [ ] Reach bottom
+- [ ] Final verification

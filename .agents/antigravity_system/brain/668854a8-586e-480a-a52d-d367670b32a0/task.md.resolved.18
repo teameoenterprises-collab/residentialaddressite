@@ -1,0 +1,24 @@
+# Task: Reddit Automation with Airtable Approval Flow
+
+- [x] **Catalog & Expand Skills**
+    - [x] Review `UI/UX Pro Max`
+    - [x] Install `antigravity-awesome-skills`
+- [/] **Implement Reddit Discovery & Approval Flow**
+    - [x] Initial design of Airtable structure
+    - [x] Updated implementation plan for MarkBTM approval
+    - [x] Create Airtable tables (`Reddit Comments` & `Reddit Posts`)
+    - [/] Knowledge Injection: Feed strategy learnings
+        - [x] Bloom Builds Strategy (Social Listening)
+        - [x] Diego Roshardt Playbook ($17K MRR)
+        - [x] Lloyd Yip Sales System (Algorithm & DMs)
+        - [x] n8n AI Scraper (Discovery Engine)
+        - [x] n8n Vector DB (Feedback Loop & 99% Accuracy)
+        - [x] Red Reach DM Automation (Safety & Nudge Strategy)
+    - [x] Train Asan on Research & YouTube skills
+    - [x] Train MarkBTM on Autonomous API Outreach
+    - [/] Deploy browserless [monitor_approvals.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/scripts/monitor_approvals.ts) (PAUSED - DISK SPACE FULL)
+    - [ ] Setup Telegram Notification Bridge (Eagle-Eye Group)
+    - [ ] Run test run with approval cycle
+- [ ] **Onboard New Team Member**
+    - [ ] Update [.env](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/.env) with new team member's Telegram ID
+    - [ ] Create onboarding guide
