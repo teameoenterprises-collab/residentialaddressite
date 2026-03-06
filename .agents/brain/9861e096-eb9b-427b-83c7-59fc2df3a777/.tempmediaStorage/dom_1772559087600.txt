@@ -1,0 +1,50 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (53,23)<a class='logo' href='#'>NOVA />
+	[1] (84,23)<span >. />
+[2] (920,23)<a class='btn btn-primary' href='#pricing'>Get Started />
+●
+20+ Founders Approved this Quarter
+Stripe Blocked?
+Get a Bank-Ready US Address.
+Real residential lease documents that banks actually accept. Not a virtual mailbox. Not a PO Box.
+                        A real address for global founders.
+[3] (79,344)<a class='btn btn-primary' href='#pricing'>See Pricing />
+[4] (233,344)<a class='btn btn-outline' href='https://wa.me/yournumber'>Chat on WhatsApp />
+Why 73% of Founders Get Rejected
+Banks scan the USPS CMRA database. If you
+                        use a virtual mailbox, you're out.
+[5] (173,641)<div  />
+	[6] (173,594)<icon  />
+	[7] (173,624)<h3 >Virtual Mailboxes />
+	[8] (173,658)<p >Flagged as CMRA. Instant rejection from Stripe, Mercury, and Capital One. Avoid at all costs. />
+	[9] (173,691)<div >STATUS: BANNED />
+[10] (500,641)<div  />
+	[11] (500,594)<icon  />
+	[12] (500,624)<h3 >P.O. Boxes />
+	[13] (500,658)<p >Banks require a "Physical Street Address." Generic P.O. boxes do not meet Patriot Act
+                            requirements. />
+	[14] (500,691)<div >STATUS: REJECTED />
+[15] (827,704)<div  />
+	[16] (827,596)<icon  />
+	[17] (827,631)<h3 >Nova Residential Lease />
+	[18] (827,666)<p >A legal, signed lease for a real residential unit in your LLC
+                            name. Accompanied by a verifiable utility bill. />
+	[19] (827,727)<ul  />
+		[20] (827,707)<li >Passes CMRA Database />
+		[21] (827,727)<li >Verifiable Utility Bill />
+		[22] (827,746)<li >Bank-Friendly Lease />
+	[23] (827,776)<div >STATUS: 100%
+                            COMPLIANT />
+[24] (337,784)<div  />
+	[25] (337,754)<icon  />
+	[26] (337,785)<h3 >Bank-Grade Security />
+	[27] (337,812)<p >We work directly with property managers to ensure your address is unique and private. Your
+                            mail is handled by secure, vetted couriers with tracking provided for every forward. />
+One Tool. Full Compliance.
+Transparent pricing for international SaaS and Ecom founders.
+[28] (950,969)<a class='whatsapp-float' href='https://wa.me/yournumber' />
+
+</current_dom>

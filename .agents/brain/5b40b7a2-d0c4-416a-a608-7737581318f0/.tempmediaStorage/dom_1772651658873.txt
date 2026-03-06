@@ -1,0 +1,361 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	To view keyboard shortcuts, press question mark
+	[1] (967,852)<div  />
+		[2] (967,852)<button class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1pi2tsx r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+	[3] (967,946)<div  />
+	[4] (84,39)<h1 class='css-175oi2r r-1awozwy r-1pz39u2 r-1loqt21 r-6koalj r-16y2uox r-1777fci r-4wgw6l' role='heading' />
+		[5] (84,39)<a aria-label='X' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19yznuf r-64el8z r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/home' role='link' />
+			[6] (84,39)<div  />
+	[7] (156,114)<a aria-label='Home' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/home' role='link' />
+		[8] (115,114)<div  />
+			[9] (84,114)<div  />
+			[10] (126,114)<div  />
+				[11] (126,114)<span >Home />
+	[12] (156,184)<a aria-label='Search and explore' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/explore' role='link' />
+		[13] (120,184)<div  />
+			[14] (84,184)<div  />
+			[15] (131,184)<div  />
+				[16] (131,184)<span >Explore />
+	[17] (156,253)<a aria-label='Notifications (2 unread notifications)' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/notifications' role='link' />
+		[18] (138,253)<div  />
+			[19] (84,253)<div  />
+				[20] (89,239)<div  />
+					[21] (89,239)<span >2 />
+			[22] (148,253)<div  />
+				[23] (148,253)<span >Notifications />
+	[24] (156,322)<a aria-label='Follow' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/connect_people' role='link' />
+		[25] (117,322)<div  />
+			[26] (84,322)<div  />
+			[27] (127,322)<div  />
+				[28] (127,322)<span >Follow />
+	[29] (156,391)<a aria-label='Direct Messages' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/chat' role='link' />
+		[30] (112,391)<div  />
+			[31] (84,391)<div  />
+			[32] (122,391)<div  />
+				[33] (122,391)<span >Chat />
+	[34] (156,461)<a aria-label='Grok' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/grok' role='link' />
+		[35] (112,461)<div  />
+			[36] (84,461)<div  />
+				[37] (93,445)<div  />
+			[38] (122,461)<div  />
+				[39] (122,461)<span >Grok />
+	[40] (156,530)<a aria-label='Bookmarks' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/bookmarks' role='link' />
+		[41] (132,530)<div  />
+			[42] (84,530)<div  />
+			[43] (143,530)<div  />
+				[44] (143,530)<span >Bookmarks />
+	[45] (156,599)<a aria-label='Premium' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/premium_sign_up' role='link' />
+		[46] (147,599)<div  />
+			[47] (84,599)<div  />
+			[48] (135,599)<div  />
+				[49] (135,599)<span >Premium />
+			[50] (198,599)<div  />
+				50% off
+	[51] (156,668)<a aria-label='Profile' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/YankeesBoy28' role='link' />
+		[52] (117,668)<div  />
+			[53] (84,668)<div  />
+			[54] (127,668)<div  />
+				[55] (127,668)<span >Profile />
+	[56] (156,737)<button aria-label='More menu items' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1loqt21 r-1ny4l3l' role='button' />
+		[57] (113,737)<div  />
+			[58] (84,737)<div  />
+			[59] (123,737)<div  />
+				[60] (123,737)<span >More />
+	[61] (147,819)<a aria-label='Post' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19yznuf r-64el8z r-1fkl15p r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/compose/post' role='link' />
+		[62] (147,819)<div  />
+			[63] (147,819)<div  />
+				[64] (147,819)<span  />
+					[65] (147,819)<div  />
+						[66] (147,819)<div  />
+							[67] (147,819)<span  />
+								[68] (147,819)<span >Post />
+	[69] (156,938)<div  />
+		[70] (156,938)<button aria-label='Account menu' class='css-175oi2r r-1awozwy r-sdzlij r-6koalj r-18u37iz r-xyw6el r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+			[71] (89,938)<div  />
+				[72] (89,938)<div  />
+					[73] (89,938)<div  />
+						[74] (89,938)<div  />
+							[75] (89,938)<div  />
+								[76] (89,938)<div  />
+									[77] (89,938)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+										[78] (89,938)<div  />
+											[79] (89,938)<div  />
+			[80] (151,938)<div  />
+				[81] (151,938)<div  />
+					[82] (151,925)<div  />
+						[83] (151,925)<div  />
+							[84] (142,925)<div  />
+								[85] (142,925)<span  />
+									[86] (142,923)<span >Yankees Boy />
+					[87] (151,953)<div  />
+						[88] (151,953)<div class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l' />
+							[89] (151,953)<div  />
+								[90] (151,953)<div  />
+									[91] (151,953)<span >@YankeesBoy28 />
+			[92] (218,938)<div  />
+	[93] (460,37)<div  />
+		[94] (460,37)<div  />
+			[95] (460,37)<div  />
+				[96] (460,37)<div  />
+					[97] (460,37)<div  />
+						[98] (283,37)<div  />
+							[99] (270,37)<button aria-label='Back' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-2yi16 r-1qi8awa r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+								[100] (270,37)<div  />
+						[101] (460,37)<div  />
+							[102] (460,37)<div  />
+								[103] (318,37)<h2 class='css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-adyw6z r-135wba7 r-b88u0q r-1559e4e' role='heading' />
+									[104] (318,37)<span >Post />
+						[105] (637,37)<div  />
+	Conversation
+	[106] (460,695)<div  />
+		[107] (460,636)<article class='css-175oi2r r-18u37iz r-1udh08x r-1c4vpko r-1c7gwzm r-1ny4l3l' role='article' />
+			[108] (460,636)<div  />
+				[109] (277,117)<a class='css-175oi2r r-1pi2tsx r-13qz1uu r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/ericosiu' role='link' />
+					[110] (277,117)<div  />
+						[111] (277,117)<div  />
+				[112] (324,103)<a class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l r-1loqt21' href='/ericosiu' role='link' />
+					[113] (324,103)<div  />
+						[114] (317,103)<div  />
+							[115] (317,103)<span  />
+								[116] (317,103)<span >ericosiu />
+						[117] (344,103)<div  />
+							[118] (344,103)<span  />
+				[119] (320,131)<a class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l r-1loqt21' href='/ericosiu' role='link' />
+					[120] (320,131)<div  />
+						[121] (320,131)<span >@ericosiu />
+				[122] (631,103)<button aria-label='Grok actions' class='css-175oi2r r-1777fci r-bt1l66 r-bztko3 r-lrvibr r-1loqt21 r-1ny4l3l' role='button' />
+					[123] (631,103)<div  />
+						[124] (631,103)<div  />
+							[125] (631,103)<div  />
+				[126] (650,103)<button aria-label='More' class='css-175oi2r r-1777fci r-bt1l66 r-bztko3 r-lrvibr r-1loqt21 r-1ny4l3l' role='button' />
+					[127] (650,103)<div  />
+						[128] (650,103)<div  />
+				If you learn to wield the power of OpenClaw and Opus 4.6, you cannot be stopped.
+
+Don’t just use it for personal life, use it for business.
+				[129] (393,665)<div  />
+					[130] (393,665)<a class='css-175oi2r r-1pi2tsx r-1ny4l3l r-1loqt21' href='/ericosiu/status/2020508473004593558/photo/1' role='link' />
+						[131] (393,665)<div  />
+							[132] (393,665)<div  />
+								[133] (393,665)<div  />
+									[134] (393,665)<img  />
+	[135] (811,37)<div  />
+		[136] (809,37)<div  />
+			[137] (809,37)<div  />
+				[138] (809,37)<input aria-label='Search query' class='r-30o5oe r-1dz5y72 r-1niwhzg r-17gur6a r-1yadl64 r-deolkf r-nf76sl r-homxoj r-poiln3 r-1b43r93 r-1cwl3u0 r-ero68b r-1ny4l3l r-1c4vpko r-1noe1sz r-p1pxzi r-1mnahxq r-1mdbw0j r-wk8lta r-13qz1uu r-fdjqy7' placeholder='Search' role='combobox' />
+		[139] (919,37)<div  />
+			[140] (915,37)<button aria-label='Clear' class='css-175oi2r r-sdzlij r-1phboty r-lrvibr r-1yadl64 r-1a11zyx r-12sks89 r-1y7e96w r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+				[141] (915,37)<div  />
+	[142] (811,430)<div class='css-175oi2r r-14lw9ot r-zchlnj r-1d2f490 r-1rnoaur r-1r851ge r-u8s1d r-ipm5af r-1xfd6ze r-1upvrn0 r-8fhv3p r-h3f8nf' id='typeaheadDropdown-7' role='listbox' scrollable='true' />
+		[143] (811,121)<div class='css-175oi2r' role='option' />
+			[144] (811,121)<button class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+				[145] (811,121)<div  />
+					[146] (717,121)<div  />
+						[147] (717,121)<div  />
+							[148] (717,121)<div  />
+								[149] (717,121)<div  />
+									[150] (717,121)<img  />
+					[151] (780,121)<div  />
+						[152] (780,107)<div  />
+							[153] (751,106)<span >NHL />
+						[154] (780,132)<div  />
+							[155] (780,132)<span >Stars at Flames />
+		[156] (811,227)<div class='css-175oi2r' role='option' />
+			[157] (811,227)<button class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+				[158] (811,227)<div  />
+					[159] (811,227)<div  />
+						[160] (714,227)<div  />
+							[161] (714,227)<div  />
+						[162] (827,227)<div  />
+							[163] (827,213)<div  />
+								[164] (749,213)<span >Ferrari />
+							[165] (827,240)<div  />
+								[166] (754,240)<div  />
+									[167] (754,240)<span >Trending />
+		[168] (811,315)<div class='css-175oi2r' role='option' />
+			[169] (811,315)<button class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+				[170] (811,315)<div  />
+					[171] (811,315)<div  />
+						[172] (714,315)<div  />
+							[173] (714,315)<div  />
+						[174] (827,315)<div  />
+							[175] (827,301)<div  />
+								[176] (744,301)<span >f-35 />
+							[177] (827,329)<div  />
+								[178] (754,329)<div  />
+									[179] (754,329)<span >Trending />
+		[180] (811,403)<div class='css-175oi2r' role='option' />
+			[181] (811,403)<button class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+				[182] (811,403)<div  />
+					[183] (811,403)<div  />
+						[184] (714,403)<div  />
+							[185] (714,403)<div  />
+						[186] (827,403)<div  />
+							[187] (827,389)<div  />
+								[188] (772,389)<span >Fernando onega />
+							[189] (827,417)<div  />
+								[190] (754,417)<div  />
+									[191] (754,417)<span >Trending />
+		[192] (811,505)<div class='css-175oi2r' role='option' />
+			[193] (811,505)<div class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='presentation' />
+				[194] (811,505)<button class='css-175oi2r r-1mmae3n r-3pj75a r-1loqt21 r-1ny4l3l' role='button' />
+					[195] (811,505)<div  />
+						[196] (714,505)<div  />
+							[197] (714,505)<div  />
+								[198] (714,505)<div  />
+									[199] (714,505)<div  />
+										[200] (714,505)<div  />
+											[201] (714,505)<div  />
+												[202] (714,505)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+													[203] (714,505)<div  />
+														[204] (714,505)<div  />
+						[205] (827,505)<div  />
+							[206] (827,505)<div  />
+								[207] (788,505)<div  />
+									[208] (788,505)<div  />
+										[209] (788,491)<div  />
+											[210] (788,491)<div  />
+												[211] (780,491)<div  />
+													[212] (780,491)<span  />
+														[213] (780,490)<span >Lil Wayne WEEZY F />
+												[214] (834,491)<div  />
+													[215] (834,491)<span  />
+										[216] (788,519)<div  />
+											[217] (763,519)<div class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l' />
+												[218] (763,519)<div  />
+													[219] (763,519)<div  />
+														[220] (763,519)<span >@LilTunechi />
+		[221] (811,595)<div class='css-175oi2r' role='option' />
+			[222] (811,595)<div class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='presentation' />
+				[223] (811,595)<button class='css-175oi2r r-1mmae3n r-3pj75a r-1loqt21 r-1ny4l3l' role='button' />
+					[224] (811,595)<div  />
+						[225] (714,595)<div  />
+							[226] (714,595)<div  />
+								[227] (714,595)<div  />
+									[228] (714,595)<div  />
+										[229] (714,595)<div  />
+											[230] (714,595)<div  />
+												[231] (714,595)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+													[232] (714,595)<div  />
+														[233] (714,595)<div  />
+						[234] (827,595)<div  />
+							[235] (827,595)<div  />
+								[236] (792,595)<div  />
+									[237] (792,595)<div  />
+										[238] (792,581)<div  />
+											[239] (792,581)<div  />
+												[240] (784,581)<div  />
+													[241] (784,581)<span  />
+														[242] (784,580)<span >Robert F. Kennedy Jr />
+												[243] (842,581)<div  />
+													[244] (842,581)<span  />
+										[245] (792,610)<div  />
+											[246] (779,610)<div class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l' />
+												[247] (779,610)<div  />
+													[248] (779,610)<div  />
+														[249] (779,610)<span >@RobertKennedyJr />
+		[250] (811,685)<div class='css-175oi2r' role='option' />
+			[251] (811,685)<div class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='presentation' />
+				[252] (811,685)<button class='css-175oi2r r-1mmae3n r-3pj75a r-1loqt21 r-1ny4l3l' role='button' />
+					[253] (811,685)<div  />
+						[254] (714,685)<div  />
+							[255] (714,685)<div  />
+								[256] (714,685)<div  />
+									[257] (714,685)<div  />
+										[258] (714,685)<div  />
+											[259] (714,685)<div  />
+												[260] (714,685)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+													[261] (714,685)<div  />
+														[262] (714,685)<div  />
+						[263] (827,685)<div  />
+							[264] (827,685)<div  />
+								[265] (790,685)<div  />
+									[266] (790,685)<div  />
+										[267] (790,671)<div  />
+											[268] (790,671)<div  />
+												[269] (783,671)<div  />
+													[270] (783,671)<span  />
+														[271] (783,670)<span >What The F*** Facts />
+												[272] (839,671)<div  />
+													[273] (839,671)<span  />
+										[274] (790,700)<div  />
+											[275] (775,700)<div class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l' />
+												[276] (775,700)<div  />
+													[277] (775,700)<div  />
+														[278] (775,700)<span >@WhatTheFFacts />
+		[279] (811,775)<div class='css-175oi2r' role='option' />
+			[280] (811,775)<div class='css-175oi2r r-6dt33c r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='presentation' />
+				[281] (811,775)<button class='css-175oi2r r-1mmae3n r-3pj75a r-1loqt21 r-1ny4l3l' role='button' />
+					[282] (811,775)<div  />
+						[283] (714,775)<div  />
+							[284] (714,775)<div  />
+								[285] (714,775)<div  />
+									[286] (714,775)<div  />
+										[287] (714,775)<div  />
+											[288] (714,775)<div  />
+												[289] (714,775)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+													[290] (714,775)<div  />
+														[291] (714,775)<div  />
+						[292] (827,775)<div  />
+							[293] (827,775)<div  />
+								[294] (774,775)<div  />
+									[295] (774,775)<div  />
+										[296] (774,762)<div  />
+											[297] (774,762)<div  />
+												[298] (756,762)<div  />
+													[299] (756,762)<span  />
+														[300] (756,761)<span >Fabolous />
+												[301] (786,762)<div  />
+													[302] (786,762)<span  />
+										[303] (774,790)<div  />
+											[304] (774,790)<div class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l' />
+												[305] (774,790)<div  />
+													[306] (774,790)<div  />
+														[307] (774,790)<span >@myfabolouslife />
+		THE X FACTOR (USA)
+		@TheXFactorUSA
+	Relevant people
+	ericosiu
+	@ericosiu
+	Follow
+	Founder ad agency
+	@singlegrain
+	, Investor. Member:
+	@YPO
+	Beverly Hills Podcaster: Marketing School, Leveling Up
+	Trending now
+	What’s happening
+	Business & finance · Trending
+	Bitcoin
+	Trending in Canada
+	EQAO
+	Trending in Canada
+	Triggernometry
+	Sports · Trending
+	Maple Leafs
+	Show more
+	[308] (729,820)<a class='css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-1gkfh8e r-56xrmm r-16dba41 r-1loqt21' href='https://x.com/tos' role='link' />
+		[309] (729,820)<span >Terms of Service />
+	|
+	[310] (798,820)<a class='css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-1gkfh8e r-56xrmm r-16dba41 r-1loqt21' href='https://x.com/privacy' role='link' />
+		[311] (798,820)<span >Privacy Policy />
+	|
+	[312] (862,820)<a class='css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-1gkfh8e r-56xrmm r-16dba41 r-1loqt21' href='https://support.x.com/articles/20170514' role='link' />
+		[313] (862,820)<span >Cookie Policy />
+	|
+	[314] (722,853)<a class='css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-1gkfh8e r-56xrmm r-16dba41 r-1loqt21' href='https://help.x.com/resources/accessibility' role='link' />
+		[315] (722,853)<span >Accessibility />
+	|
+	[316] (775,853)<a class='css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-1gkfh8e r-56xrmm r-16dba41 r-1loqt21' href='https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo' role='link' />
+		[317] (775,853)<span >Ads info />
+	|
+	[318] (824,853)<button aria-label='More' class='css-175oi2r r-1loqt21 r-1kihuf0 r-1xuzw63 r-faml9v' role='button' />
+		[319] (819,853)<div  />
+			[320] (814,853)<span >More />
+	© 2026 X Corp.
+
+</current_dom>

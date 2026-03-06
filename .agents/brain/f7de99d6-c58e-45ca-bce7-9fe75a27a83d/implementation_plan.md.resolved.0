@@ -1,0 +1,46 @@
+# Improving Service Pages Natively
+
+## Goal Description
+The service pages currently have significant inconsistencies or inaccuracies because they were either generated with inconsistent tech stacks (like Tailwind) or created by duplicating [index.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/index.html) without tailoring the generic sections (Timeline, FAQs, Personas). The goal is to standardize all service pages using the native custom CSS ([style.css](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/style.css)), ensure they have the full premium layout (Hero, Features, Comparison, Timeline, Social Proof, Personas, FAQ), and tailor the copy of every section to the specific service being offered.
+
+## Proposed Changes
+
+### US Address Service
+Currently uses a Tailwind CSS AI-generated template which breaks design consistency.
+- [DELETE] Tailwind CSS / React generic layout.
+- [NEW] Rewrite [us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html) using the native [style.css](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/style.css) and structure from [index.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/index.html).
+- Add address-specific Hero, Features, Pricing, Timeline, and FAQ sections.
+
+### LLC Formation
+Currently ends abruptly after the Features section.
+- [MODIFY] [llc-formation.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/llc-formation.html)
+- Expand the page to include the full funnel:
+  - Add Comparison (e.g., Virtual vs Real for LLCs, or Wyoming vs Delaware)
+  - Add Formation Timeline (e.g., Name check -> State Filing -> EIN -> Docs)
+  - Add tailored Personas and Social Proof.
+  - Add LLC-specific FAQ.
+
+### ITIN Application
+Currently uses the generic landing page Timeline and FAQ, which are inaccurate for ITINs (e.g., the timeline promises 1-2 days, but ITINs take 7-11 weeks).
+- [MODIFY] [itin-application.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/itin-application.html)
+- Update the Timeline section to accurately reflect the 7-11 week IRS processing time.
+- Update the Comparison table to compare getting an ITIN vs going without one.
+- Update the FAQ to address ITIN-specific questions (W-7 form, certified acceptance agents, etc.).
+
+### Bank Assistance
+Currently uses the generic Timeline and FAQ.
+- [MODIFY] [bank-assistance.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/bank-assistance.html)
+- Update the Timeline to reflect the bank account opening process (Doc review -> Board Resolution -> Bank Application -> Approval).
+- Update FAQ to address bank-specific concerns (Mercury vs Relay, Capital One requirements).
+
+### US Phone (eSIM)
+Currently uses generic sections.
+- [MODIFY] [us-phone.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-phone.html)
+- Update Timeline (Instant activation via QR code).
+- Update Comparison (VoIP vs Real Mobile Network Provider).
+- Update FAQ (SMS verification, banking compatibility).
+
+## Verification Plan
+1. **Visual Testing**: Open each modified HTML file in the browser using the browser subagent.
+2. **Consistency Check**: Verify that no Tailwind or other external frameworks are used, and that all pages successfully link to [style.css](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/style.css).
+3. **Copy Review**: Read through the completed pages to ensure the timeline, pricing, and FAQs are logically consistent with the specific service.

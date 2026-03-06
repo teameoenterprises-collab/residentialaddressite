@@ -1,0 +1,96 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+🔥 New: 20+ Indian founders approved for Stripe this quarter —
+[0] (675,11)<a href='#proof'>See Proof → />
+[1] (123,43)<a class='logo' href='#'>The Residential Address />
+	[2] (35,43)<div >🏠 />
+[3] (617,43)<a href='#problem'>Why Us />
+[4] (686,43)<a href='#pricing'>Pricing />
+[5] (759,43)<a href='#compare'>Compare />
+[6] (823,43)<a href='#faq'>FAQ />
+[7] (921,43)<a class='btn btn-primary' href='#pricing'>Get Started />
+Others: 4–6 weeks
+→
+⚡ We take 7 days
+Proof
+20+ Founders Approved for
+Stripe & US Banks
+Fatma N. — Stripe Active
+🇪🇬
+Ahmed R. — Capital One Approved
+🇩🇪
+Max B. — Mercury Approved
+🇮🇳
+Arjun S. — Stripe Active
+🇦🇪
+Khalid M. — Capital One Approved
+🇲🇾
+Wei L. — Mercury Approved
+"I was rejected by 3 banks because of my virtual mailbox. Switched to
+                            The Residential Address and got approved by Capital One in 5 days. Life changed."
+AS
+Arjun S.
+🇮🇳 India — SaaS Founder
+"Same-day LLC, real address, and Stripe live in under a week. I spent 3
+                            months trying with other services. This was instant."
+KM
+Khalid M.
+🇦🇪 UAE — E-commerce Seller
+"The real eSIM phone number was the missing piece. My bank kept
+                            rejecting VoIP numbers. This one worked immediately for verification."
+WL
+Wei L.
+🇲🇾 Malaysia — Digital Nomad
+Compare
+How We Compare
+(So You Don't Have To)
+See why cobbling together 3-5 separate vendors costs more and takes longer.
+Address
+LLC
+ITIN
+Phone
+Bank
+Total
+VirtualPostMail
+$3,000+
+❌
+❌
+❌
+❌
+$3,000+
+Prime Circle
+$2,000
+❌
+❌
+❌
+❌
+$2,000+
+Doola
+❌
+$297
+❌
+❌
+❌
+$1,999+
+Firstbase
+❌
+$399
+❌
+❌
+⚠️
+$968+
+The Residential Address
+$1,000/yr
+$700
+$400
+$500
+$1,000
+$3,600 ✅
+FULL STACK
+🎁 BONUS: $2,500 Credit Building toolkit FREE with every service
+📬 3 free mail forwards/month included
+[8] (950,969)<a aria-label='Chat on WhatsApp' class='whatsapp-float' href='https://wa.me/yournumber' />
+
+</current_dom>

@@ -1,0 +1,36 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (179,52)<a class='logo' href='index.html' />
+	[1] (179,52)<img  />
+[2] (573,52)<a class='dropbtn' href='javascript:void(0)'>Services ▾ />
+[3] (636,52)<a href='about.html'>About Us />
+[4] (687,52)<a href='blog.html'>Blog />
+[5] (733,52)<a href='index.html#pricing'>Pricing />
+[6] (841,52)<a class='btn btn-whatsapp' href='https://wa.me/16474367072'>💬 Chat on WhatsApp />
+Complete Your US Profile
+[7] (500,165)<a class='btn btn-gold' href='https://wa.me/16474367072'>📞 Start the Process on WhatsApp />
+[8] (240,498)<a class='logo' href='index.html' />
+	[9] (179,498)<img  />
+The US infrastructure layer for global founders. Banking, addresses, and LLCs made compliant.
+Services
+[10] (458,553)<a href='index.html'>US Residential Address />
+[11] (442,601)<a href='llc-formation.html'>LLC Formation />
+[12] (445,650)<a href='itin-application.html'>ITIN Application />
+[13] (445,698)<a href='bank-assistance.html'>Bank Assistance />
+[14] (466,747)<a href='us-phone.html'>US Phone (Physical Phone) />
+Company
+[15] (605,553)<a href='about.html'>About Us />
+[16] (596,601)<a href='blog.html'>Blog />
+[17] (600,650)<a href='index.html#pricing'>Pricing />
+[18] (594,698)<a href='index.html#faq'>FAQ />
+Trust
+IRS Certified
+100% Compliant
+Money-Back Guarantee
+© 2026 The Residential Address (Everest Ventures Group LLC). All rights reserved. Registered in
+                    Florida, USA.
+[19] (120,943)<a href='privacy.html'>Privacy Policy />
+
+</current_dom>

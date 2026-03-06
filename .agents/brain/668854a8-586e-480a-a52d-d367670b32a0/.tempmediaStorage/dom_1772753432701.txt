@@ -1,0 +1,185 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (34,30)<a aria-label='Project logo' class='brand-logo' />
+[1] (875,30)<a class='action-item' href='https://support.airtable.com/docs/contacting-airtable-support?contact_support=true'>Contact Support />
+[2] (930,30)<a class='action-item' href='https://airtable.com/signup'>Sign up for free />
+[3] (967,30)<button aria-label='Whats new' class='btn btn-icon btn-secondary' />
+	[4] (967,30)<i  />
+[5] (985,30)<button aria-label='Theme options' class='dropdown-toggle btn btn-secondary btn-icon toggle-icon-none' id='themeOptions' />
+	[6] (985,30)<i  />
+[7] (20,79)<a id='Account'>Account />
+[8] (50,79)<a id='API'>API />
+[9] (85,79)<a id='Integrations'>Integrations />
+[10] (126,79)<a id='Enterprise'>Enterprise />
+[11] (167,79)<a id='Resources'>Resources />
+[12] (950,79)<button aria-label='Search' class='search-box' role='button' />
+	[13] (939,79)<div  />
+		[14] (915,79)<i  />
+		[15] (930,79)<div >Search />
+	[16] (977,79)<d360-shortcut-key-helper  />
+		[17] (977,79)<div >CMD+K />
+[18] (86,131)<input aria-label='Filter by name' class='filter-input ng-untouched ng-pristine ng-valid' placeholder='Filter by name' />
+[19] (152,131)<i class='fas fa-times clear-icon' />
+[20] (90,560)<cdk-virtual-scroll-viewport class='cdk-virtual-scroll-viewport virtual-scroll-container cdk-virtual-scrollable ng-scroll-viewport cdk-virtual-scroll-orientation-vertical' scrollable='true' />
+	General Enterprise information
+	Managing Enterprise organizations
+	Enterprise SSO
+	Enterprise Hub Guide
+	Airtable Extensions
+	Extensions Overview
+	[21] (22,165)<div aria-label='Expand Extensions by Airtable section' class='tree-arrow' role='button' />
+		[22] (22,165)<i  />
+	[23] (52,165)<a aria-label='Extensions by Airtable' class='data-title cursor-pointer' href='/docs/extensions-by-airtable'>Extensions by Airtable />
+	[24] (22,193)<div aria-label='Expand Integrated Extensions section' class='tree-arrow' role='button' />
+		[25] (22,192)<i  />
+	[26] (52,193)<a aria-label='Integrated Extensions' class='data-title cursor-pointer' href='/docs/integrated-extensions'>Integrated Extensions />
+	[27] (16,220)<div aria-label='Collapse Airtable Fields section' class='tree-arrow' role='button' />
+		[28] (16,220)<i  />
+	[29] (38,220)<a aria-label='Airtable Fields' class='data-title cursor-pointer' href='/docs/airtable-fields'>Airtable Fields />
+	[30] (22,247)<div aria-label='Collapse Fields Overview section' class='tree-arrow' role='button' />
+		[31] (22,247)<i  />
+	[32] (46,247)<a aria-label='Fields Overview' class='data-title cursor-pointer' href='/docs/fields-overview'>Fields Overview />
+	[33] (55,274)<a aria-label='Field type overview' class='data-title' href='/docs/field-type-overview'>Field type overview />
+	[34] (79,301)<a aria-label='Supported field types in Airtable overview' class='data-title' href='/docs/supported-field-types-in-airtable-overview'>Supported field types in Airtable overview />
+	[35] (64,328)<a aria-label='The primary field in Airtable, Updated' class='data-title' href='/docs/the-primary-field'>The primary field in Airtable />
+	[36] (77,356)<a aria-label='Using formulas in Airtable's primary field' class='data-title' href='/docs/using-formulas-in-airtables-primary-field'>Using formulas in Airtable's primary field />
+	[37] (75,383)<a aria-label='Field Manager and field dependencies' class='data-title' href='/docs/field-manager-and-field-dependencies'>Field Manager and field dependencies />
+	[38] (83,410)<a aria-label='Updating multiple fields with bulk field actions' class='data-title' href='/docs/updating-multiple-fields-with-bulk-field-actions'>Updating multiple fields with bulk field actions />
+	[39] (56,437)<a aria-label='Airtable field actions' class='data-title' href='/docs/airtable-field-actions'>Airtable field actions />
+	[40] (61,464)<a aria-label='Using rich text in Airtable' class='data-title' href='/docs/using-rich-text-with-airtable'>Using rich text in Airtable />
+	[41] (22,491)<div aria-label='Expand Attachment section' class='tree-arrow' role='button' />
+		[42] (22,491)<i  />
+	[43] (41,491)<a aria-label='Attachment' class='data-title cursor-pointer' href='/docs/attachment'>Attachment />
+	[44] (22,519)<div aria-label='Expand Date-based fields section' class='tree-arrow' role='button' />
+		[45] (22,518)<i  />
+	[46] (47,519)<a aria-label='Date-based fields' class='data-title cursor-pointer' href='/docs/date-based-fields'>Date-based fields />
+	[47] (22,546)<div aria-label='Expand Formula section' class='tree-arrow' role='button' />
+		[48] (22,546)<i  />
+	[49] (37,546)<a aria-label='Formula' class='data-title cursor-pointer' href='/docs/formulas'>Formula />
+	[50] (22,573)<div aria-label='Expand Long Text Field section' class='tree-arrow' role='button' />
+		[51] (22,573)<i  />
+	[52] (45,573)<a aria-label='Long Text Field' class='data-title cursor-pointer' href='/docs/long-text-field'>Long Text Field />
+	[53] (22,600)<div aria-label='Expand Linked Record Field section' class='tree-arrow' role='button' />
+		[54] (22,600)<i  />
+	[55] (50,600)<a aria-label='Linked Record Field' class='data-title cursor-pointer' href='/docs/linked-record-field'>Linked Record Field />
+	[56] (22,627)<div aria-label='Expand Number-Based Fields section' class='tree-arrow' role='button' />
+		[57] (22,627)<i  />
+	[58] (52,627)<a aria-label='Number-Based Fields' class='data-title cursor-pointer' href='/docs/number-based-fields'>Number-Based Fields />
+	[59] (22,654)<div aria-label='Expand Other Fields section' class='tree-arrow' role='button' />
+		[60] (22,654)<i  />
+	[61] (42,654)<a aria-label='Other Fields' class='data-title cursor-pointer' href='/docs/other-fields'>Other Fields />
+	[62] (22,682)<div aria-label='Expand Rollup, lookup, and count fields section' class='tree-arrow' role='button' />
+		[63] (22,681)<i  />
+	[64] (62,682)<a aria-label='Rollup, lookup, and count fields' class='data-title cursor-pointer' href='/docs/rollup-lookup-and-count-fields'>Rollup, lookup, and count fields />
+	[65] (22,709)<div aria-label='Expand Select and user fields section' class='tree-arrow' role='button' />
+		[66] (22,709)<i  />
+	[67] (51,709)<a aria-label='Select and user fields' class='data-title cursor-pointer' href='/docs/select-and-collaborator-fields'>Select and user fields />
+	[68] (16,736)<div aria-label='Collapse Integrating with Airtable section' class='tree-arrow' role='button' />
+		[69] (16,736)<i  />
+	[70] (48,736)<a aria-label='Integrating with Airtable' class='data-title cursor-pointer' href='/docs/integrating-with-airtable'>Integrating with Airtable />
+	[71] (22,763)<div aria-label='Expand API section' class='tree-arrow' role='button' />
+		[72] (22,763)<i  />
+	[73] (32,763)<a aria-label='API' class='data-title cursor-pointer' href='/docs/api'>API />
+	[74] (22,790)<div aria-label='Expand Integration services section' class='tree-arrow' role='button' />
+		[75] (22,790)<i  />
+	[76] (49,790)<a aria-label='Integration services' class='data-title cursor-pointer' href='/docs/integration-services'>Integration services />
+	[77] (22,817)<div aria-label='Expand Developer tools section' class='tree-arrow' role='button' />
+		[78] (22,817)<i  />
+	[79] (45,817)<a aria-label='Developer tools' class='data-title cursor-pointer' href='/docs/developer-tools'>Developer tools />
+	[80] (16,845)<div aria-label='Collapse Airtable Interface Designer section' class='tree-arrow' role='button' />
+		[81] (16,844)<i  />
+	[82] (51,845)<a aria-label='Airtable Interface Designer' class='data-title cursor-pointer' href='/docs/airtable-interface-designer'>Airtable Interface Designer />
+	[83] (22,872)<div aria-label='Expand Interface Designer overview articles section' class='tree-arrow' role='button' />
+		[84] (22,872)<i  />
+	[85] (67,872)<a aria-label='Interface Designer overview articles' class='data-title cursor-pointer' href='/docs/interface-designer-overview-articles'>Interface Designer overview articles />
+	[86] (22,899)<div aria-label='Expand Interface layouts section' class='tree-arrow' role='button' />
+		[87] (22,899)<i  />
+	[88] (46,899)<a aria-label='Interface layouts' class='data-title cursor-pointer' href='/docs/interface-layouts'>Interface layouts />
+	[89] (16,926)<div aria-label='Collapse Learning and Resources section' class='tree-arrow' role='button' />
+		[90] (16,926)<i  />
+	[91] (49,926)<a aria-label='Learning and Resources' class='data-title cursor-pointer' href='/docs/learning-and-resources'>Learning and Resources />
+	[92] (22,953)<div aria-label='Expand Webinars section' class='tree-arrow' role='button' />
+		[93] (22,953)<i  />
+	[94] (39,953)<a aria-label='Webinars' class='data-title cursor-pointer' href='/docs/webinars'>Webinars />
+	Templates
+[95] (43,991)<a aria-label='Powered by Document360 - opens in a new tab' class='align-items-baseline' href='//document360.com?utm_source=docs&utm_medium=footer&utm_campaign=poweredbylogo' />
+	[96] (25,993)<span >Powered by />
+	[97] (57,991)<img  />
+[98] (186,138)<a aria-label='Home' href='/v1/en' />
+	[99] (186,138)<i  />
+[100] (217,138)<a href='/docs'>Documentation />
+[101] (261,138)<a href='/docs/airtable-fields'>Airtable Fields />
+[102] (305,138)<a href='/docs/fields-overview'>Fields Overview />
+Supported field types in Airtable overview
+[103] (414,181)<button aria-label='Copy link of Supported field types in Airtable overview' class='btn btn-secondary btn-icon copy-article' />
+	[104] (414,180)<i  />
+Updated on
+Feb 18, 2026
+Published on Jul 6, 2022
+5 minute(s) read
+[105] (793,257)<button aria-label='Article social sharing' class='dropdown-toggle btn btn-icon btn-secondary toggle-icon-none' id='article-social-sharing-options' />
+	[106] (793,257)<i  />
+[107] (811,257)<button aria-label='Article more options' class='dropdown-toggle btn btn-icon btn-secondary toggle-icon-none' id='6f7faed6-f8a3-4073-a6cd-b86d29508743' />
+	[108] (811,257)<i  />
+All currently available field types are listed below in alphabetical order. You can check out our
+[109] (493,303)<a href='/docs/public-rest-api'>API documentation if you'd like more information />
+on the data available for each field type.
+Field type name
+Data type
+Description
+Support article
+Attachment
+File
+An attachment field is a type of field that allows you to attach one or more files directly to your Airtable records.
+[110] (516,378)<a href='/docs/attachment-field'>Attachment field type article />
+Autonumber
+number
+An autonumber column automatically generates a unique, automatically incremented number for each record. Autonumbers can be helpful when you need a unique identifier for each record, or when using a formula in the primary field.
+[111] (516,447)<a href='/docs/autonumber-field'>Autonumber field type article />
+Barcode
+barcode object
+If you use the mobile Airtable client, then you can use the camera in your mobile device to scan several types of barcodes and QR codes.
+[112] (512,516)<a href='/docs/barcode-field'>Barcode field type article />
+Button
+button object
+The button field adds interactivity to your record such as opening a URL.
+[113] (516,563)<a href='/docs/button-field'>Button field type article />
+Checkbox
+boolean
+A checkbox field is useful for true/false values within a record.
+[114] (514,610)<a href='/docs/checkbox-field'>Checkbox field type article />
+Count
+number
+A count field lets you count the number of linked records in a record link column.
+[115] (516,657)<a href='/docs/count-field-overview'>Count field type article />
+Created time
+string
+(ISO 8601 formatted date)
+The created time field type will automatically show the date (and optionally, time) that a record was created.
+[116] (516,704)<a href='/docs/created-time-field'>Created time field type article />
+Created By
+collaborator object
+The created by field will automatically show which collaborator created a record within the base.
+[117] (516,752)<a href='/docs/created-by-field'>Created by field article />
+Currency
+number
+A currency field is a specific type of number field that formats the number as a currency amount.
+[118] (513,799)<a href='/docs/currency-field'>Currency field type article />
+Date & Time
+string
+(ISO 8601 formatted date)
+A date field allows you to easily enter a date and optionally a time into a cell. When editing a date time, you will be presented with a calendar widget that makes it easy to select a specific date.
+[119] (516,857)<a href='/docs/date-and-time-field'>Date (and time) field type article />
+Duration
+number
+The duration field type is a numeric field type intended for use with time durations measured in hours, minutes, seconds, or milliseconds. (If you want to store a time duration measured in days, weeks, or other larger units, use a regular number field.)
+[120] (512,937)<a href='/docs/duration-field-type'>Duration field type article />
+An email field is intended to store a single email address in each cell. Clicking on an email address within an email field will open up your computer's native email client with the To: field addressed to the email you just clicked on.
+[121] (829,143)<button aria-label='Category toggle' class='btn btn-secondary right-expand-collapse-btn' />
+	[122] (829,143)<i  />
+In this article
+[123] (884,158)<a class='cursor-pointer align-left'>Legacy default values in fields />
+
+</current_dom>

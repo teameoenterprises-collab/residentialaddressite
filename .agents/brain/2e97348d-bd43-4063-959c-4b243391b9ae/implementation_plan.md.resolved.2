@@ -1,0 +1,33 @@
+# Multi-Agent Architecture Plan (Phase 1: Asan & MarkBTM)
+
+The current Gravity Claw architecture ([index.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/index.ts) and [loop.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/agent/loop.ts)) is hardcoded to run a single Telegram bot (Max) via the `grammy` library. To spin up Asan (Head of R&D) and MarkBTM (Head of Sales) simultaneously, we need to transition into a multi-bot fleet architecture. 
+
+## Proposed Changes
+
+### 1. Refactoring Bot Initialization
+Currently, [index.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/index.ts) instantiates a single [Bot(TELEGRAM_BOT_TOKEN)](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/index.ts#133-145). 
+We will refactor this to instantiate an array of bots:
+- **Max:** `new Bot(process.env.TELEGRAM_BOT_TOKEN)`
+- **Asan:** `new Bot(process.env.TELEGRAM_ASAN_TOKEN)`
+- **MarkBTM:** `new Bot(process.env.TELEGRAM_MARK_BTM_TOKEN)`
+
+We will run `bot.start()` internally on all three instances so they poll Telegram servers concurrently from the same Node process.
+
+### 2. Multi-Agent Identity & Routing
+When a message hits any of these bots, we need to pass a "Personality Matrix" or "Agent Context" into [processAgentMessage](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/agent/loop.ts#61-265) in [loop.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/agent/loop.ts). 
+
+- **Max's Prompt:** "You are Max, Chief AI Officer of Teameo Enterprises. You have root access to the MCP filesystem and orchestrate the company..."
+- **Asan's Prompt:** "You are Asan, Head of R&D. You do not edit website code. You research, analyze data, and learn..." (No filesytem MCP access needed yet, or read-only).
+- **MarkBTM's Prompt:** "You are MarkBTM, Head of Sales. You focus on outreach, Reddit analysis, and converting leads..."
+
+Instead of hardcoding "Max" everywhere, [loop.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/agent/loop.ts) will accept an `agentIdentity` object that dictates the system prompt and available tools. 
+
+### 3. Shared Resources
+All bots will share the same:
+- SQLite `chat_history` database (so Asan, Mark, and Max can all theoretically read the same group chat history).
+- MCP Client connection (though we will likely restrict filesystem write access to Max).
+
+## Next Steps for Execution
+1. Create a config dictionary mapping bot tokens to their System Prompts and Names.
+2. Update [index.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/index.ts) to iterate over this config and launch a bot instance for each valid token.
+3. Update [loop.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/agents/gravity-claw/src/agent/loop.ts) to accept the specific agent's prompt during the Gemini LLM call.

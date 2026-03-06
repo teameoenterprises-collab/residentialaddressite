@@ -1,0 +1,46 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (305,29)<a class='logo' href='home.html' />
+	[1] (305,29)<img  />
+[2] (527,29)<a class='dropbtn' href='javascript:void(0)'>Services ▾ />
+[3] (569,29)<a href='about.html'>About Us />
+[4] (603,29)<a href='blog.html'>Blog />
+[5] (633,29)<a href='index.html#pricing'>Pricing />
+[6] (703,29)<a class='btn btn-whatsapp' href='https://wa.me/16474367072'>💬 Chat on WhatsApp />
+Borderless Infrastructure for
+Global Founders
+We provide the compliant US foundation that non-US residents need to scale globally. From real
+                    physical addresses to guaranteed banking support.
+[7] (333,568)<a class='home-card fade-up visible' href='index.html' />
+	[8] (290,459)<div >🏢 />
+	[9] (333,528)<h3 >US Residential Address />
+	[10] (333,612)<p >Stop failing KYC checks with cheap virtual PO Boxes. Get a unique, verified residential lease
+                            agreement designed to pass strict US banking compliance. />
+	[11] (333,707)<div >Explore Service → />
+[12] (500,568)<a class='home-card fade-up visible' href='llc-formation.html' />
+	[13] (456,459)<div >📜 />
+	[14] (500,528)<h3 >Wyoming/Delaware LLC />
+	[15] (500,612)<p >Fast, anonymous entity formation tailored for dropshippers, SaaS founders, and global
+                            agencies. Includes EIN and registered agent. />
+	[16] (500,707)<div >Explore Service → />
+[17] (667,568)<a class='home-card fade-up visible' href='bank-assistance.html' />
+	[18] (623,459)<div >🏦 />
+	[19] (667,539)<h3 >Bank Account Assistance />
+	[20] (667,622)<p >Guaranteed approvals at Mercury, Relay, and Capital One. We package your compliance documents
+                            and introduce you directly to account managers. />
+	[21] (667,707)<div >Explore Service → />
+[22] (333,944)<a class='home-card fade-up visible' href='itin-application.html' />
+	[23] (290,845)<div >🛂 />
+	[24] (333,915)<h3 >ITIN Application />
+	[25] (333,988)<p >Secure your US Taxpayer ID number without mailing your physical passport. We are IRS
+                            Certifying Acceptance Agents processing via secure video call. />
+[26] (500,944)<a class='home-card fade-up visible' href='us-phone.html'>Bypass WhatsApp and Bank verification blocks. Get a real 5G Tier-1 network carrier number
+                            delivered instantly via eSIM, not a flagged VoIP number. />
+	[27] (456,845)<div >📱 />
+	[28] (500,915)<h3 >US Phone (eSIM) />
+	Bypass WhatsApp and Bank verification blocks. Get a real 5G Tier-1 network carrier number
+                            delivered instantly via eSIM, not a flagged VoIP number.
+
+</current_dom>

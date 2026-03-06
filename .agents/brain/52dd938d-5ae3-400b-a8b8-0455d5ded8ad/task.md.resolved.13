@@ -1,0 +1,17 @@
+# System Simplification: Text-Based Architecture (OpenClaw)
+
+- [/] **Phase 1: System Audit & Migration Planning**
+    - [ ] Audit SQLite usage (Chat history and Memories)
+    - [ ] Plan extraction of System Prompts (Souls) to [.md](file:///Users/tahmidnur/.gemini/antigravity/brain/52dd938d-5ae3-400b-a8b8-0455d5ded8ad/task.md) files
+    - [ ] Design the new folder-based hierarchy
+- [ ] **Phase 2: Identity & Knowledge Migration**
+    - [ ] Create `SOUL.md` for each agent (Max, Asan, etc.)
+    - [ ] Create `AGENTS.md` operating manual
+    - [ ] Migrate SQLite memories to `MEMORY.md` and `shared-learnings/`
+- [ ] **Phase 3: Code Refactoring (Engine Simplification)**
+    - [ ] Remove SQLite dependencies from [loop.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/loop.ts) and `db.ts`
+    - [ ] Implement file-based history/memory loaders
+    - [ ] Simplify [index.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/vps_backup/src/index.ts) to boot from the new folder structure
+- [ ] **Phase 4: Verification & Cleanup**
+    - [ ] Verify agent performance with reduced token bloat
+    - [ ] Remove legacy database files and unused infrastructure

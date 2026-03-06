@@ -1,0 +1,206 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	[1] (234,142)<div aria-label='Close sidebar' class='mr-half flex items-center justify-center focus-visible cursor-pointer css-hoen6i' role='button' />
+	[2] (278,142)<div class='flex items-center pointer colors-background-selected-hover rounded focus-visible px1' id='id_13399a69e007a4091f57f6d1c278a1a4' role='button' />
+		[3] (278,142)<div  />
+			[4] (254,142)<span  />
+			[5] (278,142)<span >Grid view />
+			[6] (302,142)<div  />
+	[7] (678,142)<div aria-label='Hide fields' class='focus-visible mr1' role='button' />
+		[8] (678,142)<div  />
+			[9] (683,142)<div >Hide fields />
+	[10] (727,142)<div aria-label='Filter rows' class='collapsed focus-visible' id='id_4e946293985959910e2f3d6a05a715c3' role='button' />
+		[11] (727,142)<div  />
+			[12] (733,142)<div  />
+				[13] (733,142)<span >Filter />
+	[14] (769,142)<div aria-label='Group rows' class='collapsed focus-visible mr1' role='button' />
+		[15] (769,142)<div  />
+			[16] (775,142)<div >Group />
+	[17] (810,142)<div aria-label='Sort rows' class='focus-visible collapsed mr1' role='button' />
+		[18] (810,142)<div  />
+			[19] (815,142)<div >Sort />
+	[20] (849,142)<div aria-label='Row colors' class='collapsed focus-visible mr1' id='viwjB2EGlR8CIr7YW-colorConfigButton' role='button' />
+		[21] (849,142)<div  />
+			[22] (855,142)<div >Color />
+	[23] (881,142)<div aria-label='Row height' class='focus-visible mr1' role='button' />
+		[24] (881,142)<div  />
+	[25] (929,142)<div aria-label='Share and sync' class='focus-visible' id='id_46bd1172936afdd9e218f1c7c35f0e28' role='button' />
+		[26] (929,142)<div  />
+			[27] (934,142)<div >Share and sync />
+	[28] (979,142)<div aria-label='toggle view search input' class='flex items-center justify-center focus-visible cursor-pointer css-c45rhi' role='button' />
+	[29] (295,198)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default background-transparent colors-background-selected-hover px1-and-half button-size-default flex width-full pl1-and-half' id='id_52adb04f565578988a919f78b3a80e88'>Create new... />
+		Create new...
+	[30] (295,238)<input aria-label='Find a view' class='ignore-baymax-defaults width-full stroked-blue-inset-outset-focus css-7qul8y' placeholder='Find a view' />
+	[31] (356,238)<div aria-label='View list options' class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' id='id_1697f954fd850a60c989f9aac2d44978' role='button' />
+	[32] (295,282)<li class='rounded pointer flex relative justify-center flex-column pt1 pb1 px1-and-half css-0' id='id_b35a3659e8dafd926b1851ea9ef10639-viwjB2EGlR8CIr7YW' role='option' />
+		[33] (295,282)<div  />
+			[34] (295,282)<div  />
+				[35] (234,282)<span  />
+				[36] (259,282)<span >Grid view />
+	[37] (370,576)<div class='absolute top-0 right-0 bottom-0 colors-background-primary-control-hover cursor-col-resize background-transparent focus-visible' role='separator' />
+	[38] (681,576)<div  />
+		[39] (681,593)<div aria-label='Use Enter to explore the contents of this grid, and Escape when you're finished' class='antiscroll-inner keyboard-accessible-grid-container' role='application' scrollable='true' />
+		[40] (465,186)<span  />
+			Reddit Post Link
+		[41] (441,328)<div  />
+			[42] (386,328)<div  />
+		1
+		[43] (406,222)<div  />
+			[44] (404,221)<a aria-label='Expand' class='expandRowCell flex' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s/viwjB2EGlR8CIr7YW/recIms4CLODIf35hB?blocks=hide' />
+				[45] (404,221)<i  />
+		2
+		[46] (406,257)<div  />
+			[47] (404,257)<a aria-label='Expand' class='expandRowCell flex' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s/viwjB2EGlR8CIr7YW/recAlQFDLIeUtxBti?blocks=hide' />
+				[48] (404,257)<i  />
+		3
+		[49] (406,293)<div  />
+			[50] (404,292)<a aria-label='Expand' class='expandRowCell flex' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s/viwjB2EGlR8CIr7YW/recTVF10pYIgTUQ6d?blocks=hide' />
+				[51] (404,292)<i  />
+		[52] (934,187)<div aria-label='add a field' class='gridHeaderRowAddFieldButton cell ghost' role='button' title='Add field' />
+		Lead Content
+		Status
+		[53] (570,186)<span  />
+			Subreddit
+		[54] (667,186)<span  />
+			Outreach Draft
+		[55] (764,186)<span  />
+			Is Approved
+		[56] (862,186)<span  />
+			Assigned Agent
+		[57] (617,328)<div  />
+		[58] (763,222)<div  />
+			[59] (763,222)<div aria-label='Is Approved, not checked' class='flex baymax justify-center flex-auto' role='checkbox' />
+				[60] (763,221)<div  />
+		[61] (763,257)<div  />
+			[62] (763,257)<div aria-label='Is Approved, not checked' class='flex baymax justify-center flex-auto' role='checkbox' />
+				[63] (763,257)<div  />
+		[64] (763,293)<div  />
+			[65] (763,293)<div aria-label='Is Approved, not checked' class='flex baymax justify-center flex-auto' role='checkbox' />
+				[66] (763,292)<div  />
+		[67] (387,930)<div aria-label='Add lead' class='focus-visible' role='button' />
+			[68] (387,930)<div  />
+				[69] (388,930)<span  />
+		[70] (423,930)<div aria-label='Add more' class='focus-visible' role='button' />
+			[71] (423,930)<div  />
+				[72] (426,930)<span >Add… />
+		3 leads
+		[73] (569,956)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[74] (568,957)<div  />
+				[75] (598,957)<p  />
+		[76] (667,956)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[77] (665,957)<div  />
+				[78] (696,957)<p  />
+		[79] (764,956)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[80] (763,957)<div  />
+				[81] (793,957)<p  />
+		[82] (861,956)<span class='toggleButton flex overflow-hidden pointer' role='button' />
+			[83] (860,957)<div  />
+				[84] (890,957)<p  />
+	[85] (15,500)<aside  />
+		[86] (15,31)<a aria-label='Back to home' class='flex flex-none relative pointer circle focus-visible-white colors-border-emphasis' href='/' id='appTopBarHomeButton' />
+			[87] (15,31)<div  />
+				[88] (15,31)<div  />
+		[89] (15,78)<div aria-label='Close Omni' class='flex items-center justify-center pointer circle focus-visible-white cursor-pointer text-orange-dusty css-1azag67 focus-visible' role='button' />
+			[90] (15,78)<div  />
+				[91] (15,78)<div  />
+		[92] (15,122)<div class='flex items-center justify-center circle pointer animate-ease-in-out colors-background-raised-control-hover-hover focus-visible' role='button' />
+		[93] (15,167)<div class='flex items-center justify-center circle pointer animate-ease-in-out colors-background-raised-control-hover-hover focus-visible' role='button' />
+		[94] (15,211)<div class='flex items-center justify-center circle pointer animate-ease-in-out colors-background-raised-control-hover-hover focus-visible' role='button' />
+		[95] (15,878)<div aria-label='Help menu' class='focus-visible-current-color pointer flex items-center focus-visible-opaque justify-center flex-reverse circle colors-background-raised-control-hover-hover top-bar-text-dark-hover focus-visible' role='button' />
+		[96] (15,922)<div aria-label='No unseen notifications' class='relative flex items-center focus-visible-current-color pointer pill focus-visible' id='id_11a6916e6a59e4254b908116e1e094bf' role='button' />
+			[97] (15,922)<div  />
+				[98] (15,922)<div  />
+					[99] (21,910)<div  />
+					[100] (15,923)<div  />
+		[101] (15,967)<div aria-label='Account' class='flex-none flex items-center ml1 focus-visible-current-color pointer circle shadow-elevation-low shadow-elevation-low-hover focus-visible' id='id_271ebdcd9f9c9a1deeb5a07f05f651b3' role='button' />
+			[102] (15,967)<div  />
+				[103] (15,967)<div  />
+					[104] (15,967)<div  />
+						[105] (15,967)<div aria-label='T' class='userIcon circle dark-mode-darken-app-color cyan border border-white' role='img' />
+							[106] (15,967)<div >T />
+	[107] (125,500)<div  />
+		You don't have any chats yet.
+		[108] (56,33)<div class='flex-auto flex items-center px-three-quarters py-half rounded-big focus-visible' id='id_f627bcd4dc68585da49dedf719050888' role='button'>New chat />
+			New chat
+		[109] (186,33)<div class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' role='button' />
+		[110] (203,33)<div class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' role='button' />
+		Let’s get started
+		[111] (125,427)<div class='relative flex flex-auto rounded-big overflow-hidden colors-background-raised-control flex-column justify-center z2 outline-offset-0 shadow-elevation-low shadow-elevation-low-hover focus-visible' id='aiAssistantInputTextArea' role='button' />
+			Is Approved
+			[112] (195,362)<div class='flex items-center justify-center focus-visible cursor-pointer css-989kmd' role='button' />
+			[113] (125,416)<textarea aria-label='Ask about or change Is Approved' class='flex-auto rounded-big line-height-4 text-size-large' placeholder='Ask about or change Is Approved' />
+			[114] (66,481)<div class='flex items-center justify-center pointer pill border focus-visible mr-half px1 colors-foreground-subtle colors-background-selected-hover colors-border-default' role='button' />
+				[115] (71,481)<p >Tools />
+			[116] (97,481)<div class='flex items-center justify-center circle focus-visible border colors-foreground-subtle colors-border-default cursor-pointer colors-background-selected-hover' role='button' />
+			[117] (194,481)<span aria-label='Submit' class='flex items-center justify-center focus-visible circle css-104xqr0' role='button' />
+		Start with a table
+		[118] (67,584)<div class='flex items-center gap1 py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default focus-visible' role='button' />
+			[119] (73,584)<p >Projects />
+		[120] (126,584)<div class='flex items-center gap1 py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default focus-visible' role='button' />
+			[121] (132,584)<p >Contacts />
+		[122] (190,584)<div class='flex items-center gap1 py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default focus-visible' role='button' />
+			[123] (197,584)<p >Companies />
+		[124] (67,633)<div class='flex items-center gap1 py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default focus-visible' role='button' />
+			[125] (71,633)<p >Assets />
+		[126] (126,633)<div class='flex items-center gap1 py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default focus-visible' role='button' />
+			[127] (132,633)<p >Inventory />
+		[128] (190,633)<div class='flex items-center gap1 py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default focus-visible' role='button' />
+			[129] (195,633)<p >Contracts />
+		Import data
+		[130] (81,725)<div aria-label='Import data from Excel' class='py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default flex items-center px1 py-half focus-visible' role='button' />
+			[131] (51,725)<img  />
+			[132] (68,725)<p >Excel />
+		[133] (168,725)<div aria-label='Import data from CSV / Other' class='py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default flex items-center px1 py-half focus-visible' role='button' />
+			[134] (166,725)<p >CSV / Other />
+		[135] (81,773)<div aria-label='Import data from Google Sheets' class='py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default flex items-center px1 py-half focus-visible' role='button' />
+			[136] (51,773)<img  />
+			[137] (84,773)<p >Google Sheets />
+		[138] (168,773)<div aria-label='Import by pasting table data' class='py1 px1-and-half rounded-big shadow-elevation-low cursor-pointer shadow-elevation-low-hover colors-background-default flex items-center px1 py-half focus-visible' role='button' />
+			[139] (164,773)<p >Paste data />
+		[140] (125,949)<div class='flex items-center p1 rounded-big shadow-elevation-low cursor-pointer focus-visible' role='button' />
+			[141] (55,949)<div  />
+			[142] (128,949)<div  />
+				[143] (128,931)<p  />
+					[144] (128,931)<span >Explore field agents />
+				[145] (128,960)<p >Research, summarize, and analyze with AI />
+			[146] (198,949)<div  />
+	[147] (605,49)<div  />
+		[148] (329,49)<div aria-label='Open base settings menu' class='flex items-center huge pointer line-height-3 focus-visible-current-color rounded css-w1u7fo focus-visible' role='button' />
+			[149] (323,49)<div >The Residential Address - Outreach />
+		[150] (544,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh' />
+			[151] (544,49)<p >Data />
+		[152] (581,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/automations' />
+			[153] (581,49)<p >Automations />
+		[154] (628,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/interfaces?origin=topnav' />
+			[155] (628,49)<p >Interfaces />
+		[156] (664,49)<a class='relative flex height-full items-center' href='/app4v0TIpyA6zMZCh/forms?origin=topnav' />
+			[157] (664,49)<p >Forms />
+		[158] (790,49)<div aria-label='Base history' class='pointer flex justify-center items-center circle focus-visible-current-color colors-background-raised-control-hover-hover top-bar-text-light top-bar-text-light-hover focus-visible' id='id_f525540ed835410b819c354569493c77' role='button' />
+		[159] (841,49)<div class='flex items-baseline justify-center pointer px1-and-half pill focus-visible mx1 nowrap darken1 colors-foreground-default css-1amw26v' id='id_4be2cc7a1a29e06a35f372ef3052fd37' role='button'>Trial: 14 days left />
+		[160] (905,49)<button class='pointer items-center justify-center border-box text-decoration-none print-color-exact focus-visible rounded-big ignore-baymax-defaults border-none colors-foreground-default colors-background-raised-control shadow-elevation-low shadow-elevation-low-hover px1 button-size-small flex-inline focus-visible-current-color'>Launch />
+			Launch
+		[161] (939,49)<div class='flex items-center justify-center focus-visible cursor-pointer shadow-elevation-low shadow-elevation-low-hover css-leewk5' role='button' title='Copy link' />
+		[162] (967,49)<div class='erahsButton flex items-center pointer line-height-4 text-size-default font-weight-strong shadow-elevation-low shadow-elevation-low-hover rounded-big orange-dusty focus-visible-current-color focus-visible' id='top-bar-primary-cta-erahs-button' role='button' />
+			[163] (967,49)<span >Share />
+	[164] (605,99)<div  />
+		[165] (253,99)<div  />
+			[166] (253,99)<div  />
+				[167] (253,99)<a class='height-full flex flex-auto items-center max-width-2 no-user-select focus-visible pl1-and-half' href='/app4v0TIpyA6zMZCh/tblvhATGEfhW3pa1s?blocks=hide' />
+					[168] (247,99)<span >Reddit Leads />
+				[169] (273,99)<div  />
+					[170] (276,99)<div aria-label='Reddit Leads table options' class='pointer flex-none focus-visible focus-visible-opaque ml1 flex items-center colors-foreground-subtle colors-foreground-default-parent-hover' role='button' />
+		[171] (297,99)<div aria-label='Search all tables' class='pointer flex flex-none justify-center items-center focus-visible-opaque focus-container px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' role='button' />
+		[172] (344,99)<div aria-label='Add or import table' class='pointer flex items-center flex-none focus-visible-opaque rounded px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' id='id_075ee8523e23a1827b269da8abc70376' role='button' />
+			[173] (350,99)<p >Add or import />
+		[174] (969,99)<div  />
+			[175] (969,99)<div class='flex items-center pointer px1-and-half top-bar-text-dark top-bar-text-dark-hover focus-visible' role='button' />
+				[176] (964,99)<div >Tools />
+	[177] (217,500)<div aria-label='AI Assistant sidebar width' class='absolute top-0 bottom-0 cursor-col-resize hover-container z3 my-quarter focus-visible' role='separator' />
+		[178] (218,500)<div  />
+		[179] (219,500)<div  />
+Add field
+
+</current_dom>

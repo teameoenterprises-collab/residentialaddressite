@@ -1,0 +1,57 @@
+# Multi-Agent Architecture Plan (Phase 1: Asan & MarkBTM)
+
+The current Gravity Claw architecture (`index.ts` and `loop.ts`) is hardcoded to run a single Telegram bot (Max) via the `grammy` library. To spin up Asan (Head of R&D) and MarkBTM (Head of Sales) simultaneously, we need to transition into a multi-bot fleet architecture. 
+
+## Proposed Changes
+
+### 1. Refactoring Bot Initialization
+Currently, `index.ts` instantiates a single `Bot(TELEGRAM_BOT_TOKEN)`. 
+We will refactor this to instantiate an array of bots:
+- **Max:** `new Bot(process.env.TELEGRAM_BOT_TOKEN)`
+- **Asan:** `new Bot(process.env.TELEGRAM_ASAN_TOKEN)`
+- **MarkBTM:** `new Bot(process.env.TELEGRAM_MARK_BTM_TOKEN)`
+
+We will run `bot.start()` internally on all three instances so they poll Telegram servers concurrently from the same Node process.
+
+### 2. Multi-Agent Identity & Routing
+When a message hits any of these bots, we need to pass a "Personality Matrix" or "Agent Context" into `processAgentMessage` in `loop.ts`. 
+
+- **Max's Prompt:** "You are Max, Chief AI Officer of Teameo Enterprises. You have root access to the MCP filesystem and orchestrate the company..."
+- **Asan's Prompt:** "You are Asan, Head of R&D. You do not edit website code. You research, analyze data, and learn..." (No filesytem MCP access needed yet, or read-only).
+- **MarkBTM's Prompt:** "You are MarkBTM, Head of Sales. You focus on outreach, Reddit analysis, and converting leads..."
+
+Instead of hardcoding "Max" everywhere, `loop.ts` will accept an `agentIdentity` object that dictates the system prompt and available tools. 
+
+### 3. Shared Resources
+All bots will share the same:
+- SQLite `chat_history` database (so Asan, Mark, and Max can all theoretically read the same group chat history).
+- MCP Client connection (though we will likely restrict filesystem write access to Max).
+
+## Next Steps for Execution
+1. Create a config dictionary mapping bot tokens to their System Prompts and Names.
+2. Update `index.ts` to iterate over this config and launch a bot instance for each valid token.
+3. Update `loop.ts` to accept the specific agent's prompt during the Gemini LLM call.
+
+---
+
+# Phase 2: Department Build-Out (Asan & Core Memory)
+
+## 1. Cloud Memory Storage Strategy
+The user is concerned about losing the local SQLite database (`chat_history.db`) which stores the agents' memory.
+There are two primary approaches we can take:
+1. **The Sync Folder Approach (Easiest)**: We simply move the `agents/gravity-claw` folder (or just the `.db` file) into a Google Drive Desktop / iCloud Drive folder on the Mac. Max and the agents will read/write from that folder, and Google Drive will automatically sync the database to the cloud over WiFi.
+2. **The Cloud Database Approach (Most Robust)**: We modify `memory/db.ts` to connect to a free, serverless Cloud Postgres database (like **Supabase** or **Neon**). This entirely eliminates the local `.db` file. The agents will read/write their memories directly to the cloud DB in real-time, making it impossible to lose data even if the laptop is destroyed.
+
+## 2. Asan's YouTube Knowledge Base Tool
+We will empower the R&D Agent (Asan) to ingest long-form content automatically.
+- **Dependency**: Install the `youtube-transcript` npm package.
+- **Native Tool**: Create `tools/youtube.ts` with an `extract_transcript` tool.
+- **Agent Binding**: In `loop.ts`, we will conditionally load `extract_transcript` *only* if `agentContext.name === "Asan"`.
+- **Workflow**: The user texts a YouTube link to the group. Asan pulls the full transcript invisibly, summarizes the core engineering or marketing concepts using Gemini's massive context window, and writes the synthesis back into the shared `chat_history`.
+
+## 3. Remote AntiGravity Backlog
+Max will act as our remote backlog manager. 
+- We will create a local file: `antigravity_backlog.md`.
+- Max already possesses the `filesystem__edit_file` tool.
+- The user can text Max on Telegram from their phone: *"Add X to AntiGravity's backlog"*. Max will append the task to the markdown file.
+- When the user opens the IDE locally, they can simply tell AntiGravity to read and execute the backlog.

@@ -1,0 +1,136 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Accessibility Links
+Skip to main content
+Accessibility help
+Accessibility feedback
+[0] (150,73)<a aria-label='Go to Google Home' href='https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiU3sD_-oaTAxWIzckDHbqSAIcQPAgJ' id='logo' title='Go to Google Home' />
+[1] (408,72)<textarea aria-label='Search' class='gLFyf' id='APjFqb' role='combobox' />
+[2] (608,72)<div  />
+	[3] (606,72)<div aria-label=' Clear' class='M2vV3 vOY7J' role='button' />
+		[4] (606,72)<span  />
+	[5] (623,72)<span  />
+[6] (640,72)<div aria-label='Search by voice' class='XDyW0e' role='button' />
+[7] (668,72)<div aria-label='Search by image' class='nDcEnd' role='button' />
+[8] (700,72)<button aria-label='Search' class='HZVG1b Tg7LZd' />
+	[9] (695,72)<div  />
+		[10] (695,72)<span  />
+[11] (942,72)<a aria-label='Google apps' class='gb_B' href='https://www.google.ca/intl/en/about/products?tab=wh' role='button' />
+[12] (972,72)<a aria-label='Google Account: Tahmid Nur  
+(tahmid20@gmail.com)' class='gb_B gb_0a' href='https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/search%3Fq%3Dsite%253Ax.com%2Bericosiu%2Barticles&ec=futura_srp_og_si_72236_p' role='button' />
+Filters and Topics
+[13] (137,157)<a class='XVMlrc C6AK7c' href='/search?q=site:x.com+ericosiu+articles&sca_esv=ad175a4a610f2e0b&sxsrf=ANbL-n4Zn0tGEQiKxxWuOnyJQUKO1RtPGg:1772651918935&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIX2xhuqmjuyJb8bmeAomNlFhFgGoQV9IOSi2pRgfss6WxrI1FpygmAC_fSINztkb6-loV4Oud_vad7mXe_ro8Ny8JBFVKr-3vbeaFf4CYHYJytiBA8Q1XP74GgEJhe5UrQwmIL8TpMerp13DjMK0_gXK-_m6Jo28recvxx6of9xA2Yuyyg&aep=1&ntc=1&sa=X&ved=2ahUKEwiU3sD_-oaTAxWIzckDHbqSAIcQ2J8OegQIEhAE' />
+	[14] (137,157)<div  />
+		[15] (137,169)<div  />
+			[16] (137,161)<span >AI Mode />
+[17] (178,157)<a class='C6AK7c' role='link' />
+	All
+[18] (213,157)<a class='C6AK7c' href='/search?sca_esv=ad175a4a610f2e0b&sxsrf=ANbL-n4Zn0tGEQiKxxWuOnyJQUKO1RtPGg:1772651918935&q=site:x.com+ericosiu+articles&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIX2xhuqmjuyJb8bmeAomNlFhFgGoQV9IOSi2pRgfss6WxrI1FpygmAC_fSINztkb6-loV4Oud_vad7mXe_ro8Ny8JBFVKr-3vbeaFf4CYHYJytiBA8Q1XP74GgEJhe5UrQwmIL8TpMerp13DjMK0_gXK-_m6Jo28recvxx6of9xA2Yuyyg&sa=X&ved=2ahUKEwiU3sD_-oaTAxWIzckDHbqSAIcQ0pQJegQIGBAB' />
+	[19] (213,157)<div  />
+		[20] (213,169)<span >News />
+[21] (257,157)<a class='C6AK7c' href='/search?sca_esv=ad175a4a610f2e0b&sxsrf=ANbL-n4Zn0tGEQiKxxWuOnyJQUKO1RtPGg:1772651918935&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIX2xhuqmjuyJb8bmeAomNlFhFgGoQV9IOSi2pRgfss6WxrI1FpygmAC_fSINztkb6-loV4Oud_vad7mXe_ro8Ny8JBFVKr-3vbeaFf4CYHYJytiBA8Q1XP74GgEJhe5UrQwmIL8TpMerp13DjMK0_gXK-_m6Jo28recvxx6of9xA2Yuyyg&q=site:x.com+ericosiu+articles&sa=X&ved=2ahUKEwiU3sD_-oaTAxWIzckDHbqSAIcQtKgLegQIFxAB' />
+	[22] (257,157)<div  />
+		[23] (257,169)<span >Videos />
+[24] (306,157)<a class='C6AK7c' href='/search?sca_esv=ad175a4a610f2e0b&sxsrf=ANbL-n4Zn0tGEQiKxxWuOnyJQUKO1RtPGg:1772651918935&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIX2xhuqmjuyJb8bmeAomNlFhFgGoQV9IOSi2pRgfss6WxrI1FpygmAC_fSINztkb6-loV4Oud_vad7mXe_ro8Ny8JBFVKr-3vbeaFf4CYHYJytiBA8Q1XP74GgEJhe5UrQwmIL8TpMerp13DjMK0_gXK-_m6Jo28recvxx6of9xA2Yuyyg&q=site:x.com+ericosiu+articles&sa=X&ved=2ahUKEwiU3sD_-oaTAxWIzckDHbqSAIcQtKgLegQIFhAB' />
+	[25] (306,157)<div  />
+		[26] (306,169)<span >Images />
+[27] (352,157)<a class='C6AK7c' href='https://maps.google.com/maps?sca_esv=ad175a4a610f2e0b&output=search&q=site:x.com+ericosiu+articles&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIX2xhuqmjuyJb8bmeAomNlFhFgGoQV9IOSi2pRgfss6WxrI1FpygmAC_fSINztkb6-loV4Oud_vad7mXe_ro8Ny8JBFVKr-3vbeaFf4CYHYJytiBA8Q1XP74GgEJhe5UrQwmIL8TpMerp13DjMK0_gXK-_m6Jo28recvxx6of9xA2Yuyyg&entry=mc&ved=1t:200715&ictx=111' />
+	[28] (352,157)<div  />
+		[29] (352,169)<span >Maps />
+[30] (409,157)<a class='C6AK7c' href='/search?sca_esv=ad175a4a610f2e0b&sxsrf=ANbL-n4Zn0tGEQiKxxWuOnyJQUKO1RtPGg:1772651918935&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIX2xhuqmjuyJb8bmeAomNlFhFgGoQV9IOSi2pRgfss6WxrI1FpygmAC_fSINztkb6-loV4Oud_vad7mXe_ro8Ny8JBFVKr-3vbeaFf4CYHYJytiBA8Q1XP74GgEJhe5UrQwmIL8TpMerp13DjMK0_gXK-_m6Jo28recvxx6of9xA2Yuyyg&q=site:x.com+ericosiu+articles&sa=X&ved=2ahUKEwiU3sD_-oaTAxWIzckDHbqSAIcQs6gLegQIFRAB' />
+	[31] (409,157)<div  />
+		[32] (409,169)<span >Short videos />
+[33] (473,157)<div class='mTpL7c' role='button' />
+	[34] (473,157)<div  />
+		[35] (473,169)<div  />
+			[36] (467,161)<span >More />
+			[37] (485,161)<span  />
+[38] (526,157)<div class='mOKdDc' id='hdtb-tls' role='button' />
+	[39] (526,157)<div  />
+		[40] (526,169)<div  />
+			[41] (520,161)<span >Tools />
+			[42] (538,161)<span  />
+Search Results
+[43] (211,279)<a class='zReHs' href='https://x.com/ericosiu' />
+	[44] (211,306)<h3 >ericosiu (@ericosiu) / Posts / X />
+	[45] (159,258)<div  />
+		[46] (159,258)<div  />
+			[47] (128,258)<span  />
+				[48] (128,258)<div  />
+					[49] (128,258)<img  />
+			[50] (173,258)<div  />
+				[51] (173,245)<div  />
+					[52] (173,245)<span >X · ericosiu />
+				[53] (173,271)<div  />
+					[54] (173,271)<cite class='qLRx3b tjvcx GvPZzd cHaqb' role='text'>37K+ followers />
+[55] (215,270)<div aria-label='About this result' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[56] (215,270)<span  />
+		[57] (215,271)<span  />
+ericosiu (@ericosiu) - Posts -
+Founder ad agency @singlegrain
+, Investor. Member: @YPO Beverly Hills Podcaster: Marketing School... | X (formerly Twitter)
+[58] (539,306)<a href='https://x.com/ericosiu' />
+	[59] (539,306)<div  />
+		[60] (539,306)<img  />
+[61] (318,481)<a class='zReHs' href='https://x.com/ericosiu/status/2029212519873835096' />
+	[62] (318,507)<h3 >Ordering food with OpenClaw is cute. Driving business results ... />
+	[63] (169,459)<div  />
+		[64] (169,459)<div  />
+			[65] (128,459)<span  />
+				[66] (128,459)<div  />
+					[67] (128,459)<img  />
+			[68] (183,459)<div  />
+				[69] (183,447)<div  />
+					[70] (183,447)<span >X · ericosiu />
+				[71] (183,473)<div  />
+					[72] (183,473)<cite class='qLRx3b tjvcx GvPZzd cHaqb' role='text'>8 likes  ·  4 hours ago />
+[73] (235,472)<div aria-label='About this result' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[74] (235,472)<span  />
+		[75] (235,473)<span  />
+[76] (176,598)<a aria-label='Ordering food with OpenClaw is cute. Driving business results ... by ericosiu on X. Play on X. 13:08' class='rIRoqf' href='https://x.com/ericosiu/status/2029212519873835096' />
+	[77] (169,601)<div  />
+		[78] (169,601)<div  />
+			[79] (169,601)<div  />
+				[80] (140,633)<div  />
+					[81] (140,633)<span >13:08 />
+Ordering food with OpenClaw is cute
+. Driving business results is better. My first 3 X articles (written by me): 358, 756, 6,600 views.
+[82] (195,747)<a class='zReHs' href='https://x.com/ericosiu/status/2028237462573855189' />
+	[83] (195,773)<h3 >ericosiu (@ericosiu) on X />
+	[84] (156,725)<div  />
+		[85] (156,725)<div  />
+			[86] (128,725)<span  />
+				[87] (128,725)<div  />
+					[88] (128,725)<img  />
+			[89] (170,725)<div  />
+				[90] (170,713)<div  />
+					[91] (170,713)<span >X · ericosiu />
+				[92] (170,739)<div  />
+					[93] (162,739)<cite class='qLRx3b tjvcx GvPZzd cHaqb' role='text'>30+ likes />
+[94] (208,738)<div aria-label='About this result' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[95] (208,738)<span  />
+		[96] (208,739)<span  />
+Publishing
+before
+my next boarding call. Before AI, this article takes half a day. Instead it's one more cycle completed between other cycles.
+[97] (314,844)<a class='vzmbzf' href='https://x.com/ericosiu/status/2028237462573855189#:~:text=Publishing%20before%20my%20next%20boarding,cycle%20completed%20between%20other%20cycles.' />
+	[98] (314,844)<span >Read more />
+[99] (178,949)<a class='zReHs' href='https://x.com/ericosiu/status/2022733712971174153' />
+	[100] (143,975)<h3 >ericosiu />
+	[101] (178,927)<div  />
+		[102] (178,927)<div  />
+			[103] (128,927)<span  />
+				[104] (128,927)<div  />
+					[105] (128,927)<img  />
+			[106] (192,927)<div  />
+				[107] (192,915)<div  />
+					[108] (192,915)<span >X · ericosiu />
+				[109] (192,941)<div  />
+					[110] (192,941)<cite class='qLRx3b tjvcx GvPZzd cHaqb' role='text'>550+ likes  ·  2 weeks ago />
+[111] (252,939)<div aria-label='About this result' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[112] (252,939)<span  />
+		[113] (252,941)<span  />
+
+</current_dom>

@@ -1,0 +1,41 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (194,39)<a class='logo' href='#'>The Residential Address />
+	[1] (122,39)<div >🏠 />
+[2] (595,39)<a href='#problem'>Why Us />
+[3] (651,39)<a href='#pricing'>Pricing />
+[4] (710,39)<a href='#compare'>Compare />
+[5] (762,39)<a href='#faq'>FAQ />
+[6] (842,39)<a class='btn btn-primary' href='#pricing'>Get Started />
+The Problem
+Why 73% of Non-US Founders
+Get Rejected by US Banks
+Banks scan the USPS database. If your address is flagged as a
+COMMERCIAL MAIL RECEIVING AGENCY
+, you are automatically out of all the personal
+                        banking options.
+Virtual Mailboxes
+Flagged as CMRA. Instant rejection from Stripe, Mercury, and Capital One. Avoid at all
+                            costs.
+STATUS: BANNED
+P.O. Boxes
+Banks require a "Physical Street Address." Generic P.O. boxes do not meet Patriot Act
+                            requirements.
+STATUS: REJECTED
+Real Residential Lease
+A legal, signed lease for a real residential unit in your
+                            personal
+                            name. Accompanied by a verifiable utility bill.
+Passes Residential Address Check
+Verifiable Lease Agreement
+Bank-Friendly Lease
+Renter Insurance Ready
+STATUS: 100% COMPLIANT
+Bank-Grade Security
+We work directly with property managers to ensure your address is unique and private. Your
+                            mail is handled by secure, vetted couriers with tracking for every forward.
+[7] (959,944)<a aria-label='Chat on WhatsApp' class='whatsapp-float' href='https://wa.me/yournumber' />
+
+</current_dom>
