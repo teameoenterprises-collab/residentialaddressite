@@ -1,8 +1,4 @@
 .DS_Store
-.agents/
-.agent/
-.agents
-.agent
 
 # Gravity Claw (bot internals — never push)
 agents/gravity-claw/node_modules/
