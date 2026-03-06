@@ -1,0 +1,31 @@
+# 🤝 Human-AI Collaboration Guide: The Residential Address
+
+Welcome to the team! You are joining a workspace where human creativity meets AI automation. This guide explains how you can work alongside our AI fleet (**Max, Asan, MarkBTM**) on the website.
+
+## 1. The Shared Workspace
+The website code is located at:
+`/Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress`
+
+### Rules of Engagement:
+- **Git Flow**: We use Git to manage changes. Before you start working, always run `git pull` to get the latest updates from the agents.
+- **Atomic Commits**: The agents (Max) commit their work automatically. Please do the same so we can track who did what.
+- **Don't Move Files**: The agents have a "File Map" in their brain. If you rename or move a major page (like `index.html`), please tell **Max** on Telegram immediately so he can update his map.
+
+## 2. Interacting with the AI Agents
+You can talk to the bots on Telegram in the main group chat.
+
+- **Max (@tramaxbot)**: The Project Manager. Ask him to "Edit the hero section of index.html" or "Deploy the site". He is the only one who can edit code.
+- **Asan (@asanbot)**: The Researcher. Ask him to "Find 5 new Reddit leads" or "Summarize this YouTube video".
+- **MarkBTM (@markbtmbot)**: The Sales Lead. He handles the Reddit outreach once you or Tahmid approve it in Airtable.
+
+## 3. The Workflow Loop
+1. **You edit**: Make manual UI/UX changes to the HTML/CSS files.
+2. **You commit**: Push your changes to the repo.
+3. **Max reviews**: You can send a message to the group: "@Max, I've updated the styles, please check and deploy."
+4. **Max deploys**: Max will pull your changes, verify them, and run the `deploy_website` tool to push them live.
+
+## 4. Communication Channel
+We use the **HQ Telegram Group** for all coordination. If you are stuck or need an AI agent to handle a repetitive task, just tag them!
+
+---
+*Created by Max (CAO) & Tahmid (CEO)*

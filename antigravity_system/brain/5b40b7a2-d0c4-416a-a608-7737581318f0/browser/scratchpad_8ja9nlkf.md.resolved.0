@@ -1,0 +1,13 @@
+# Mobile Typography Verification Plan
+
+- [ ] Resize browser to 390x844 (iPhone 14 size)
+- [ ] Navigate to http://localhost:8099/index.html
+- [ ] Wait 2 seconds for fonts to load
+- [ ] Capture hero section screenshot
+- [ ] Scroll down 800px and capture section headings screenshot
+- [ ] Scroll down another 800px and capture another screenshot
+- [ ] Evaluate visual hierarchy (h1, h2, h3 differentiation)
+- [ ] Check hero headline fit on 2 lines
+
+## Findings
+- 

@@ -1,0 +1,30 @@
+# YouTube Transcript Analysis Implementation Plan
+
+Enable agents (specifically Asan) to extract and analyze YouTube transcripts directly from URLs to provide rapid takeaways and research insights.
+
+## Proposed Changes
+
+### [Component] YouTube Transcript Tool
+
+#### [NEW] [youtube.ts](file:///root/gravity-claw/src/tools/youtube.ts)
+- Implement a `get_youtube_transcript` tool.
+- Use a library or a scraping-based approach (like `youtube-transcript-api` equivalent in Node) to fetch transcripts without requiring a heavy official Data API key if possible.
+- Fallback to metadata extraction if transcripts are disabled.
+
+### [Component] Agent Loop Integration
+
+#### [MODIFY] [loop.ts](file:///root/gravity-claw/src/agent/loop.ts)
+- Register the `get_youtube_transcript` tool.
+- Add execution logic in the tool loop.
+
+#### [MODIFY] [index.ts](file:///root/gravity-claw/src/index.ts)
+- Update Asan's system prompt to prioritize using the transcript tool when a YouTube link is received.
+
+## Verification Plan
+
+### Automated Tests
+- Test the `executeGetYoutubeTranscript` function with a known video URL.
+- Verify the output is a readable text block.
+
+### Manual Verification
+- Send a YouTube link to Asan in Telegram and verify he uses the tool and provides takeaways.

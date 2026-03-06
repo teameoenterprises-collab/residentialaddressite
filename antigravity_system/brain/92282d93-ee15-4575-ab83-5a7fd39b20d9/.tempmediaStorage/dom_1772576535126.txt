@@ -1,0 +1,42 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (186,58)<a class='logo' href='#'>The Residential Address />
+	[1] (113,58)<div >🏠 />
+[2] (663,58)<a href='#problem'>Why Us />
+[3] (721,58)<a href='#pricing'>Pricing />
+[4] (769,58)<a href='#faq'>FAQ />
+[5] (851,58)<a class='btn btn-primary' href='#pricing'>Get Started />
+20+ Founders Approved for
+Stripe & US Banks
+🇫🇷
+Pierre D. — Stripe Active
+🇵🇰
+Hasan A. — Alliant Approved
+🇹🇷
+Fatma N. — Stripe Active
+🇪🇬
+Ahmed R. — Capital One Approved
+🇩🇪
+Max B. — Mercury Approved
+🇮🇳
+Arjun S. — Stripe Active
+"I was rejected by 3 banks because of my virtual mailbox. Switched to
+                            The Residential Address and got approved by Capital One in 5 days. Life changed."
+AS
+Arjun S.
+🇮🇳 India — SaaS Founder
+"Same-day LLC, real address, and Stripe live in under a week. I spent 3
+                            months trying with other services. This was instant."
+KM
+Khalid M.
+🇦🇪 UAE — E-commerce Seller
+"The real eSIM phone number was the missing piece. My bank kept
+                            rejecting VoIP numbers. This one worked immediately for verification."
+WL
+Wei L.
+🇲🇾 Malaysia — Digital Nomad
+[6] (958,917)<a aria-label='Chat on WhatsApp' class='whatsapp-float' href='https://wa.me/yournumber' />
+
+</current_dom>

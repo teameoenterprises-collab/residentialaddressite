@@ -1,0 +1,61 @@
+# Fix Missing Content Across All Pages (except index.html)
+
+After auditing every page and the stylesheet, I found **3 root causes** for sections appearing blank:
+
+## Root Causes
+
+### 1. Missing CSS for `.timeline`, `.faq-container`, `.faq-toggle`
+The service pages (llc-formation, bank-assistance, itin-application, us-phone) use classes like `.timeline`, `.timeline-step`, `.timeline-dot`, `.timeline-content`, `.faq-container`, and `.faq-toggle` — **but [style.css](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/style.css) has NO styles for these classes**. The CSS only defines `.zigzag-timeline` and `.faq-list`/`.faq-item` (different class names from what index.html uses). This means timelines and FAQ sections render as unstyled HTML with no visual layout.
+
+### 2. `fade-up` animation elements stuck at `opacity: 0`
+The CSS `.fade-up` class sets `opacity: 0` by default. The `.visible` class (added by an IntersectionObserver script) transitions elements to `opacity: 1`. However, **4 of the service pages only have a basic scroll header script** — they're missing the IntersectionObserver JS. This makes all `.fade-up` elements permanently invisible (testimonials, timeline steps, FAQ items, bento cards).
+
+### 3. [us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html) is a broken Tailwind prototype
+This page uses Tailwind CDN, a completely different design language, broken `<html>` structure, placeholder links, and doesn't match the site.
+
+## Proposed Changes
+
+### CSS — Adding Missing Styles
+
+#### [MODIFY] [style.css](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/style.css)
+Add CSS rules for the following missing classes used by the service pages:
+- `.timeline` — vertical timeline container
+- `.timeline-step` — individual step layout (flex, with left dot + right content)
+- `.timeline-dot` — numbered circle on the left
+- `.timeline-content` — text block on the right
+- `.faq-container` — wrapper for FAQ items (max-width centered)
+- `.faq-toggle` — the `+/-` toggle span inside `.faq-question`
+
+Also add a vertical connecting line between timeline dots via `::before` pseudo-element on `.timeline`.
+
+---
+
+### JS — Adding IntersectionObserver + FAQ Toggle Script
+
+#### [MODIFY] [llc-formation.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/llc-formation.html)
+#### [MODIFY] [bank-assistance.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/bank-assistance.html)
+#### [MODIFY] [itin-application.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/itin-application.html)
+#### [MODIFY] [us-phone.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-phone.html)
+
+Replace the minimal `<script>` section at the bottom of each page with the full script block that includes:
+1. Header scroll effect (already present)
+2. **IntersectionObserver** for `.fade-up` elements → adds `.visible` class
+3. **FAQ accordion toggle** — clicking `.faq-question` toggles `.open` on parent `.faq-item`
+
+---
+
+### Cleanup — Rebuild [us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html)
+
+#### [MODIFY] [us-address-service.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/us-address-service.html)
+Completely rewrite to match the site's native design (using [style.css](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/style.css), same header/nav/footer, same hero pattern). This page was auto-generated from Stitch and uses Tailwind + a different design language.
+
+---
+
+## Verification Plan
+
+### Browser Testing
+- Open each service page in the browser and visually confirm:
+  - **Testimonials** section shows cards with quotes (not blank space)
+  - **Timeline** section shows numbered steps in a vertical layout
+  - **FAQ** section shows expandable accordion items (clicking toggles open/close)
+  - **Bento cards** and other `.fade-up` elements animate in on scroll

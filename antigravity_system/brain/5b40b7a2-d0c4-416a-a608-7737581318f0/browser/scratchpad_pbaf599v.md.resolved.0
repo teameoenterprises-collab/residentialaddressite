@@ -1,0 +1,9 @@
+# Task Checklist
+- [ ] Navigate to http://localhost:8099/index.html
+- [ ] Resize to 1440x900
+- [ ] Wait 4 seconds for shader rendering
+- [ ] Capture hero section screenshot
+- [ ] Resize to 500x800 (mobile)
+- [ ] Wait 2 seconds
+- [ ] Capture mobile view screenshot
+- [ ] Report results

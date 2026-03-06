@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_TASK",
+  "summary":  "Technical analysis of the 'AI Reddit Scraper' n8n workflow. Focuses on the 'Discovery Engine' architecture: 10-minute polling, RSS feed ingestion, and Tier 2 AI lead validation to ensure MarkBTM only sees high-quality opportunities in Airtable.",
+  "updatedAt":  "2026-03-06T00:15:57.623148Z"
+}

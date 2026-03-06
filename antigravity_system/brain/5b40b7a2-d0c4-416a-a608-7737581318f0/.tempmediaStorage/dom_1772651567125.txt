@@ -1,0 +1,245 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	To view keyboard shortcuts, press question mark
+	[1] (967,852)<div  />
+		[2] (967,852)<button class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1pi2tsx r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+	[3] (967,946)<div  />
+	[4] (84,39)<h1 class='css-175oi2r r-1awozwy r-1pz39u2 r-1loqt21 r-6koalj r-16y2uox r-1777fci r-4wgw6l' role='heading' />
+		[5] (84,39)<a aria-label='X' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19yznuf r-64el8z r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/home' role='link' />
+			[6] (84,39)<div  />
+	[7] (156,114)<a aria-label='Home' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/home' role='link' />
+		[8] (115,114)<div  />
+			[9] (84,114)<div  />
+			[10] (126,114)<div  />
+				[11] (126,114)<span >Home />
+	[12] (156,184)<a aria-label='Search and explore' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/explore' role='link' />
+		[13] (122,184)<div  />
+			[14] (84,184)<div  />
+			[15] (132,184)<div  />
+				[16] (132,184)<span >Explore />
+	[17] (156,253)<a aria-label='Notifications (2 unread notifications)' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/notifications' role='link' />
+		[18] (138,253)<div  />
+			[19] (84,253)<div  />
+				[20] (89,239)<div  />
+					[21] (89,239)<span >2 />
+			[22] (148,253)<div  />
+				[23] (148,253)<span >Notifications />
+	[24] (156,322)<a aria-label='Follow' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/connect_people' role='link' />
+		[25] (117,322)<div  />
+			[26] (84,322)<div  />
+			[27] (127,322)<div  />
+				[28] (127,322)<span >Follow />
+	[29] (156,391)<a aria-label='Direct Messages' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/chat' role='link' />
+		[30] (112,391)<div  />
+			[31] (84,391)<div  />
+			[32] (122,391)<div  />
+				[33] (122,391)<span >Chat />
+	[34] (156,461)<a aria-label='Grok' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/grok' role='link' />
+		[35] (112,461)<div  />
+			[36] (84,461)<div  />
+				[37] (93,445)<div  />
+			[38] (122,461)<div  />
+				[39] (122,461)<span >Grok />
+	[40] (156,530)<a aria-label='Bookmarks' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/bookmarks' role='link' />
+		[41] (132,530)<div  />
+			[42] (84,530)<div  />
+			[43] (143,530)<div  />
+				[44] (143,530)<span >Bookmarks />
+	[45] (156,599)<a aria-label='Premium' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/i/premium_sign_up' role='link' />
+		[46] (147,599)<div  />
+			[47] (84,599)<div  />
+			[48] (135,599)<div  />
+				[49] (135,599)<span >Premium />
+			[50] (198,599)<div  />
+				50% off
+	[51] (156,668)<a aria-label='Profile' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1ny4l3l r-1loqt21' href='/YankeesBoy28' role='link' />
+		[52] (117,668)<div  />
+			[53] (84,668)<div  />
+			[54] (127,668)<div  />
+				[55] (127,668)<span >Profile />
+	[56] (156,737)<button aria-label='More menu items' class='css-175oi2r r-6koalj r-eqz5dr r-16y2uox r-1habvwh r-13qz1uu r-1mkv55d r-1loqt21 r-1ny4l3l' role='button' />
+		[57] (113,737)<div  />
+			[58] (84,737)<div  />
+			[59] (123,737)<div  />
+				[60] (123,737)<span >More />
+	[61] (147,819)<a aria-label='Post' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19yznuf r-64el8z r-1fkl15p r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/compose/post' role='link' />
+		[62] (147,819)<div  />
+			[63] (147,819)<div  />
+				[64] (147,819)<span  />
+					[65] (147,819)<div  />
+						[66] (147,819)<div  />
+							[67] (147,819)<span  />
+								[68] (147,819)<span >Post />
+	[69] (156,938)<div  />
+		[70] (156,938)<button aria-label='Account menu' class='css-175oi2r r-1awozwy r-sdzlij r-6koalj r-18u37iz r-xyw6el r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+			[71] (89,938)<div  />
+				[72] (89,938)<div  />
+					[73] (89,938)<div  />
+						[74] (89,938)<div  />
+							[75] (89,938)<div  />
+								[76] (89,938)<div  />
+									[77] (89,938)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+										[78] (89,938)<div  />
+											[79] (89,938)<div  />
+			[80] (151,938)<div  />
+				[81] (151,938)<div  />
+					[82] (151,925)<div  />
+						[83] (151,925)<div  />
+							[84] (142,925)<div  />
+								[85] (142,925)<span  />
+									[86] (142,923)<span >Yankees Boy />
+					[87] (151,953)<div  />
+						[88] (151,953)<div class='css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l' />
+							[89] (151,953)<div  />
+								[90] (151,953)<div  />
+									[91] (151,953)<span >@YankeesBoy28 />
+			[92] (218,938)<div  />
+	[93] (270,37)<button aria-label='Back' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-2yi16 r-1qi8awa r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+		[94] (270,37)<div  />
+	[95] (460,37)<div  />
+		[96] (470,37)<div  />
+			[97] (470,37)<div  />
+				[98] (470,37)<input aria-label='Search query' class='r-30o5oe r-1dz5y72 r-1niwhzg r-17gur6a r-1yadl64 r-deolkf r-nf76sl r-homxoj r-poiln3 r-1b43r93 r-1cwl3u0 r-ero68b r-1ny4l3l r-1c4vpko r-1noe1sz r-p1pxzi r-1mnahxq r-1mdbw0j r-wk8lta r-13qz1uu r-fdjqy7' placeholder='Search' role='combobox' />
+	[99] (648,37)<button aria-label='More' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-2yi16 r-1qi8awa r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+		[100] (648,37)<div  />
+	[101] (460,110)<div  />
+		[102] (290,110)<div class='css-175oi2r r-14tvyh0 r-cpa5s6 r-16y2uox' role='presentation' />
+			[103] (290,110)<a class='css-175oi2r r-1awozwy r-6koalj r-eqz5dr r-16y2uox r-1h3ijdo r-1777fci r-s8bhmr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/search?q=(from%3Aericosiu)%20OpenClaw&src=typed_query' role='tab' />
+				[104] (290,110)<div  />
+					[105] (290,110)<div  />
+						[106] (290,110)<span >Top />
+						[107] (290,143)<div  />
+		[108] (370,110)<div class='css-175oi2r r-14tvyh0 r-cpa5s6 r-16y2uox' role='presentation' />
+			[109] (370,110)<a class='css-175oi2r r-1awozwy r-6koalj r-eqz5dr r-16y2uox r-1h3ijdo r-1777fci r-s8bhmr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/search?q=(from%3Aericosiu)%20OpenClaw&src=typed_query&f=live' role='tab' />
+				[110] (370,110)<div  />
+					[111] (370,110)<div  />
+						[112] (370,110)<span >Latest />
+		[113] (458,110)<div class='css-175oi2r r-14tvyh0 r-cpa5s6 r-16y2uox' role='presentation' />
+			[114] (458,110)<a class='css-175oi2r r-1awozwy r-6koalj r-eqz5dr r-16y2uox r-1h3ijdo r-1777fci r-s8bhmr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/search?q=(from%3Aericosiu)%20OpenClaw&src=typed_query&f=user' role='tab' />
+				[115] (458,110)<div  />
+					[116] (458,110)<div  />
+						[117] (458,110)<span >People />
+		[118] (546,110)<div class='css-175oi2r r-14tvyh0 r-cpa5s6 r-16y2uox' role='presentation' />
+			[119] (546,110)<a class='css-175oi2r r-1awozwy r-6koalj r-eqz5dr r-16y2uox r-1h3ijdo r-1777fci r-s8bhmr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/search?q=(from%3Aericosiu)%20OpenClaw&src=typed_query&f=media' role='tab' />
+				[120] (546,110)<div  />
+					[121] (546,110)<div  />
+						[122] (546,110)<span >Media />
+		[123] (628,110)<div class='css-175oi2r r-14tvyh0 r-cpa5s6 r-16y2uox' role='presentation' />
+			[124] (628,110)<a class='css-175oi2r r-1awozwy r-6koalj r-eqz5dr r-16y2uox r-1h3ijdo r-1777fci r-s8bhmr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/search?q=(from%3Aericosiu)%20OpenClaw&src=typed_query&f=list' role='tab' />
+				[125] (628,110)<div  />
+					[126] (628,110)<div  />
+						[127] (628,110)<span >Lists />
+	[128] (811,51)<div  />
+		Search filters
+	[129] (811,134)<label class='css-175oi2r r-1habvwh' id='RADIO_GROUP_3_LABEL' />
+		People
+	[130] (811,178)<label class='css-175oi2r r-cnw61z r-1loqt21' />
+		[131] (811,178)<div  />
+			[132] (732,178)<div  />
+				[133] (732,178)<span >From anyone />
+			[134] (914,178)<div  />
+				[135] (914,178)<input class='r-1p0dtai r-1ei5mc7 r-1pi2tsx r-1d2f490 r-crgep1 r-orgf3d r-t60dpp r-u8s1d r-zchlnj r-ipm5af r-13qz1uu' />
+	[136] (811,216)<label class='css-175oi2r r-cnw61z r-1loqt21' />
+		[137] (811,216)<div  />
+			[138] (743,216)<div  />
+				[139] (743,216)<span >People you follow />
+			[140] (914,216)<div  />
+				[141] (914,216)<input class='r-1p0dtai r-1ei5mc7 r-1pi2tsx r-1d2f490 r-crgep1 r-orgf3d r-t60dpp r-u8s1d r-zchlnj r-ipm5af r-13qz1uu' />
+	[142] (811,266)<label class='css-175oi2r r-1habvwh' id='RADIO_GROUP_4_LABEL' />
+		Location
+	[143] (811,310)<label class='css-175oi2r r-cnw61z r-1loqt21' />
+		[144] (811,310)<div  />
+			[145] (725,310)<div  />
+				[146] (725,310)<span >Anywhere />
+			[147] (914,310)<div  />
+				[148] (914,310)<input class='r-1p0dtai r-1ei5mc7 r-1pi2tsx r-1d2f490 r-crgep1 r-orgf3d r-t60dpp r-u8s1d r-zchlnj r-ipm5af r-13qz1uu' />
+	[149] (811,348)<label class='css-175oi2r r-cnw61z r-1loqt21' />
+		[150] (811,348)<div  />
+			[151] (722,348)<div  />
+				[152] (722,348)<span >Near you />
+			[153] (914,348)<div  />
+				[154] (914,348)<input class='r-1p0dtai r-1ei5mc7 r-1pi2tsx r-1d2f490 r-crgep1 r-orgf3d r-t60dpp r-u8s1d r-zchlnj r-ipm5af r-13qz1uu' />
+	[155] (811,426)<a class='css-175oi2r r-w7s2jr r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' href='/search-advanced' role='link' />
+		[156] (811,426)<div  />
+			[157] (742,426)<span >Advanced search />
+	[158] (811,525)<div  />
+		Today’s News
+		[159] (909,525)<button aria-label='Close' class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-15ysp7h r-4wgw6l r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l' role='button' />
+			[160] (909,525)<div  />
+	[161] (811,634)<div class='css-175oi2r r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' role='link' />
+		[162] (811,634)<div  />
+			[163] (811,634)<div  />
+				[164] (811,634)<div  />
+					[165] (811,613)<div  />
+						[166] (796,613)<span >Elon Musk Shares William Shatner’s X Money Beta Screenshots />
+					[167] (811,665)<div  />
+						[168] (811,665)<div  />
+							[169] (718,665)<div  />
+								[170] (718,665)<div  />
+									[171] (709,665)<div  />
+										[172] (709,665)<div  />
+											[173] (709,665)<div  />
+												[174] (709,665)<div  />
+													[175] (709,665)<div  />
+														[176] (709,665)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+															[177] (709,665)<div  />
+																[178] (709,665)<div  />
+							[179] (830,665)<div  />
+								[180] (830,665)<div  />
+									[181] (804,665)<div  />
+										[182] (804,665)<div  />
+											[183] (804,665)<span  />
+												[184] (804,665)<span >2 days ago · News · 71.8K posts />
+	[185] (811,774)<div class='css-175oi2r r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' role='link' />
+		[186] (811,774)<div  />
+			[187] (811,774)<div  />
+				[188] (811,774)<div  />
+					[189] (811,753)<div  />
+						[190] (808,753)<span >Putin Floats Immediate Halt to Europe Gas Supplies />
+					[191] (811,806)<div  />
+						[192] (811,806)<div  />
+							[193] (718,806)<div  />
+								[194] (718,806)<div  />
+									[195] (709,806)<div  />
+										[196] (709,806)<div  />
+											[197] (709,806)<div  />
+												[198] (709,806)<div  />
+													[199] (709,806)<div  />
+														[200] (709,806)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+															[201] (709,806)<div  />
+																[202] (709,806)<div  />
+							[203] (830,806)<div  />
+								[204] (830,806)<div  />
+									[205] (804,806)<div  />
+										[206] (804,806)<div  />
+											[207] (804,805)<span  />
+												[208] (804,805)<span >1 hour ago · News · 12.4K posts />
+	[209] (811,915)<div class='css-175oi2r r-6koalj r-3pj75a r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21' role='link' />
+		[210] (811,915)<div  />
+			[211] (811,915)<div  />
+				[212] (811,915)<div  />
+					[213] (811,894)<div  />
+						[214] (806,894)<span >Iran Projects Defiance Amid Backchannel War Peace Signals />
+					[215] (811,946)<div  />
+						[216] (811,946)<div  />
+							[217] (718,946)<div  />
+								[218] (718,946)<div  />
+									[219] (709,946)<div  />
+										[220] (709,946)<div  />
+											[221] (709,946)<div  />
+												[222] (709,946)<div  />
+													[223] (709,946)<div  />
+														[224] (709,946)<div class='css-175oi2r r-1pi2tsx r-13qz1uu r-1ny4l3l' role='presentation' />
+															[225] (709,946)<div  />
+																[226] (709,946)<div  />
+							[227] (830,946)<div  />
+								[228] (830,946)<div  />
+									[229] (810,946)<div  />
+										[230] (810,946)<div  />
+											[231] (810,946)<span  />
+												[232] (810,946)<span >22 hours ago · News · 54.6K posts />
+
+</current_dom>

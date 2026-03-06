@@ -1,0 +1,14 @@
+# Task: Verify website functionality and design at http://localhost:8001
+
+## Plan
+- [ ] Navigate to http://localhost:8001 and check landing page.
+- [ ] Find and click "LLC Formation" in the footer.
+- [ ] Verify LLC page loading.
+- [ ] Click the logo in the header to return to the home page.
+- [ ] Find and click "ITIN Application" in the footer.
+- [ ] Verify ITIN page loading.
+- [ ] Check WhatsApp button visibility and formatting.
+- [ ] Evaluate link functionality, design consistency, and identify issues.
+
+## Progress
+- Trying to connect to localhost:8001. Previous attempt failed with connection refused.

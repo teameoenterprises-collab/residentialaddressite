@@ -1,0 +1,11 @@
+# Verification Plan
+- [ ] Verify `llc-formation.html`
+    - [ ] Top screenshot
+    - [ ] Middle screenshot (Testimonials/Timeline)
+    - [ ] Bottom screenshot (FAQ)
+    - [ ] FAQ expansion check
+- [ ] Verify `bank-assistance.html`
+    - [ ] Middle screenshot (Timeline)
+    - [ ] Bottom screenshot (FAQ)
+- [ ] Verify `us-phone.html`
+    - [ ] Middle screenshot (Timeline)

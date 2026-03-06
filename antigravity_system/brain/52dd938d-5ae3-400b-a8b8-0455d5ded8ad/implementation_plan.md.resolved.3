@@ -1,0 +1,37 @@
+# Reddit Operations Implementation Plan
+
+Establish a systematic lead generation and outreach process on Reddit for MarkBTM (Sales) and Asan (R&D) to identify and engage with international founders needing US business infrastructure.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **API Credentials**: To automate Reddit more deeply (monitoring live comments, posting directly), we will eventually need Reddit API keys (`REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`). For Phase 1, we will use Search-based discovery to avoid immediate API requirements.
+
+> [!WARNING]
+> **Outreach Safety**: Automated DMing on Reddit is highly sensitive and can lead to bans. We recommend a "Human-in-the-loop" approach where MarkBTM drafts the outreach in Telegram, and you (the user) approve/post it.
+
+## Proposed Changes
+
+### [Component] Lead Discovery Tool
+
+#### [NEW] [reddit_leads.ts](file:///root/gravity-claw/src/tools/reddit_leads.ts)
+- Implement a `discover_reddit_leads` tool.
+- Uses Google Search-based filtering (`site:reddit.com`) to find threads from specific subreddits (r/digitalnomad, r/startup, r/stripe) containing keywords like "restricted", "KYC", "residential address".
+- Returns a list of URLs and snippets.
+
+### [Component] Agent Protocol Updates
+
+#### [MODIFY] [index.ts](file:///root/gravity-claw/src/index.ts)
+- Update **MarkBTM**'s prompt to focus on lead qualification and drafting persuasive, non-spammy responses.
+- Update **Asan**'s prompt to focus on analyzing Reddit threads for "Customer Pain Points" and "Competitor Weaknesses".
+
+### [Component] Reporting Workflow
+
+#### [NEW] [reddit_workflow.md](file:///root/gravity-claw/src/workflows/reddit_leads.md)
+- Define a daily workflow where Asan discovers leads, MarkBTM qualifies them, and creates a "Daily Reddit Lead Report" using `send_document`.
+
+## Verification Plan
+
+### Manual Verification
+- Trigger `discover_reddit_leads` via MarkBTM and verify he returns relevant threads.
+- Verify that MarkBTM can generate a Markdown lead report.

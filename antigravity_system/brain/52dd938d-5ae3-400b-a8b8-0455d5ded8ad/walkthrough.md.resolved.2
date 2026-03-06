@@ -1,0 +1,23 @@
+# YouTube Transcript Analysis Walkthrough
+
+I have successfully added "YouTube Vision" to Asan and the other agents. They can now extract full transcripts from video URLs and provide strategic takeaways.
+
+## Changes Made
+
+### 1. Custom YouTube Tool
+Created `src/tools/youtube.ts` using the `youtube-transcript-api` library. This tool extracts full text captions from any provided YouTube URL.
+
+### 2. Loop Integration
+Updated [src/agent/loop.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/vps_backup/src/agent/loop.ts) to register and execute the `get_youtube_transcript` tool during agent processing.
+
+### 3. Asan's "Brain" Update
+Modified Asan's system prompt in [src/index.ts](file:///Users/tahmidnur/.gemini/antigravity/scratch/vps_backup/src/index.ts) to prioritize transcript extraction when a YouTube link is received.
+
+## How to Test
+
+1.  Send a YouTube link to Asan in the Telegram chat.
+2.  He will see the link and trigger the `get_youtube_transcript` tool.
+3.  He'll then read the entire video's content and give you a structured summary of takeaways.
+
+---
+*Note: If Asan already responded to a link before the update, simply send the link again or ask him "Asan, use your new transcript tool on that link I sent."*

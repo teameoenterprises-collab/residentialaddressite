@@ -1,0 +1,9 @@
+# Browser Task: Verify Hero Section Changes
+
+- [ ] Navigate to http://localhost:8099/index.html
+- [ ] Wait 3 seconds for fonts and animations to load
+- [ ] Capture screenshot of the hero section
+- [ ] Scroll down 500px and capture another screenshot
+- [ ] Verify American flag background
+- [ ] Verify "U.S. Residential Address" cursive/serif font
+- [ ] Verify typography changes (Lexend for headings, Source Sans 3 for body)

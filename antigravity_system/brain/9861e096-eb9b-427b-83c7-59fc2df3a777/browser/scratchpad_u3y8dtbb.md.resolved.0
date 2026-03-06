@@ -1,0 +1,9 @@
+# Task Plan: Verify Interactive Hero Section
+
+- [ ] Navigate to http://localhost:8080
+- [ ] Wait 3 seconds for animation to start
+- [ ] Capture initial screenshot of the hero section
+- [ ] Simulate mouse move on the hero area
+- [ ] Wait 2 seconds for interaction effect
+- [ ] Capture second screenshot to see interaction
+- [ ] Report findings

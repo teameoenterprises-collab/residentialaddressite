@@ -1,0 +1,16 @@
+# Hostinger VPS Agent Deployment
+
+The AI agents (Max, Asan, MarkBTM, Vikas, and Ahmad) have been fully deployed to your Hostinger VPS.
+
+## Changes Made
+1. **Identified Missing Files**: During the environment check on the VPS, we discovered that while the node server for the agents (`gravity-claw`) was running, the actual website HTML/CSS files for "The Residential Address" had not yet been transferred from your local Mac to the VPS.
+2. **File Transfer**: Used SCP to securely copy the entire `/Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress` directory from your local Mac directly to `/root/theresidentialaddress` on the Hostinger VPS.
+3. **MCP Configuration Update**: The agents' file system access was crashing because `mcp_config.json` on the VPS was still pointing to your local Mac's path. We updated the JSON configuration on the VPS so that the `@modelcontextprotocol/server-filesystem` args now point strictly to `/root/theresidentialaddress`.
+4. **Agent Restart**: Flushed the error logs and restarted the `GravityClaw` PM2 process.
+
+## Validation Results
+- The PM2 logs (`pm2 logs GravityClaw`) on the VPS confirm that all five bots have successfully initialized.
+- The logs also confirm that the filesystem MCP has securely bound itself to the new server path (`/root/theresidentialaddress`), meaning the bots have regained their ability to read and edit the website files natively on the VPS.
+
+## Manual Verification Required
+Everything is online 24/7. To complete your validation, **please message Max or any of the agents on Telegram right now** to confirm they are actively responding while your local Antigravity window remains closed!

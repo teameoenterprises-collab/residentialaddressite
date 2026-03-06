@@ -1,0 +1,52 @@
+# Improving Service Pages
+
+- [x] Review current state of service pages (llc-formation, us-address-service, bank-assistance, etc.)
+- [x] Identify duplicate pages (how-it-works, virtual-vs-real, compliance-faq)
+- [x] Plan and design premium layouts for the service pages
+- [x] Implement improvements for LLC Formation
+- [x] Implement improvements for US Address Service
+- [x] Implement improvements for US Phone Service
+- [x] Implement improvements for Bank Assistance
+- [x] Implement improvements for ITIN Application
+- [x] Implement improvements for FAQs and other informational pages
+
+# Navigation and New Content
+
+- [x] Design and implement optimized top menu bar across all pages
+- [x] Create About Us page natively
+- [x] Create Blog index page natively
+- [x] Write and create 2 sample blog posts
+- [x] Refine Privacy Policy page and ensure footer links are consistent
+- [x] Update all HTML files with new header/footer links
+
+# Master Home Page
+
+- [x] Redesign `index.html` as an umbrella home page
+- [x] Add link cards directing to all 5 micro-services
+- [x] Consolidate social proof and target personas for the entire platform
+- [x] Re-architect `home.html` as the true Master Home Page
+- [x] Rename the US Business Address links in navigation menus and footer to "US Residential Address" point back to `index.html`
+- [x] Reroute all site logos to point to `home.html` 
+
+# Deep Research & Redesign (Phase 2)
+
+- [x] Conduct deep competitor research for LLC Formation (Stripe Atlas, doola, Firstbase)
+- [x] Redesign `llc-formation.html` (Add comparison tables, step-by-step timeline, detailed pricing specs)
+- [x] Conduct deep competitor research for Bank Assistance (Mercury, Relay rules for international founders)
+- [x] Redesign `bank-assistance.html` (Add compliance failure points, timeline, targeted FAQs)
+- [x] Conduct deep competitor research for ITIN Applications (CAA vs standard IRS mailing times)
+- [x] Redesign `itin-application.html` (Add timeline, document requirements, process flow)
+- [x] Conduct deep competitor research for US Phone eSIMs (VoIP vs Real Carrier block rates)
+- [x] Redesign `us-phone.html` (Add network map concepts, comparison against Twilio/Skype/OpenPhone)
+
+# UI/UX Pro Max Integration (Phase 3)
+
+- [x] Integrate Global UI/UX Pro Max Styles (`style.css`)
+  - [x] Build Liquid Glass Testimonial Component
+  - [x] Enhance bento grid hover transitions
+- [x] Upgrade Service Page Components & Sections
+  - [x] Swap emojis for native vector Lucide icons on `llc-formation.html` and `bank-assistance.html`
+  - [x] Add "Trusted by Global Founders" Testimonial Grid section to `llc-formation.html`
+  - [x] Add "Approved at Top Institutions" Testimonial Grid section to `bank-assistance.html`
+  - [x] Add "Real Founders, Real Approvals" Testimonial Grid section to `itin-application.html`
+  - [x] Add "Verified Access Worldwide" Testimonial Grid section to `us-phone.html`
