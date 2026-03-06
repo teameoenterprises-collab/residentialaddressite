@@ -1,3 +1,0 @@
-- [/] Determine the next feature or section of the landing page to work on
-- [ ] Plan implementation for the new section
-- [ ] Generate or modify the relevant UI components using Stitch

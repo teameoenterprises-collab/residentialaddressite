@@ -1,5 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_TASK",
-  "summary":  "Strategic analysis of the 'n8n Reddit Scraper + Vector DB' video. Focuses on the 'Human-in-the-Loop' feedback system, where AI mistakes are used as examples to train the model, increasing accuracy from 80% to 99%.",
-  "updatedAt":  "2026-03-06T00:21:04.465196Z"
-}

@@ -1,6 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary":  "A technical blueprint detailing how `index.ts` and `loop.ts` will be refactored to support running multiple Telegram bots (Max, Asan, MarkBTM) concurrently within the same Node.js process using Grammy.",
-  "updatedAt":  "2026-03-05T00:57:59.031336Z",
-  "version":  "2"
-}

@@ -1,5 +1,0 @@
-# Make index.html the Homepage
-
-- [ ] Identify all references to [home.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/home.html) across the site
-- [ ] Replace `href="home.html"` and similar links to point to [index.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/index.html) (or `/`)
-- [ ] Delete [home.html](file:///Users/tahmidnur/.gemini/antigravity/scratch/theresidentialaddress/home.html)

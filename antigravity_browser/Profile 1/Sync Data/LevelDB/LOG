@@ -1,0 +1,11 @@
+2026/03/05-17:31:36.084 308dfb Creating DB /Users/tahmidnur/.gemini/antigravity-browser-profile/Profile 1/Sync Data/LevelDB since it was missing.
+2026/03/05-17:31:36.115 308dfb Reusing MANIFEST /Users/tahmidnur/.gemini/antigravity-browser-profile/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2026/03/05-18:03:16.827 308e2d Level-0 table #5: started
+2026/03/05-18:03:16.866 308e2d Level-0 table #5: 153043 bytes OK
+2026/03/05-18:03:16.876 308e2d Delete type=0 #3
+2026/03/05-18:29:37.284 308e2d Level-0 table #7: started
+2026/03/05-18:29:37.295 308e2d Level-0 table #7: 120523 bytes OK
+2026/03/05-18:29:37.306 308e2d Delete type=0 #4
+2026/03/05-20:16:09.972 308dfb Level-0 table #9: started
+2026/03/05-20:16:09.999 308dfb Level-0 table #9: 113862 bytes OK
+2026/03/05-20:16:10.029 308dfb Delete type=0 #6

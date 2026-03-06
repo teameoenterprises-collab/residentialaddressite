@@ -1,6 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary":  "Migration plan to refactor the Gravity Claw multi-agent fleet to the 'OpenClaw' text-based architecture, removing SQLite and simplifying for human-readability.",
-  "updatedAt":  "2026-03-05T21:18:07.170057Z",
-  "version":  "4"
-}

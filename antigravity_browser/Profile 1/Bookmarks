@@ -1,0 +1,37 @@
+{
+   "checksum": "942764d02172e0ac56471532a4f3f57c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13417223496083844",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13417223496083844",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13417223496083844",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CswCCqsCCIiBAhKkAiAAkgGPAgqMAgoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJv95VgU5MBgARv95VgU5MBgAiNAmGZzmBTkwGABADGeSU4gJ6WuGSIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmGZzmBTkwGABADGeSU4gJ6WuGSIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmGZzmBTkwGABADGeSU4gJ6WuGSIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmGZzmBTkwGABADGeSU4gJ6WuGSIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpssxWgU5MBgDqAQwI4YiozQYQoLWWjwESACoYMWRXbTFYeGRzeGNldjdrK2twUXVKZz09SAMSwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp5K1ZzdjRtcXViZVhwejcrc3FPcmRHaUhNdm1aQTMxSGxJTEdCS2VYc1U3Y3dSVmVxZXpOYWRaOU9taGhHa1V2YmdiMzZVMzM0UER4VkNaT1JtdjRlUG5JUWJ1dz09GAAgACgAMIikzKDNiZMDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp4Z2lNZ1l3cUxMM0xDYkpYVkhES3RaWDN3TllsUm9JNjU2NE41RmVacW5lSGlGdHdTUXkvRVRoRHhld0dhZytWcmo3eHpDGAAgACgAMIikzKDNiZMDOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp3K2lDZDNZUDRwTjZKYzdjRDhqcTk2dmcrNll0MVhkUmdzTlhOMnFiS2plWEJmWlRaY2xrWlJxek8vSFFocWdoWk1VcldIZWs4MlZid252ZjN4SzhLUXhyMnB6UT09GAAgACgAMIikzKDNiZMDOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAwATgA",
+   "version": 1
+}
