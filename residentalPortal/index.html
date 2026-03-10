@@ -3017,6 +3017,18 @@ function renderMailList() {
   renderMailRows('mail-list-full', items, false);
 }
 
+function mailThumb(m) {
+  if (!m.file_url) return catEmoji(m.category);
+  const url    = m.file_url.toLowerCase();
+  const isPdf  = url.includes('.pdf') || (m.file_path && m.file_path.toLowerCase().endsWith('.pdf'));
+  if (isPdf) return `<span style="font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;width:100%;height:100%;">📄</span>`;
+  const isImg  = /\.(jpe?g|png|webp|gif)(\?|$)/.test(url);
+  if (!isImg)  return `<span style="font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;width:100%;height:100%;">${catEmoji(m.category)}</span>`;
+  return `<img src="${esc(m.file_url)}" alt="scan" loading="lazy"
+    style="width:100%;height:100%;object-fit:cover;border-radius:6px;display:block;"
+    onerror="this.outerHTML='<span style=\\'font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;width:100%;height:100%;\\'>📬</span>';">`;
+}
+
 function renderMailRows(containerId, items, compact) {
   const el = document.getElementById(containerId);
   if (!el) return;
@@ -3030,15 +3042,10 @@ function renderMailRows(containerId, items, compact) {
   }
 
   if (compact) {
-    // Overview preview — simple clickable rows opening full viewer
-    el.innerHTML = items.map(m => {
-      const thumb = m.file_url
-        ? `<img src="${esc(m.file_url)}" alt="scan" loading="lazy">`
-        : catEmoji(m.category);
-      return `
+    el.innerHTML = items.map(m => `
         <div class="mail-row ${m.is_read ? '' : 'unread'}" onclick="openMail(${m.id})">
           <div class="unread-dot ${m.is_read ? 'read' : ''}"></div>
-          <div class="mail-thumb">${thumb}</div>
+          <div class="mail-thumb">${mailThumb(m)}</div>
           <div class="mail-body">
             <div class="mail-sender">${esc(m.sender)}</div>
             <div class="mail-subject">${esc(m.subject || '')}</div>
@@ -3047,28 +3054,17 @@ function renderMailRows(containerId, items, compact) {
             <div class="mail-date">${fmtDate(m.created_at)}</div>
             <span class="cat-pill cat-${m.category}">${cap(m.category)}</span>
           </div>
-        </div>`;
-    }).join('');
+        </div>`).join('');
   } else {
-    // Full mail page — accordion rows
     el.innerHTML = items.map(m => {
-      const thumb = m.file_url
-        ? `<img src="${esc(m.file_url)}" alt="scan" loading="lazy" style="width:100%;height:100%;object-fit:cover;">`
-        : catEmoji(m.category);
-      const descHtml = m.description
-        ? `<div class="mail-accordion-desc">${esc(m.description)}</div>`
-        : '';
-      const fileBtn = m.file_url
-        ? `<a href="${esc(m.file_url)}" target="_blank" class="btn btn-gold btn-sm">⬇ View / Download</a>`
-        : '';
-      const readBtn = !m.is_read
-        ? `<button class="btn btn-ghost btn-sm" onclick="event.stopPropagation(); markMailRead(${m.id})">✓ Mark Read</button>`
-        : '';
+      const descHtml = m.description ? `<div class="mail-accordion-desc">${esc(m.description)}</div>` : '';
+      const fileBtn  = m.file_url ? `<a href="${esc(m.file_url)}" target="_blank" class="btn btn-gold btn-sm">⬇ View / Download</a>` : '';
+      const readBtn  = !m.is_read ? `<button class="btn btn-ghost btn-sm" onclick="event.stopPropagation(); markMailRead(${m.id})">✓ Mark Read</button>` : '';
       return `
         <div class="mail-accordion ${m.is_read ? '' : 'unread'}" id="accordion-${m.id}">
           <div class="mail-accordion-header" onclick="toggleAccordion(${m.id})">
             <div class="unread-dot ${m.is_read ? 'read' : ''}"></div>
-            <div class="mail-thumb">${thumb}</div>
+            <div class="mail-thumb">${mailThumb(m)}</div>
             <div class="mail-body">
               <div class="mail-sender">${esc(m.sender)}</div>
               <div class="mail-subject">${esc(m.subject || 'No subject')}</div>
@@ -3134,22 +3130,22 @@ async function openMail(id) {
           </a>
         </div>`;
     } else {
-      body.innerHTML = `
-        <img
-          src="${esc(m.file_url)}"
-          alt="Mail scan"
-          style="max-width:100%; max-height:72vh; border-radius:10px; box-shadow: var(--shadow-l);"
-          onerror="
-            this.style.display='none';
-            this.insertAdjacentHTML('afterend',
-              '<div class=\'mv-no-scan\'>' +
-              '<div class=\'mv-no-scan-icon\'>⚠️</div>' +
-              '<h3>Could not load image</h3>' +
-              '<p>The file may still be processing. Try the download button above.</p>' +
-              '</div>'
-            );
-          "
-        >`;
+      const isImg = /\.(jpe?g|png|webp|gif)(\?|$)/.test(m.file_url.toLowerCase());
+      if (isImg) {
+        body.innerHTML = `
+          <img src="${esc(m.file_url)}" alt="Mail scan"
+            style="max-width:100%; max-height:72vh; border-radius:10px; box-shadow: var(--shadow-l);"
+            onerror="this.outerHTML='<div class=\'mv-no-scan\'><div class=\'mv-no-scan-icon\'>⚠️</div><h3>Could not load image</h3><p>Use the download button above.</p></div>';">`;
+      } else {
+        body.innerHTML = `
+          <div class="mv-no-scan">
+            <div class="mv-no-scan-icon">📎</div>
+            <h3>${esc(m.sender)}</h3>
+            <p>${esc(m.subject || '')}</p>
+            ${m.description ? `<div style="margin:16px auto 20px;max-width:480px;text-align:left;background:var(--parch);border-radius:9px;padding:14px 16px;font-size:14px;line-height:1.65;color:var(--ink2);border-left:3px solid var(--gold);">${esc(m.description)}</div>` : ''}
+            <a href="${esc(m.file_url)}" target="_blank" class="btn btn-gold" style="display:inline-flex;">⬇ Open / Download File</a>
+          </div>`;
+      }
     }
   } else {
     dlBtn.classList.add('hidden');
@@ -3844,9 +3840,16 @@ async function viewMailHistory(clientId, clientName) {
   }
 
   document.getElementById('history-list').innerHTML = mails.map((m, i) => {
-    const thumb = m.file_url
-      ? '<img src="' + esc(m.file_url) + '" alt="" style="width:100%;height:100%;object-fit:cover;">'
-      : catEmoji(m.category);
+    const _url   = (m.file_url || '').toLowerCase();
+    const _isPdf = _url.includes('.pdf') || (m.file_path && m.file_path.toLowerCase().endsWith('.pdf'));
+    const _isImg = /\.(jpe?g|png|webp|gif)(\?|$)/.test(_url);
+    const thumb  = !m.file_url
+      ? catEmoji(m.category)
+      : _isPdf
+        ? '📄'
+        : _isImg
+          ? '<img src="' + esc(m.file_url) + '" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:4px;" onerror="this.outerHTML=\'📬\'">'
+          : catEmoji(m.category);
 
     const dot = m.is_read
       ? 'width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:5px;background:transparent;border:1.5px solid var(--parch3);'
