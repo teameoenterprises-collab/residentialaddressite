@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "title": "Why Virtual Mailboxes Cause Bank Rejections in 2026",
+      "slug": "why-virtual-mailboxes-cause-bank-rejections",
+      "date": "2026-10-12",
+      "excerpt": "The days of using cheap PO boxes to open Stripe or Mercury accounts are over. Learn how banks use the USPS CMRA database to flag and shut down foreign founder accounts.",
+      "category": "Banking Compliance",
+      "country_tag": "all",
+      "bank_tag": "mercury,stripe,capital-one",
+      "emoji": "🏦"
+    },
+    {
+      "title": "Wyoming vs. Delaware: Which State is Right for Your LLC?",
+      "slug": "wyoming-vs-delaware-llc",
+      "date": "2026-09-28",
+      "excerpt": "If you're a non-US resident forming an LLC, standard advice points to Delaware. But for 90% of solo founders and e-commerce sellers, Wyoming is actually the superior choice.",
+      "category": "Entity Formation",
+      "country_tag": "all",
+      "bank_tag": "all",
+      "emoji": "🏛️"
+    }
+  ]
+}

@@ -9,6 +9,12 @@
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
     <meta name="description"
         content="Real residential lease documents that U.S. banks accept. LLC formation, ITIN processing, and compliance for international founders.">
+    <meta property="og:title" content="The Residential Address | Compliant U.S. Business Addresses">
+    <meta property="og:description" content="Real residential lease + utility bills so non-US founders can pass KYC at Mercury, Stripe, Capital One, and Alliant. $79/month. Money-back guarantee.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://theresidentialaddress.com/assets/og-default.png">
+    <meta property="og:url" content="https://theresidentialaddress.com">
+    <link rel="canonical" href="https://theresidentialaddress.com">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -721,6 +727,22 @@
             </div>
         </section>
 
+        <!-- ═══════ Section 11b: Latest Blog Posts ═══════ -->
+        <section class="section" id="blog-preview">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Blog</div>
+                    <h2 class="gradient-text">Latest Founder <span class="highlight-gold">Insights</span></h2>
+                </div>
+                <div id="homeBlogGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;margin-top:2.5rem;">
+                    <!-- Posts loaded by JS -->
+                </div>
+                <div style="text-align:center;margin-top:2.5rem;">
+                    <a href="blog/index.html" class="btn btn-outline" style="display:inline-block;padding:0.75rem 2rem;border:1px solid var(--gold);color:var(--gold);text-decoration:none;border-radius:8px;font-weight:600;transition:all 0.2s;">View All Posts →</a>
+                </div>
+            </div>
+        </section>
+
         <!-- ═══════ Section 12: Final CTA ═══════ -->
         <section class="final-cta" id="contact">
             <div class="container">
@@ -1042,6 +1064,34 @@
             el.classList.add('fade-up');
             observer.observe(el);
         });
+
+        // Load latest 3 blog posts from blogs.json
+        (function loadBlogPosts() {
+            const grid = document.getElementById('homeBlogGrid');
+            if (!grid) return;
+            fetch('blog/blogs.json')
+                .then(r => r.json())
+                .then(data => {
+                    const posts = data.posts
+                        .sort((a, b) => new Date(b.date) - new Date(a.date))
+                        .slice(0, 3);
+                    grid.innerHTML = posts.map(post => {
+                        const d = new Date(post.date);
+                        const dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                        return `<a href="blog/posts/${post.slug}.html" style="background:var(--surface);border:1px solid var(--glass-border);border-radius:16px;padding:1.75rem;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:all 0.3s ease;">
+                            <div style="font-size:0.8rem;color:var(--gold);font-weight:600;margin-bottom:0.75rem;display:flex;justify-content:space-between;">
+                                <span>${post.category}</span><span>${dateStr}</span>
+                            </div>
+                            <h3 style="font-size:1.2rem;color:var(--text-main);margin-bottom:0.75rem;line-height:1.35;">${post.title}</h3>
+                            <p style="color:var(--text-secondary);font-size:0.95rem;line-height:1.6;flex-grow:1;">${post.excerpt}</p>
+                            <div style="margin-top:1.25rem;color:var(--gold);font-weight:600;font-size:0.9rem;">Read Article →</div>
+                        </a>`;
+                    }).join('');
+                })
+                .catch(() => {
+                    grid.style.display = 'none';
+                });
+        })();
 
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {

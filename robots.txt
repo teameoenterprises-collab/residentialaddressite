@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block internal/admin paths
+Disallow: /PrimesPortal/
+Disallow: /residentalPortal/
+Disallow: /agents/
+Disallow: /antigravity_browser/
+Disallow: /antigravity_system/
+
+Sitemap: https://theresidentialaddress.com/sitemap.xml
