@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "title": "Why Your US LLC Bank Account Application Keeps Getting Rejected",
+      "slug": "us-llc-bank-account-rejected-cmra",
+      "date": "2026-03-24",
+      "excerpt": "You formed your US LLC, got your EIN, and applied to Mercury. Then you got rejected with no explanation. Here is the real reason — and the exact fix.",
+      "category": "Banking Compliance",
+      "country_tag": "all",
+      "bank_tag": "mercury,relay,stripe,capital-one,alliant",
+      "emoji": "🏦"
+    },
+    {
       "title": "Why Virtual Mailboxes Cause Bank Rejections in 2026",
       "slug": "why-virtual-mailboxes-cause-bank-rejections",
       "date": "2026-10-12",
