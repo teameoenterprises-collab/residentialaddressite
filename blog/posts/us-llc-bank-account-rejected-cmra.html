@@ -25,6 +25,33 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playball&display=swap"
         rel="stylesheet">
     <style>
+        /* ── Skip link (accessibility: keyboard nav) ── */
+        .skip-link {
+            position: absolute;
+            top: -100%;
+            left: 1rem;
+            padding: 0.5rem 1rem;
+            background: var(--gold);
+            color: #000;
+            font-weight: 700;
+            border-radius: 0 0 8px 8px;
+            text-decoration: none;
+            z-index: 9999;
+            transition: top 0.15s;
+        }
+        .skip-link:focus { top: 0; }
+
+        /* ── Focus visible (accessibility) ── */
+        :focus-visible {
+            outline: 2px solid var(--gold);
+            outline-offset: 3px;
+            border-radius: 4px;
+        }
+
+        /* ── Prevent horizontal scroll (mobile) ── */
+        html, body { overflow-x: hidden; }
+
+        /* ── Article layout ── */
         .blog-article {
             max-width: 760px;
             margin: 0 auto;
@@ -34,64 +61,111 @@
             padding-bottom: 4rem;
         }
 
+        /* ── Lead intro paragraph ── */
+        .blog-article .lead {
+            font-size: 1.2rem;
+            line-height: 1.9;
+            color: var(--text-light);
+            border-left: 3px solid var(--gold);
+            padding-left: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
         .blog-article h2 {
             color: var(--text-light);
-            font-size: 1.8rem;
-            margin-top: 2.5rem;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-top: 3rem;
             margin-bottom: 1rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
         }
 
         .blog-article h3 {
             color: var(--text-light);
-            font-size: 1.4rem;
+            font-size: 1.3rem;
+            font-weight: 600;
             margin-top: 2rem;
             margin-bottom: 0.8rem;
         }
 
-        .blog-article p {
-            margin-bottom: 1.5rem;
-        }
+        .blog-article p { margin-bottom: 1.5rem; }
 
         .blog-article ul, .blog-article ol {
             margin-bottom: 1.5rem;
-            padding-left: 1.5rem;
+            padding-left: 1.75rem;
         }
 
         .blog-article li {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.6rem;
+            line-height: 1.7;
         }
 
         .blog-article a {
             color: var(--gold);
+            text-underline-offset: 3px;
         }
+        .blog-article a:hover { opacity: 0.85; }
 
+        /* ── Callout box ── */
+        .callout {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid var(--gold);
+            padding: 1.25rem 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+            color: var(--text-light);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        .callout strong { color: var(--gold); }
+
+        /* ── Article header ── */
         .article-header {
             text-align: center;
-            max-width: 900px;
+            max-width: 860px;
             margin: 0 auto;
-            padding: 4rem 20px 2rem;
+            padding: 4rem 20px 2.5rem;
         }
 
         .article-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             color: var(--gold);
             font-weight: 600;
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            margin-bottom: 1.25rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
+            background: rgba(212, 175, 55, 0.08);
+            padding: 0.35rem 0.9rem;
+            border-radius: 20px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
         }
 
         .article-title {
-            font-size: 2.5rem;
+            font-size: 2.6rem;
+            font-weight: 800;
             color: var(--text-main);
-            margin-bottom: 1.5rem;
-            line-height: 1.2;
+            margin-bottom: 1.25rem;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
         }
 
+        .article-header > p {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 620px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* ── Hero banner ── */
         .article-image {
             width: 100%;
             height: 220px;
-            background: linear-gradient(135deg, #0d0d14 0%, #1a1a2e 50%, #0f0f1a 100%);
+            background: linear-gradient(135deg, #0a0a12 0%, #131320 40%, #0d0d1a 100%);
             border-radius: 16px;
             margin-bottom: 3rem;
             border: 1px solid var(--glass-border);
@@ -99,86 +173,112 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 0.75rem;
+            gap: 1rem;
             position: relative;
             overflow: hidden;
         }
 
+        /* Subtle dot-grid texture */
+        .article-image::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(212,175,55,0.08) 1px, transparent 1px);
+            background-size: 28px 28px;
+            pointer-events: none;
+        }
+
+        /* Gold bloom from bottom */
         .article-image::before {
             content: '';
             position: absolute;
             inset: 0;
-            background: radial-gradient(ellipse at 50% 120%, rgba(212, 175, 55, 0.12) 0%, transparent 65%);
+            background: radial-gradient(ellipse at 50% 130%, rgba(212, 175, 55, 0.18) 0%, transparent 60%);
             pointer-events: none;
+            z-index: 1;
         }
 
-        .article-image .hero-emoji {
-            font-size: 5rem;
-            line-height: 1;
-            filter: drop-shadow(0 0 24px rgba(212, 175, 55, 0.35));
+        .article-image .hero-icon {
+            width: 64px;
+            height: 64px;
+            color: var(--gold);
+            filter: drop-shadow(0 0 20px rgba(212, 175, 55, 0.5));
+            position: relative;
+            z-index: 2;
         }
 
         .article-image .hero-label {
-            font-size: 0.75rem;
+            font-size: 0.72rem;
             font-weight: 700;
-            letter-spacing: 2.5px;
+            letter-spacing: 3px;
             text-transform: uppercase;
             color: var(--gold);
-            opacity: 0.7;
+            opacity: 0.65;
+            position: relative;
+            z-index: 2;
         }
 
-        .callout {
-            background: rgba(212, 175, 55, 0.05);
-            border-left: 4px solid var(--gold);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 0 8px 8px 0;
-        }
-
+        /* ── Back link ── */
         .article-back {
             display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.4rem;
             color: var(--gold);
             text-decoration: none;
             font-weight: 600;
-            margin-bottom: 2rem;
-            font-size: 0.95rem;
-            transition: opacity 0.2s;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            transition: gap 0.2s, opacity 0.2s;
         }
+        .article-back:hover { opacity: 0.75; gap: 0.6rem; }
+        .article-back svg { flex-shrink: 0; }
 
-        .article-back:hover {
-            opacity: 0.8;
-        }
-
+        /* ── CTA box ── */
         .article-cta {
-            background: rgba(212, 175, 55, 0.08);
-            border: 1px solid var(--glass-border);
+            background: linear-gradient(135deg, rgba(212,175,55,0.07) 0%, rgba(212,175,55,0.03) 100%);
+            border: 1px solid rgba(212, 175, 55, 0.25);
             border-radius: 16px;
-            padding: 2rem;
+            padding: 2.5rem 2rem;
             text-align: center;
             margin: 3rem 0;
         }
 
         .article-cta h3 {
             color: var(--text-main);
+            font-size: 1.4rem;
             margin-bottom: 0.75rem;
         }
 
         .article-cta p {
             color: var(--text-secondary);
             margin-bottom: 1.5rem;
+            max-width: 460px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
+        /* ── Reduced motion ── */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* ── Mobile ── */
         @media (max-width: 768px) {
-            .article-title { font-size: 1.8rem; }
+            .article-title { font-size: 1.9rem; letter-spacing: -0.01em; }
             .article-image { height: 180px; }
-            .article-image .hero-emoji { font-size: 3.5rem; }
+            .article-image .hero-icon { width: 48px; height: 48px; }
+            .blog-article h2 { font-size: 1.45rem; }
+            .article-cta { padding: 1.75rem 1.25rem; }
         }
     </style>
 </head>
 
 <body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- ═══════ Header / Navigation ═══════ -->
     <header id="header">
@@ -207,17 +307,38 @@
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <section class="container">
             <div class="article-header">
-                <a href="../index.html" class="article-back">← Back to Blog</a>
+                <a href="../index.html" class="article-back">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Back to Blog
+                </a>
                 <div class="article-meta">Banking Compliance • Mar 24, 2026</div>
                 <h1 class="article-title">Why Your US LLC Bank Account Application Keeps Getting Rejected</h1>
                 <p>You formed your US LLC, got your EIN, and applied to Mercury. Then you got rejected with no explanation. Here is the real reason — and the exact fix.</p>
             </div>
 
-            <div class="article-image">
-                <span class="hero-emoji">🏦</span>
+            <div class="article-image" role="img" aria-label="Banking compliance illustration">
+                <svg class="hero-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <!-- Bank columns -->
+                    <rect x="10" y="26" width="6" height="20" rx="1" fill="currentColor" opacity="0.9"/>
+                    <rect x="20" y="26" width="6" height="20" rx="1" fill="currentColor" opacity="0.9"/>
+                    <rect x="30" y="26" width="6" height="20" rx="1" fill="currentColor" opacity="0.9"/>
+                    <rect x="40" y="26" width="6" height="20" rx="1" fill="currentColor" opacity="0.9"/>
+                    <rect x="50" y="26" width="6" height="20" rx="1" fill="currentColor" opacity="0.9"/>
+                    <!-- Base -->
+                    <rect x="6" y="46" width="54" height="4" rx="2" fill="currentColor"/>
+                    <!-- Steps -->
+                    <rect x="8" y="50" width="50" height="3" rx="1" fill="currentColor" opacity="0.7"/>
+                    <rect x="10" y="53" width="46" height="3" rx="1" fill="currentColor" opacity="0.5"/>
+                    <!-- Pediment -->
+                    <rect x="6" y="20" width="54" height="6" rx="1.5" fill="currentColor"/>
+                    <!-- Roof triangle -->
+                    <path d="M32 6L60 20H6L32 6Z" fill="currentColor" opacity="0.85"/>
+                    <!-- Star / decoration -->
+                    <circle cx="32" cy="14" r="2" fill="#0d0d14" opacity="0.6"/>
+                </svg>
                 <span class="hero-label">Banking Compliance</span>
             </div>
 
@@ -227,15 +348,10 @@
                      PASTE YOUR ARTICLE CONTENT BELOW HERE
                      ═══════════════════════════════════════ -->
 
-                <p>You formed your US LLC.</p>
-                <p>You got your EIN.</p>
-                <p>You applied to Mercury, maybe Relay too. You filled in every field, uploaded every document, double-checked everything.</p>
-                <p>And then the email came.</p>
-                <p>"We're unable to approve your application at this time."</p>
-                <p>No explanation. No specific reason. No way to appeal.</p>
-                <p>If you are a founder based outside the United States, in Nigeria, Bangladesh, India, Pakistan, Kenya, Ghana, the Philippines, or anywhere else, this rejection probably felt personal.</p>
-                <p>It is not.</p>
-                <p>In this article we are going to tell you exactly what caused it, why it keeps happening to thousands of founders every year, and the one thing you need to fix it for good.</p>
+                <p class="lead">You formed your US LLC. You got your EIN. You applied to Mercury — maybe Relay too. You filled in every field, uploaded every document, double-checked everything. And then the email came: <em>"We're unable to approve your application at this time."</em> No explanation. No way to appeal.</p>
+
+                <p>If you are a founder based outside the United States — in Nigeria, Bangladesh, India, Pakistan, Kenya, Ghana, the Philippines, or anywhere else — this rejection probably felt personal.</p>
+                <p>It is not. In this article we are going to tell you exactly what caused it, why it keeps happening to thousands of founders every year, and the one thing you need to fix it for good.</p>
 
                 <h2>The Setup: You Did Everything Right</h2>
                 <p>Let's be clear about something first.</p>
@@ -263,7 +379,10 @@
                 <p>It is a designation used by the US Postal Service to identify any business that receives and forwards mail on behalf of third parties. In order to legally operate this type of service in the United States, every provider must register with the USPS as a CMRA and have their customers complete a notarised USPS Form 1583.</p>
                 <p>Here is the critical part. That registration puts the address in a federal database. And that database is exactly what banks query during their KYC, or Know Your Customer, verification process.</p>
                 <p>When a bank runs your address through their verification system and it comes back as CMRA: Yes, your application is flagged immediately. In many cases it is rejected automatically, before any compliance officer has looked at your file.</p>
-                <p>This is not a bug in the system. It is the system working as designed. Banks are legally required under the Bank Secrecy Act and anti-money-laundering regulations to verify that every business they serve has a legitimate, verifiable US presence. A CMRA address does not satisfy that requirement.</p>
+
+                <div class="callout">
+                    <strong>Why banks reject CMRA addresses:</strong> Under the Bank Secrecy Act and anti-money-laundering regulations, banks must verify every business has a legitimate, verifiable US presence. A CMRA address — by legal definition — is a mail-forwarding service, not a real business location. It does not satisfy that requirement.
+                </div>
 
                 <h2>The Virtual Mailbox Trap</h2>
                 <p>Here is the frustrating part.</p>
@@ -300,7 +419,9 @@
                     <li>A utility bill tied to the property at that address</li>
                 </ol>
                 <p>A residential address passes the CMRA check because it is not registered as a Commercial Mail Receiving Agency. It is a real property, a house or apartment, with a real lease. It is the same type of address a US resident would have.</p>
-                <p>This combination, residential address plus lease plus utility bill, is what compliance officers at US banks are trained to accept as proof of US operational presence. It is the gold standard for non-US founder KYC.</p>
+                <div class="callout">
+                    <strong>The gold standard for non-US founder KYC:</strong> Residential address + signed lease agreement + utility bill. This is the exact document combination compliance officers at Mercury, Relay, Stripe, Capital One, and Alliant are trained to accept.
+                </div>
                 <p>Not a virtual mailbox. Not a registered agent. A residential lease.</p>
 
                 <h2>What About Non-CMRA Virtual Mailbox Addresses?</h2>
